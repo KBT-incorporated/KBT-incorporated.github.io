@@ -20,7 +20,8 @@ h2 {
 	list-style-type: none;
 	text-align: center;
 	padding: 0;
-    	background-color: #0B0B61;
+    	background-color: #3c4543;
+    	padding-top: -10px;
 }
 
 #navlinkspace{
