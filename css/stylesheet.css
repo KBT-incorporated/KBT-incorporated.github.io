@@ -95,3 +95,23 @@ td {
 	background-color: #3c4543;
 	padding-top: 16px;
 }
+
+#EthnicEnrollment {
+	font-family: Garamond;
+	font-size: 1em;
+}
+
+.Ethnictitle {
+	font-family: Garamond;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	color: #3c4543;
+}
+
+#button a{
+	text-decoration: none;
+	color: #3D59AB;
+	font-size: 14px;
+	font-family: Verdana, sans-serif;
+}
