@@ -12,6 +12,31 @@ h2 {
 	font-size: 2em;
 }
 
+#navbar {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 180%;
+	list-style-type: none;
+	text-align: center;
+	padding: 0;
+    background-color: #3c4543;
+}
+
+#navlinkspace{
+	display: inline;
+}
+
+#navlink {
+	color: #acd1b2;
+	width: auto;
+}
+
+#currentpage {
+	display: inline;
+	color: #acd1b2;
+}
+
 #header {
 	position: relative;
 	top: -10px;
