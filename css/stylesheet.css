@@ -109,6 +109,18 @@ td {
 	color: #3c4543;
 }
 
+#button{
+	border-radius: 5px;
+	border: 2px solid #6495ED;
+	background-color: #BCD2EE;
+	height: 20px;
+	width: 200px;
+	box-shadow: rgba(0,0,0,0.2) 5px 5px;
+	position: relative;
+	margin: auto;
+	text-align: center;
+}
+
 #button a{
 	text-decoration: none;
 	color: #3D59AB;
