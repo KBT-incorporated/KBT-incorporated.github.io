@@ -25,6 +25,8 @@ h2 {
 
 #navlinkspace{
 	display: inline;
+	padding-right: 50px;
+	padding-left: 50px;
 }
 
 #navlink {
@@ -35,6 +37,8 @@ h2 {
 #currentpage {
 	display: inline;
 	color: #acd1b2;
+	padding-right: 50px;
+	padding-left: 50px;
 }
 
 #header {
