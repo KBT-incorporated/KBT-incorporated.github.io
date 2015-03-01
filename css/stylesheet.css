@@ -25,6 +25,8 @@ h2 {
 
 #navlinkspace{
 	display: inline;
+	padding-right: 50px;
+	padding-left: 50px;
 }
 
 #navlink {
@@ -35,6 +37,8 @@ h2 {
 #currentpage {
 	display: inline;
 	color: #acd1b2;
+	padding-right: 50px;
+	padding-left: 50px;
 }
 
 #header {
@@ -121,34 +125,3 @@ td {
 	padding-top: 16px;
 }
 
-#EthnicEnrollment {
-	font-family: Garamond;
-	font-size: 1em;
-}
-
-.Ethnictitle {
-	font-family: Garamond;
-	font-size: 1.5em;
-	font-weight: bold;
-	text-align: center;
-	color: #3c4543;
-}
-
-#button{
-	border-radius: 5px;
-	border: 2px solid #6495ED;
-	background-color: #BCD2EE;
-	height: 20px;
-	width: 200px;
-	box-shadow: rgba(0,0,0,0.2) 5px 5px;
-	position: relative;
-	margin: auto;
-	text-align: center;
-}
-
-#button a{
-	text-decoration: none;
-	color: #3D59AB;
-	font-size: 14px;
-	font-family: Verdana, sans-serif;
-}
