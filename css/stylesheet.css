@@ -53,6 +53,14 @@ h2 {
 	position: relative;
 }
 
+p {
+	font-family: Garamond;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	color: #3c4543;
+}
+
 #tableConf {
 	margin: auto;
 	position: relative;
