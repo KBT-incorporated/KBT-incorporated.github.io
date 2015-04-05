@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: auto;
+  position: relative;
+  width: 960px;
+}
+
+form {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.node {
+  border: solid 1px white;
+  font: 10px sans-serif;
+  line-height: 12px;
+  overflow: hidden;
+  position: absolute;
+  text-indent: 2px;
+}
+
+        rect {
+            pointer-events: all;
+            cursor: pointer;
+            stroke: #EEEEEE;
+        }
+
+        .labelbody {
+            background: transparent;
+        }
+
+        .label {
+            margin: 2px;
+            white-space: pre;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+            -webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+            -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+        }
+
+        .child .label {
+            white-space: pre-wrap;
+            text-align: center;
+            text-overflow: ellipsis;
+        }
+
+        .cell {
+            font-size: 11px;
+            cursor: pointer
+        }
+
+</style>
+
+<form>
+  <label> <input type="radio" name="mode" value="size" checked> Size</label>
+  <label> <input type="radio" name="mode" value="count"> Count</label>
+</form>
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script>
+
+  var margin = {top: 40, right: 10, bottom: 10, left: 10},
+      width = 960 - margin.left - margin.right,
+      height = 500 - margin.top - margin.bottom;
+
+  //category20c: one of built-in color palette
+  //return string     
+  var color = d3.scale.category20c();
+  //var r = color.range();
+
+  //console.log(r); // Check return values
+
+  var treemap = d3.layout.treemap()
+                  .size([width, height])
+                  .sticky(true) //Preserve the relative arrangement of nodes across transitions
+                  .value(function(d) { 
+                      //console.log(d.size); //It calls the last children's value regardless of their level of hierarchy
+                      return d.size; });   //It does not be affected by "children"
+
+  var div = d3.select("body").append("div")
+              .style("position", "relative")
+              .style("width", (width + margin.left + margin.right) + "px")
+              .style("height", (height + margin.top + margin.bottom) + "px")
+              .style("left", margin.left + "px")
+              .style("top", margin.top + "px");
+
+  d3.json("newie.json", function(error, root) {
+    
+    //console.log(treemap.nodes)
+    /*function i(r){ 
+      var u=o||a(r), i=u[0]; 
+      return i.x=0, i.y=0, i.dx=l[0], i.dy=l[1], o&&a.revalue(i), n([i], i.dx*i.dy/i.value), (o?e:t)(i), h&&(o=u),u
+    }*/
+    //Adds or removes an event listener to each element in the current selection
+    //x - the minimum x-coordinate of the node position.
+    //y - the minimum y-coordinate of the node position.
+    //dx - the x-extent of the node position.
+    //dy - the y-extent of the node position.
+   
+    var node = div.datum(root).selectAll(".node")
+                  .data(treemap.nodes)
+                  .enter().append("div")                  
+                  .attr("class", "node")
+                  .call(position)
+                  .style("background", function(d) { 
+                    // If children is existed, return color (d.name)
+                    //console.log(d.children);
+                    //console.log(d.name);
+                    //console.log(color(d.name));
+                    return d.children ? color(d.name) : null; })                 
+                  .text(function(d) { 
+                    //console.log(d.name);
+                    return d.children ? null : d.name; });  
+
+    d3.selectAll("input").on("change", function change() { 
+    //Adds or removes an event listener to each element in the current selection
+      
+      //When count is clicked, all data size become 1.    
+      var value = this.value === "count"
+          ? function() { return 1; }
+          : function(d) { return d.size; };
+
+      //console.log(this.value)
+
+      node
+          .data(treemap.value(value).nodes)
+          .transition()
+          .duration(1500)
+          .call(position);
+ 
+    });
+  });
+
+  function position() {
+      this.style("left", function(d) { return d.x + "px"; })
+          .style("top", function(d) { return d.y + "px"; })
+          .style("width", function(d) { return Math.max(0, d.dx - 1) + "px"; })
+          .style("height", function(d) { return Math.max(0, d.dy - 1) + "px"; });
+  }
+
+</script>
