@@ -1,11 +1,14 @@
 var csvLink = "https://hivelab.org/static/coffee.csv";
-var coffeeTree;
+var classTree;
 
-d3.csv(csvLink, function(d) {
-	coffeeTree = d3.nest()
-		.key(function(d) {return d.region; })
-		.key(function(d) {return d.state; })
-		.key(function(d) {return d.caffeination; })
-		.key(function(d) {return d.type; })
+d3.csv(csvLink, function(data) {
+	data.forEach( function(d) {
+		//remove the room number from the class location
+		d.Location = d.Location.slice(0,d.Location.indexOf(' ')+1);
+	});
+	classTree = d3.nest()
+		.key(function(d) {return d.day; })
+		.key(function(d) {return d.Location; })
+		.key(function(d) {return d.Department; })
 		.entries(data);
 });
