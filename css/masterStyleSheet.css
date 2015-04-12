@@ -50,6 +50,10 @@ body {
 	border-top-right-radius: 15px;
 }
 
+#body {
+	position: 50%;
+}
+
 #bottom{
 	position: relative;
 }
