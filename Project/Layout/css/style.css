@@ -1,4 +1,6 @@
 .mainpage {
+	overflow: scroll;
+	overflow-y: scroll;
 	background-color: #512da8;
 	text-align: center;
 }
