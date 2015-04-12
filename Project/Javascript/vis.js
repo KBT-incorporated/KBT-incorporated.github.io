@@ -1,4 +1,4 @@
-var csvLink = "https://hivelab.org/static/coffee.csv";
+var csvLink = "../Data/Spring15Course.csv";
 var classTree;
 
 d3.csv(csvLink, function(data) {
@@ -7,7 +7,6 @@ d3.csv(csvLink, function(data) {
 		d.Location = d.Location.slice(0,d.Location.indexOf(' ')+1);
 	});
 	classTree = d3.nest()
-		.key(function(d) {return d.day; })
 		.key(function(d) {return d.Location; })
 		.key(function(d) {return d.Department; })
 		.entries(data);
