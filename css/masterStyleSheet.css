@@ -54,6 +54,25 @@ body {
 	position: relative;
 }
 
+#button{
+	border-radius: 5px;
+	border: 2px solid #6495ED;
+	background-color: #BCD2EE;
+	height: 20px;
+	width: 300px;
+	box-shadow: rgba(0,0,0,0.2) 5px 5px;
+	position: relative;
+	margin: auto;
+	text-align: center;
+}
+
+#button a{
+	text-decoration: none;
+	color: #3D59AB;
+	font-size: 14px;
+	font-family: Verdana, sans-serif;
+}
+
 #footer{
 	clear: both;
 	position: relative;
