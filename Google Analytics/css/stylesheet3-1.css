@@ -1,0 +1,117 @@
+body {
+	background-color: #b7d1c4
+}
+
+h2 {
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: #acd1b2;
+	font-size: 2em;
+}
+
+#button{
+	border-radius: 5px;
+	border: 2px solid #6495ED;
+	background-color: #BCD2EE;
+	height: 20px;
+	width: 300px;
+	box-shadow: rgba(0,0,0,0.2) 5px 5px;
+	position: relative;
+	margin: auto;
+	text-align: center;
+}
+
+#button a{
+	text-decoration: none;
+	color: #3D59AB;
+	font-size: 14px;
+	font-family: Verdana, sans-serif;
+}
+
+#header {
+	position: relative;
+	top: -10px;
+	background-color: #3c4543;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+#table{
+	margin: auto;
+	position: relative;
+	text-align: center;
+}
+
+p {
+	font-family: Garamond;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	color: #3c4543;
+}
+
+#tableConf {
+	margin: auto;
+	position: relative;
+	border: 1px solid grey;
+	background-color: #acd1b2;
+	padding: 5px 5px 5px 5px;
+}
+
+.titleFirst{
+	font-weight: bold;
+	background-color: #cfcfe1;	
+	text-align: center;
+}
+
+.titleColumn{
+	font-weight: bold;
+	background-color: #cfcfe1;	
+	text-align: center;
+	width: 300px;
+}
+
+.subtitle{
+	font-weight: bold;
+	background-color: #cfcfe1;	
+	text-align: center;
+}
+
+.number{
+	font-weight: bold;
+	background-color: #cfcfe1;	
+	text-align: center;
+	width: 50px;
+}
+
+.urlLink{
+	text-align: center;
+}
+
+td {
+	font-family: Verdana;
+	font-size: 1em;
+	font-weight: normal;
+	background-color: #ffffff;
+	color: #3c4543;
+	padding:5px;
+	border: 1px solid grey;
+}
+
+#bottom{
+	position: relative;
+}
+
+#footer{
+	clear: both;
+	position: relative;
+	bottom: -20px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	height: 75px;
+	background-color: #3c4543;
+	padding-top: 16px;
+}

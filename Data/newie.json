@@ -1,0 +1,78 @@
+{
+ "name": "Purdue",
+ "children": [
+  {
+     "name": "WangHall",
+     "children": [
+      {
+         "name": "ECE",
+         "children": [
+          {"name": "R1234", "size": 39},
+          {"name": "R2342", "size": 38},
+          {"name": "R3948", "size": 7}
+         ]
+      },
+      {
+         "name": "Industrial Engineering",
+         "children": [
+          {"name": "R2123", "size": 11},
+          {"name": "R8293", "size": 57},
+          {"name": "R3728", "size": 73}
+         ]
+      }
+     ]
+  },
+  {
+     "name": "Armstrong Building",
+     "children": [
+      {"name": "R1298", "size": 170},
+      {"name": "R2918", "size": 42},
+      {
+         "name": "Aero Engineering",
+         "children": [
+          {"name": "R1232", "size": 13},
+          {"name": "R2817", "size": 20},
+          {"name": "R3928", "size": 75},
+          {"name": "R1847", "size": 86}
+         ]
+      },
+          {
+         "name": "Material Engineering",
+         "children": [
+          {"name": "R1243", "size": 13},
+          {"name": "R2823", "size": 22},
+          {"name": "R3934", "size": 102},
+          {"name": "R3243", "size": 390}
+         ]
+      },
+      {"name": "R3489", "size": 41}
+     ]
+  },
+  {
+     "name": "Smith Hall",
+     "children": [
+      {"name": "R3998", "size": 17},
+      {"name": "R1982", "size": 98},
+      {
+         "name": "M Engineering",
+         "children": [
+          {"name": "R1322", "size": 29},
+          {"name": "R2867", "size": 29},
+          {"name": "R3453", "size": 23},
+          {"name": "R5697", "size": 10}
+         ]
+      },
+          {
+         "name": "Mate Engineering",
+         "children": [
+          {"name": "R1244", "size": 13},
+          {"name": "R2236", "size": 22},
+          {"name": "R3932", "size": 102},
+          {"name": "R5643", "size": 39}
+         ]
+      },
+      {"name": "R7489", "size": 41}
+     ]
+  }
+ ]
+}
