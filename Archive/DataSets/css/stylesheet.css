@@ -1,0 +1,60 @@
+p {
+	font-family: Garamond;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	color: #3c4543;
+}
+
+#table{
+	margin: auto;
+	position: relative;
+}
+
+#tableConf {
+	margin: auto;
+	position: relative;
+	border: 1px solid grey;
+	background-color: #acd1b2;
+	padding: 5px 5px 5px 5px;
+}
+
+.titleFirst{
+	font-weight: bold;
+	background-color: #cfcfe1;	
+	text-align: center;
+}
+
+.titleColumn{
+	font-weight: bold;
+	background-color: #cfcfe1;	
+	text-align: center;
+	width: 300px;
+}
+
+.subtitle{
+	font-weight: bold;
+	background-color: #cfcfe1;	
+	text-align: center;
+}
+
+.number{
+	font-weight: bold;
+	background-color: #cfcfe1;	
+	text-align: center;
+	width: 50px;
+}
+
+.urlLink{
+	text-align: center;
+}
+
+td {
+	font-family: Verdana;
+	font-size: 1em;
+	font-weight: normal;
+	background-color: #ffffff;
+	color: #3c4543;
+	padding:5px;
+	border: 1px solid grey;
+}
