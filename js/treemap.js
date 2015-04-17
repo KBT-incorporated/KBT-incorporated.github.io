@@ -3,8 +3,10 @@ var csvLink = "http://KBT-Incorporated.github.io/js/cleanCourseData.csv";
 var margin = {top: 40, right: 10, bottom: 10, left: 10};
 
 var courseTree;
+var tableSize = [600,1200];
 var newData = [];
-var myTime = [930,1320];
+var qTime = [930,1320];
+var qDay = "M";
 
 function timeQuery(tree, query) { //query is an array of the form [830, 1430]; MUST be in 24-hour time
 	for(var key in tree) {
@@ -15,14 +17,18 @@ function timeQuery(tree, query) { //query is an array of the form [830, 1430]; M
 		}
 		if(key == "Time") {
 			tree.value = 0;
-			console.log(tree.Time);
 			if((tree.Time[1] > query[0]) && (tree.Time[0] < query[1])) {
 				tree.value = tree.Enrollment;
-				console.log(tree.value);
 			}
 		}
 	}
 	return tree;
+}
+
+function findIndex(myList, myKey) {
+	for(var i = 0, l = myList.length; i < l; i++) {
+		if(myList[i].name == myKey) {return i;}
+	}
 }
 
 function position() {
@@ -43,7 +49,6 @@ function parseTime(timeStr) {
 	if(timeStr[1].charAt[4] == 'p') {addMe = 1200;}
 	timeStr[1] = timeStr[1].substr(0,4);
 	timeStr[1] = parseInt(timeStr[1]) + addMe;
-	console.log(timeStr);
 	return timeStr;
 }
 
@@ -90,15 +95,15 @@ d3.csv(csvLink, function(data) {
 		};
 
 		// define width and height based on the margin
-	var width = 1100 - margin.left - margin.right;
-	var height = 600 - margin.top - margin.bottom;
+	var width = tableSize[1] - margin.left - margin.right;
+	var height = tableSize[0] - margin.top - margin.bottom;
 	
 	
 	//Format the new data for the treemap
 	courseTree = reNameTree(courseTree);
 	
 	//Demonstrate timeQuery
-	courseTree = timeQuery(courseTree, myTime);
+	courseTree = timeQuery(courseTree, qTime);
 	
 	//Generate the Treemap
 	var treemap = d3.layout.treemap()
@@ -114,7 +119,7 @@ d3.csv(csvLink, function(data) {
 		.style("left", margin.left + "px")
 		.style("top", margin.top + "px");
 
-	var node = div.datum(courseTree.children[2]).selectAll(".node")
+	var node = div.datum(courseTree.children[findIndex(courseTree.children, qDay)]).selectAll(".node")
 		.data(treemap.nodes)
 		.enter()
 		.append("div")
