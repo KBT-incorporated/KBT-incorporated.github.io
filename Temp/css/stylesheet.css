@@ -1,0 +1,177 @@
+body {
+    overflow: hidden;
+    margin: auto;
+    font-size: 12px;
+    font-family: "Helvetica Neue", Helvetica;
+    background-color: #b7d1c4;
+    overflow: scroll;
+    /*overflow-y: scroll;*/
+    /*overflow-x: scroll;*/
+}
+
+h2 {
+    font-family: Verdana;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #acd1b2;
+    font-size: 1.5em;
+    margin-bottom: 1px;
+}
+
+#header {
+    /*position: relative;*/
+    /*top: -10px;*/
+    background-color: #3c4543;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 0px;
+}
+
+#navbar {
+    /*position: relative;*/
+    margin-top: 0px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    list-style-type: none;
+    text-align: center;
+    background-color: #3c4543;
+}
+
+#navlinkspace{
+    display: inline;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+#navlink {
+    width: auto;
+    color: #acd1b2;
+}
+
+#currentpage {
+    display: inline;
+    color: #acd1b2;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+#header {
+    position: relative;
+    top: -10px;
+    background-color: #3c4543;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+#section {
+    position: relative;
+    margin: auto;
+}
+
+#treemap {
+    /*overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;*/
+    /*position: relative;*/
+    width: 50%;
+    margin: auto;
+    /*float: left;*/
+}
+
+#heatmap {
+    /*overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;*/
+    /*position: relative;*/
+    width: 55%;
+    margin: auto;
+    /*float: left;*/
+}
+
+#explanation {
+    /*float: right;*/
+}
+
+svg {
+    overflow: hidden;
+}
+
+rect {
+    overflow: hidden;
+    pointer-events: all;
+    cursor: pointer;
+    stroke: #EEEEEE;
+}
+
+.chart {
+    display: block;
+    margin: auto;
+}
+
+.parent .label {
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    -webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.labelbody {
+    background: transparent;
+}
+
+.label {
+    margin: 2px;
+    white-space: pre;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    text-align: center;    
+    -webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.child .label {
+    white-space: pre-wrap;
+    text-align: center;
+    text-overflow: ellipsis;
+}
+
+.cell {
+    font-size: 11px;
+    cursor: pointer
+}
+
+#footer{
+    clear: both;
+    position: relative;
+    bottom: -20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 75px;
+    background-color: #3c4543;
+    padding-top: 16px;
+}
+
+rect.bordered {
+    stroke: #E6E6E6;
+    stroke-width:2px;   
+}
+
+text.mono {
+    font-size: 9pt;
+    font-family: Consolas, courier;
+    fill: #aaa;
+}
+
+text.axis-workweek {
+    fill: #000;
+}
+
+text.axis-worktime {
+    fill: #000;
+}
