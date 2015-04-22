@@ -209,11 +209,11 @@ var checkClick = 1;
         if(selection == 3) { qDay = "M";  qTime = [1030, 1130]; }
         if(selection == 4) { qDay = "M";  qTime = [1130, 1230]; }
         if(selection == 5) { qDay = "M";  qTime = [1230, 130]; }
-        if(selection == 6) { qDay = "M";  qTime = [130, 230]; }
-        if(selection == 7) { qDay = "M";  qTime = [230, 330]; }
-        if(selection == 8) { qDay = "M";  qTime = [330, 430]; }
-        if(selection == 9) { qDay = "M";  qTime = [430, 530]; }
-        if(selection == 10) { qDay = "M";  qTime = [530, 630]; }
+        if(selection == 6) { qDay = "M";  qTime = [1330, 1430]; }
+        if(selection == 7) { qDay = "M";  qTime = [1430, 1530]; }
+        if(selection == 8) { qDay = "M";  qTime = [1530, 1630]; }
+        if(selection == 9) { qDay = "M";  qTime = [1630, 1730]; }
+        if(selection == 10) { qDay = "M";  qTime = [1730, 1830]; }
 
         if(selection == 11) { qDay = "T";  qTime = [730, 830]; }
         if(selection == 12) { qDay = "T";  qTime = [830, 930]; }
@@ -221,47 +221,47 @@ var checkClick = 1;
         if(selection == 14) { qDay = "T";  qTime = [1030, 1130]; }
         if(selection == 15) { qDay = "T";  qTime = [1130, 1230]; }
         if(selection == 16) { qDay = "T";  qTime = [1230, 130]; }
-        if(selection == 17) { qDay = "T";  qTime = [130, 230]; }
-        if(selection == 18) { qDay = "T";  qTime = [230, 330]; }
-        if(selection == 19) { qDay = "T";  qTime = [330, 430]; }
-        if(selection == 20) { qDay = "T";  qTime = [430, 530]; }
-        if(selection == 21) { qDay = "T";  qTime = [530, 630]; }
+        if(selection == 17) { qDay = "T";  qTime = [1330, 1430]; }
+        if(selection == 18) { qDay = "T";  qTime = [1430, 1530]; }
+        if(selection == 19) { qDay = "T";  qTime = [1530, 1630]; }
+        if(selection == 20) { qDay = "T";  qTime = [1630, 1730]; }
+        if(selection == 21) { qDay = "T";  qTime = [1730, 1830]; }
 
         if(selection == 22) { qDay = "W";  qTime = [730, 830]; }
         if(selection == 23) { qDay = "W";  qTime = [830, 930]; }
         if(selection == 24) { qDay = "W";  qTime = [930, 1030]; }
         if(selection == 25) { qDay = "W";  qTime = [1030, 1130]; }
         if(selection == 26) { qDay = "W";  qTime = [1130, 1230]; }
-        if(selection == 27) { qDay = "W";  qTime = [1230, 130]; }
-        if(selection == 28) { qDay = "W";  qTime = [130, 230]; }
-        if(selection == 29) { qDay = "W";  qTime = [230, 330]; }
-        if(selection == 30) { qDay = "W";  qTime = [330, 430]; }
-        if(selection == 31) { qDay = "W";  qTime = [430, 530]; }
-        if(selection == 32) { qDay = "W";  qTime = [530, 630]; }
+        if(selection == 27) { qDay = "W";  qTime = [1230, 1330]; }
+        if(selection == 28) { qDay = "W";  qTime = [1330, 1430]; }
+        if(selection == 29) { qDay = "W";  qTime = [1430, 1530]; }
+        if(selection == 30) { qDay = "W";  qTime = [1530, 1630]; }
+        if(selection == 31) { qDay = "W";  qTime = [1630, 1730]; }
+        if(selection == 32) { qDay = "W";  qTime = [1730, 1830]; }
 
         if(selection == 33) { qDay = "R";  qTime = [730, 830]; }
         if(selection == 34) { qDay = "R";  qTime = [830, 930]; }
         if(selection == 35) { qDay = "R";  qTime = [930, 1030]; }
         if(selection == 36) { qDay = "R";  qTime = [1030, 1130]; }
         if(selection == 37) { qDay = "R";  qTime = [1130, 1230]; }
-        if(selection == 38) { qDay = "R";  qTime = [1230, 130]; }
-        if(selection == 39) { qDay = "R";  qTime = [130, 230]; }
-        if(selection == 40) { qDay = "R";  qTime = [230, 330]; }
-        if(selection == 41) { qDay = "R";  qTime = [330, 430]; }
-        if(selection == 42) { qDay = "R";  qTime = [430, 530]; }
-        if(selection == 43) { qDay = "R";  qTime = [530, 630]; }
+        if(selection == 38) { qDay = "R";  qTime = [1230, 1330]; }
+        if(selection == 39) { qDay = "R";  qTime = [1330, 1430]; }
+        if(selection == 40) { qDay = "R";  qTime = [1430, 1530]; }
+        if(selection == 41) { qDay = "R";  qTime = [1530, 1630]; }
+        if(selection == 42) { qDay = "R";  qTime = [1630, 1730]; }
+        if(selection == 43) { qDay = "R";  qTime = [1730, 1830]; }
 
         if(selection == 44) { qDay = "F";  qTime = [730, 830]; }
         if(selection == 45) { qDay = "F";  qTime = [830, 930]; }
         if(selection == 46) { qDay = "F";  qTime = [930, 1030]; }
         if(selection == 47) { qDay = "F";  qTime = [1030, 1130]; }
         if(selection == 48) { qDay = "F";  qTime = [1130, 1230]; }
-        if(selection == 49) { qDay = "F";  qTime = [1230, 130]; }
-        if(selection == 50) { qDay = "F";  qTime = [130, 230]; }
-        if(selection == 51) { qDay = "F";  qTime = [230, 330]; }
-        if(selection == 52) { qDay = "F";  qTime = [330, 430]; }
-        if(selection == 53) { qDay = "F";  qTime = [430, 530]; }
-        if(selection == 54) { qDay = "F";  qTime = [530, 630]; }
+        if(selection == 49) { qDay = "F";  qTime = [1230, 1330]; }
+        if(selection == 50) { qDay = "F";  qTime = [1330, 1430]; }
+        if(selection == 51) { qDay = "F";  qTime = [1430, 1530]; }
+        if(selection == 52) { qDay = "F";  qTime = [1530, 1630]; }
+        if(selection == 53) { qDay = "F";  qTime = [1630, 1730]; }
+        if(selection == 54) { qDay = "F";  qTime = [1730, 1830]; }
 
         //console.log("C Point")
         //treemap.sticky(false);
