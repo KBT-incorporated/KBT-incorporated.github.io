@@ -1,14 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
-      .timeslot {
-        margin: 0px 3px;
-      }
-    </style>
-     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css"> -->
-     <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"> 
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <!--Import style.css -->
@@ -27,38 +23,12 @@
             ga('send', 'pageview');
 
     </script>
-    <script>
-            $(document).ready(function() {
-                var dayval = 0;
-                var day = "";
-                var time = "";
-                $("#dropdown2 li a").click(function() {
-                    dayval = $(this).attr("dayval");
-                    day = $(this).html();
-                    $("#timeslot_list").fadeIn();
-                    $("#dropdownButton").html(day);
-                    if (time != "") {
-                        var msg = $("<div>");
-                        msg.html("You've chosen time " + time + " of " + day);
-                        msg.css("display", "none");
-                        $("body").append(msg);
-                        msg.fadeIn();
-                    }
-                });
-
-                $(".timeslot").click(function(){
-                    var updateVal = +dayval + +($(this).attr("id"));
-                    console.log(updateVal);
-                    updateData(updateVal);
-                });
-            });
-        </script>
   </head>
 
   <body>
     <nav>
       <div class="nav-wrapper" style="margin-left: 10px">
-        <a href="index.html" class="brand-logo">KBT-Incorporated</a>
+        <a href="index.html" class="brand-logo"> KBT-Incorporated </a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="index.html">Home</a></li>
           <li><a href="team_member.html">Team members</a></li>
@@ -67,56 +37,62 @@
         </ul>
       </div>
     </nav>
-<!--       <div class="row container">
- -->        
- <!-- <div class="row"> -->
-         
-    <div class="card-panel #ef9a9a red lighten-3">
-      <h5>Purdue Engineering Courses in the Buildings</h5>
-      <p class="flow-text">Have you ever wondered "why is my EE class meeting in Witherell? Who is using our building? How are the various majors distributed across campus?" Wonder no longer.</p>
-      <p class="flow-text">This visualization shows what classes (grouped by school) are in which buildings. The data shown is incomplete, and some features remain to be implemented, including the ability to filter the data shown by day and time. The code for the treemap as shown is mostly from <a href="http://billdwhite.com/wordpress/wp-content/js/treemap_headers_01.html">this</a> source.</p>
+    <div class="intro deep-orange lighten-2 z-depth-1">
+        <h1 class="grey-text text-lighten-5">Interactive Visualization</h1>
+        <h5 class="grey lighten-4 grey-text text-darken-1">Purdue Engineering Courses in the Buildings</h5>
     </div>
-    <div class="row">
-    <div class="col s1">
-        <!-- Dropdown Trigger -->
-        <a id="dropdownButton" style="width: 100px" class="btn dropdown-button" data-beloworigin="true" data-activates="dropdown2">Day</a>
-        <!-- Dropdown structure -->
-        <ul id="dropdown2" class="dropdown-content">
-          <li><a dayval="0" href="#!">Mon</a></li>
-          <li><a dayval="11" href="#!">Tue</a></li>
-          <li><a dayval="22" href="#!">Wed</a></li>
-          <li><a dayval="33" href="#!">Thu</a></li>
-          <li><a dayval="44" href="#!">Fri</a></li>
-        </ul>
-    </div>
-    <div class="col s11">
-        <div id="timeslot_list" style="display:none;">
-            <a id="0" class="waves-effect waves-light btn timeslot col s1" href="#!">07:30</a>  
-            <a id="1" class="waves-effect waves-light btn timeslot col s1" href="#!">08:30</a> 
-            <a id="2" class="waves-effect waves-light btn timeslot col s1" href="#!">09:30</a> 
-            <a id="3" class="waves-effect waves-light btn timeslot col s1" href="#!">10:30</a> 
-            <a id="4" class="waves-effect waves-light btn timeslot col s1" href="#!">11:30</a> 
-            <a id="5" class="waves-effect waves-light btn timeslot col s1" href="#!">12:30</a>
-            <a id="6" class="waves-effect waves-light btn timeslot col s1" href="#!">13:30</a> 
-            <a id="7" class="waves-effect waves-light btn timeslot col s1" href="#!">14:30</a> 
-            <a id="8" class="waves-effect waves-light btn timeslot col s1" href="#!">15:30</a>
-            <a id="9" class="waves-effect waves-light btn timeslot col s1" href="#!">16:30</a>
-            <a id="10" class="waves-effect waves-light btn timeslot col s1" href="#!">17:30</a>
+    <div class="container about #ef9a9a red lighten-3">
+      <h5>How to use</h5>
+      <h6>User manual</h6>
+      <hr>
+      <div class="row">
+        <div class="col s12 m4 l4">
+          <h6>About</h6>
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <p>Have you ever wondered "why is my EE class meeting in Witherell? Who is using our building? How are the various majors distributed across campus?" Wonder no longer.This visualization collects all Purdue engineering courses in 2015 spring. We aim to provide a deeper insight into building usage of engineering department.</p>
+              <p>Let's see what's interesting here!</p>
+                <p>Leave your suggestions below for us so that we cn make it better!</p>
+            </div>
         </div>
-    </div>
-  </div>
-    <div class="main">
-      <div id="body"> 
-        <!-- Visualization Content -->
-        <script type="text/javascript" src="js/treemap_2.js"></script>
+        </div>
+        <div class="col s12 m4 l4">
+          <h6>Heatmap</h6>
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <p>We are interested in how many people taking courses in each time slot. The first visualization below is named Heatmap.</p>
+              <p>Heatmap provides an overview of numbers of actual students in weekdays. X-axis represents hours and Y-axis represents weekdays.</p>
+            </div>
+            <div class="card-action white-text">
+                <p><i class="mdi-toggle-radio-button-on"></i>Click on time cells to update courses in the Treemap.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4 l4">
+          <h6>Treemap</h6>
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <p>Students are wondering why my course is always not in my department building. The second visualization below is named Treemap.</p>
+              <p>Treemap shows courses running in the buildings. The header represents buildings and departments and subdivided areas represent courses.
+            </div>
+            <div class="card-action white-text">
+                <p><i class="mdi-toggle-radio-button-on"></i>Click on colorful rectangles to look into course description in the Treemap.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-<!--         </div>
- --><!--       </div>
- -->    <!-- <div class="parallax-container">
-      <div class="parallax"><img src="images/parallax2.jpg"></div>
-    </div> -->
-    
+    <div class="visualization #26c6da cyan lighten-1">
+        <div class="heapmapSection">
+            <div class="col s6">
+                <div id="heatmap"> </div>
+            </div>
+            <div class="col s6">
+            </div>
+        </div>
+        <div class="treemapSection">
+            <div id="treemap"> </div>
+        </div>
     </div>
     <footer class="page-footer">
       <div class="fb-comments" data-href="http://developers.facebook.com/docs/plugins/comments/" data-numposts="5" data-colorscheme="light"></div>
@@ -144,6 +120,1000 @@
                 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
                 })();
   </script>
+<script type="text/javascript">
+
+    var checkClick = 1;
+    var chartWidth = 1260;
+    var chartHeight = 600;
+    var xscale = d3.scale.linear().range([0, chartWidth]);
+    var yscale = d3.scale.linear().range([0, chartHeight]);
+    var color = d3.scale.category20();
+    var headerHeight = 15;
+    var headerColor = "#555555";
+    var transitionDuration = 500;
+    var filterValue = 9;
+
+    var parents = [];
+    var children = [];
+
+    var qTime = [730, 830];
+    var qDay = "M";
+    
+    var courseTree;
+    var newData = [];
+    
+    //heatmap variables
+    var dayTimeSum = [];
+    var heatmapId = 0;
+    var heatmapSource = [];
+
+    var root;
+ 
+    var csvLink = "cleanCourseData.csv";
+    var node;
+
+     
+
+    var treemap = d3.layout.treemap()
+        .size([chartWidth, chartHeight])
+        .sticky(false)
+        .value(function(d) { 
+            //console.log("T : " + d)
+            return d.size });
+
+    var treemapZoom = d3.layout.treemap()
+        .size([chartWidth, chartHeight])
+        .sticky(true)
+        .value(function(d) { 
+            //console.log("Tzoom : " + d)
+            return d.size });    
+  
+    var chart = d3.select("#treemap")
+        .append("svg:svg")
+        .attr("width", chartWidth)
+        .attr("height", chartHeight)
+        .append("svg:g");
+    
+    d3.csv(csvLink, function(data) {
+    
+        //heatmapData();
+        heatmap();
+        //console.log("Treemap start")
+
+        data.forEach(function(d) {
+            //Get the time into start and end times
+            d.Time = parseTime(d.Time);
+            //Make a properly formatted object
+            for(var i = 0, c=''; c = d.Days.charAt(i); i++){ 
+                if (d.Act != 0) {
+                    newData.push(
+                        {"Department": d.Department,
+                         "Course": d.Crse,
+                         "Sec": d.Sec,
+                         "Title": d.Title,
+                         "Day": c,
+                         "Location": "(B) " + d.Location.slice(0,d.Location.indexOf(' ')),
+                         "Time": d.Time,
+                         "Enrollment": d.Act,
+                         "value": d.Act
+                        })
+                }
+            }
+        });
+
+        courseTree = {"key": "Purdue Courses", "values": d3.nest()
+            .key(function(d) {return d.Day;})
+            .key(function(d) {return d.Location; })
+            .key(function(d) {return d.Department; })
+            .entries(newData)
+            };
+
+        //console.log(courseTree)    
+        //Demonstrate timeQuery
+        courseTree = timeQuery(courseTree, qTime);
+
+        var root = courseTree; 
+        root = courseTree.values[findIndex(courseTree.values, qDay)];
+        root = dataFilter(root, filterValue);
+        root = reNameTree(root, "value", "Title");        
+
+        var nodes = treemap.nodes(root);
+        node = root;
+
+        //var t = node;
+
+        var CFilter = nodes.filter(function(d) { return !d.children; });
+        var PFilter = nodes.filter(function(d) { return d.children; });
+
+        for(var i=0; i < CFilter.length; i++) { if(CFilter[i].value !== 0){ children.push(CFilter[i]); } };
+        for(var i=0; i < PFilter.length; i++) { if(PFilter[i].value !== 0){ parents.push(PFilter[i]); } };
+
+        // Parent cells
+        var parentCells = chart.selectAll("g.cell.parent")
+            .data(parents, function(d) { 
+                //console.log(d.children[0].name + d.name)
+                //console.log(d.children[0].Course)
+                return d.children[0].Course + d.name + d.children[0].name; }); 
+        
+        var parentEnterTransition = parentCells.enter()
+            .append("g")
+            .attr("class", "cell parent")
+            .on("click", function(d) { 
+                checkClick = 0; 
+                zoom(d); 
+            });            
+            parentEnterTransition.append("rect")
+            .attr("width", function(d) { return Math.max(0.01, d.dx); })
+            .attr("height", headerHeight)
+            .style("fill", headerColor);           
+            parentEnterTransition.append("foreignObject").attr("class", "foreignObject")
+            .append("xhtml:treemap").attr("class", "labelbody")
+            .append("div").attr("class", "label");
+
+        //heatMap.append("title").text(function(d) { return d.value; });
+        parentEnterTransition.append("title").text( function(d) { 
+            //console.log(d.value)
+            return d.value; })
+
+        // update transition
+        var parentUpdateTransition = parentCells.transition().duration(transitionDuration);
+        parentUpdateTransition.select(".cell")
+            .attr("transform", function(d) { return "translate(" + d.dx + "," + d.y + ")"; });
+        parentUpdateTransition.select("rect")
+            .attr("width", function(d) { return Math.max(0.01, d.dx); })
+            .attr("height", headerHeight)
+            .style("fill", headerColor);
+        parentUpdateTransition.select(".foreignObject")
+            .attr("width", function(d) { return Math.max(0.01, d.dx); })
+            .attr("height", headerHeight)
+            .select(".labelbody .label")
+            .text(function(d) { return d.children[0].Course + d.name + d.children[0].name;});
+        
+        // remove transition
+        parentCells.exit().remove();
+
+        // Children cells
+        var childrenCells = chart.selectAll("g.cell.child")
+            .data(children, function(d) { return d.Department + d.Sec + d.name; }); 
+        
+        // Enter transition
+        var childEnterTransition = childrenCells.enter()
+            .append("g")
+            .attr("class", "cell child")
+            .on("click", function(d) {   
+                //treemapZoom.sticky(true);       
+                checkClick = 0; 
+                console.log("Check 1")
+                zoom(node === d.parent ? root : d.parent); 
+            });
+        childEnterTransition.append("rect")
+            .classed("background", true)
+            .style("fill", function(d) { 
+                //console.log(d.parent.name)
+                return color(d.parent.name); });
+        childEnterTransition.append('foreignObject')
+            .attr("class", "foreignObject")
+            .attr("width", function(d) { return Math.max(0.01, d.dx); })
+            .attr("height", function(d) { return Math.max(0.01, d.dy); })
+            .append("xhtml:treemap")
+            .attr("class", "labelbody")
+            .append("div")
+            .attr("class", "label")   
+            .text(function(d) { return d.Department + d.Sec + d.name; }); 
+
+        // update transition
+        var childUpdateTransition = childrenCells.transition().duration(transitionDuration);
+        childUpdateTransition.select(".cell")
+            .attr("transform", function(d) { return "translate(" + d.x  + "," + d.y + ")"; });
+        childUpdateTransition.select("rect")
+            .attr("width", function(d) { return Math.max(0.01, d.dx); })
+            .attr("height", function(d) { return d.dy; })
+            .style("fill", function(d) { return color(d.parent.name); });
+        childUpdateTransition.select(".foreignObject")
+            .attr("width", function(d) { return Math.max(0.01, d.dx); })
+            .attr("height", function(d) { return Math.max(0.01, d.dy); })
+            .select(".labelbody .label")
+            .text(function(d) { return d.Department + d.Sec + d.name; });
+
+        // exit transition
+        childrenCells.exit().remove();
+
+        if (checkClick) {
+            checkClick = 0;
+            childEnterTransition.selectAll(".foreignObject").style("display", "none");
+        } else {
+            checkClick = 1;
+            childEnterTransition.selectAll(".foreignObject .labelbody .label").style("display", "none");
+        }
+
+        zoom(node);
+
+    });
+
+    function heatmap(){
+          
+        var hMargin = { top: 100, right: 0, bottom: 0, left: 30 },
+        hWidth = 800 - hMargin.left - hMargin.right,
+        hHeight = 300 - hMargin.top - hMargin.bottom,
+        //Square Size
+        gridSize = Math.floor(hWidth / 24),
+        legendElementWidth = gridSize*1.2,
+        buckets = 9;
+        colors = ["#ffffd9","#edf8b1","#c7e9b4","#7fcdbb","#41b6c4","#1d91c0","#225ea8","#253494","#081d58"], 
+        // alternatively colorbrewer.YlGnBu[9]
+        days = ["Mon", "Tue", "Wed", "Thr", "Fri"],
+        times = ["7a", "8a", "9a", "10a", "11a", "12a", "1p", "2p", "3p", "4p", "5p"];
+
+        //console.log("G" + gridSize)
+
+        var sum = 0;
+        var heatnewData = [];
+        var heatdata;
+        var newHeatData = [];
+
+        d3.csv(csvLink, 
+            function(heatdata) {
+                //console.log(heatdata);
+                heatdata.forEach(function(d) {
+                    //console.log(d);
+                    d.Time = parseTime(d.Time);
+
+                    for(var i = 0, c=''; c = d.Days.charAt(i); i++){ 
+                        if (d.Act != 0) {
+                            newHeatData.push(
+                                {"Department": d.Department,
+                                 "Course": d.Crse,
+                                 "Sec": d.Sec,
+                                 "Title": d.Title,
+                                 "Day": c,
+                                 "Location": "(B) " + d.Location.slice(0,d.Location.indexOf(' ')),
+                                 "Time": d.Time,
+                                 "Enrollment": d.Act,
+                                 "value": d.Act
+                                })
+                        }
+                    }
+                });
+
+                heatmapTree = {"key": "Purdue University", "values": d3.nest()
+                    .key(function(d) {return d.Day;})
+                    .entries(newHeatData)
+                };
+
+                console.log(heatmapTree);
+
+                for(var i=0; i < 55; i++) {
+
+                    var day = 0;
+                    var time = 0;
+                    var dayTime = dataSelection(i);
+                    var timeTree = timeQuery(heatmapTree, dayTime.qTime);
+                    var timeDayTree = timeTree.values[findIndex(timeTree.values, dayTime.qDay)];
+
+                    sum = 0;
+
+                    for(var j=0; j < timeDayTree.values.length; j++){
+                        var temp = parseInt(timeDayTree.values[j].value);
+                        sum = sum + temp;
+                    }
+                    
+                    if(i < 11) { day = 1; time = i + 7; }
+                    if(i > 10 && i < 22) { day = 2; time = i - 4; }
+                    if(i > 21 && i < 33) { day = 3; time = i - 15; }
+                    if(i > 32 && i < 44) { day = 4; time = i - 26; }
+                    if(i > 43 && i < 55) { day = 5; time = i - 37; }
+
+                    dayTimeSum.push({
+                        "day": +day,
+                        "hour": +time,
+                        "value": +sum
+                    });
+                
+                    //console.log(dayTimeSum);
+                }
+
+        var colorScale = d3.scale.quantile()
+                .domain([0, buckets - 1, d3.max(dayTimeSum, function (d) { return d.value; })])
+                .range(colors);
+
+        var svg = d3.select("#heatmap").append("svg")
+                .attr("width", hWidth + hMargin.left + hMargin.right)
+                .attr("height", hHeight + hMargin.top + hMargin.bottom)
+                .append("g")
+                .attr("transform", "translate(" + hMargin.left + "," + hMargin.top + ")");
+
+          var dayLabels = svg.selectAll(".dayLabel")
+              .data(days)
+              .enter().append("text")
+                .text(function (d) { return d; })
+                //Day Location
+                .attr("x", 0)
+                .attr("y", function (d, i) { return i * gridSize; })
+                .style("text-anchor", "end")
+                .attr("transform", "translate(-6," + gridSize / 1.5 + ")")
+                .attr("class", function (d, i) { return ((i >= 0 && i <= 4) ? "dayLabel mono axis axis-workweek" : "dayLabel mono axis"); });
+
+          var timeLabels = svg.selectAll(".timeLabel")
+              .data(times)
+              .enter().append("text")
+                .text(function(d) { return d; })
+                .attr("x", function(d, i) { return i * (gridSize+11); })
+                .attr("y", 0)
+                .style("text-anchor", "middle")
+                .attr("transform", "translate(" + gridSize / 2 + ", -6)")
+                .attr("class", function(d, i) { return ((i >= 7 && i <= 16) ? "timeLabel mono axis axis-worktime" : "timeLabel mono axis"); });
+
+          var heatMap = svg.selectAll(".hour")
+              .data(dayTimeSum)      
+              .enter()
+              .append("rect")
+              //.attr("class", ".clk1" ) //function(d, i) {   
+                //console.log("clk" + d.day * (i+1)); 
+                //  return "clk" + d.day * (i+1); })
+              .attr("x", function(d) { return (d.hour - 7) * (gridSize+11); })
+              .attr("y", function(d) { return (d.day - 1) * gridSize; })
+              .attr("rx", 4)
+              .attr("ry", 4)
+              .attr("class", "hour bordered")
+              .attr("width", (gridSize+11))
+              .attr("height", gridSize)
+              .style("fill", colors[0])
+              .style("opacity", 1)
+              .on("mouseover", mouseover);
+
+          d3.select("#heatmap").on("mouseleave", mouseleave);
+          //console.log(colors[0]);
+          //console.log(colors[1]);
+          //console.log("Taejin");
+
+          heatMap.transition().duration(1000)
+              .style("fill", function(d) { return colorScale(d.value); });
+
+          heatMap.append("title").text(function(d) { return d.value; });
+
+          d3.selectAll(".hour")
+            .on("click", function(){ 
+                //console.log(heatmapId);
+                if(heatmapId === "D1H7") { updateData(0) }
+                if(heatmapId === "D1H8") { updateData(1) }
+                if(heatmapId === "D1H9") { updateData(2) }
+                if(heatmapId === "D1H10") { updateData(3) }
+                if(heatmapId === "D1H11") { updateData(4) }
+                if(heatmapId === "D1H12") { updateData(5) }
+                if(heatmapId === "D1H13") { updateData(6) }    
+                if(heatmapId === "D1H14") { updateData(7) }
+                if(heatmapId === "D1H15") { updateData(8) } 
+                if(heatmapId === "D1H16") { updateData(9) } 
+                if(heatmapId === "D1H17") { updateData(10) } 
+
+                if(heatmapId === "D2H7") { updateData(11) }
+                if(heatmapId === "D2H8") { updateData(12) }
+                if(heatmapId === "D2H9") { updateData(13) }
+                if(heatmapId === "D2H10") { updateData(14) }
+                if(heatmapId === "D2H11") { updateData(15) }
+                if(heatmapId === "D2H12") { updateData(16) }
+                if(heatmapId === "D2H13") { updateData(17) }    
+                if(heatmapId === "D2H14") { updateData(18) }
+                if(heatmapId === "D2H15") { updateData(19) } 
+                if(heatmapId === "D2H16") { updateData(20) } 
+                if(heatmapId === "D2H17") { updateData(21) } 
+                
+                if(heatmapId === "D3H7") { updateData(22) }
+                if(heatmapId === "D3H8") { updateData(23) }
+                if(heatmapId === "D3H9") { updateData(24) }
+                if(heatmapId === "D3H10") { updateData(25) }
+                if(heatmapId === "D3H11") { updateData(26) }
+                if(heatmapId === "D3H12") { updateData(27) }
+                if(heatmapId === "D3H13") { updateData(28) }    
+                if(heatmapId === "D3H14") { updateData(29) }
+                if(heatmapId === "D3H15") { updateData(30) } 
+                if(heatmapId === "D3H16") { updateData(31) } 
+                if(heatmapId === "D3H17") { updateData(32) } 
+
+                if(heatmapId === "D4H7") { updateData(33) }
+                if(heatmapId === "D4H8") { updateData(34) }
+                if(heatmapId === "D4H9") { updateData(35) }
+                if(heatmapId === "D4H10") { updateData(36) }
+                if(heatmapId === "D4H11") { updateData(37) }
+                if(heatmapId === "D4H12") { updateData(38) }
+                if(heatmapId === "D4H13") { updateData(39) }    
+                if(heatmapId === "D4H14") { updateData(40) }
+                if(heatmapId === "D4H15") { updateData(41) } 
+                if(heatmapId === "D4H16") { updateData(42) } 
+                if(heatmapId === "D4H17") { updateData(43) } 
+                
+                if(heatmapId === "D5H7") { updateData(44) }
+                if(heatmapId === "D5H8") { updateData(45) }
+                if(heatmapId === "D5H9") { updateData(46) }
+                if(heatmapId === "D5H10") { updateData(47) }
+                if(heatmapId === "D5H11") { updateData(48) }
+                if(heatmapId === "D5H12") { updateData(49) }
+                if(heatmapId === "D5H13") { updateData(50) }    
+                if(heatmapId === "D5H14") { updateData(51) }
+                if(heatmapId === "D5H15") { updateData(52) } 
+                if(heatmapId === "D5H16") { updateData(53) } 
+                if(heatmapId === "D5H17") { updateData(54) }     
+
+
+            });
+
+          var legend = svg.selectAll(".legend")
+              .data([0].concat(colorScale.quantiles()), function(d) { return d; })
+              .enter().append("g")
+              .attr("class", "legend");
+
+          legend.append("rect")
+            .attr("x", function(d, i) { return legendElementWidth * (i+3); })
+            .attr("y", -50) //hHeight)
+            .attr("width", legendElementWidth)
+            .attr("height", gridSize / 2)
+            .style("fill", function(d, i) { return colors[i]; });
+
+          legend.append("text")
+            .attr("class", "mono")
+            .text(function(d) { return "≥ " + Math.round(d); })
+            .attr("x", function(d, i) { return legendElementWidth * (i+3); })
+            .attr("y", -20 - gridSize);
+
+        });   
+        
+      
+    }
+
+    function mouseover(d){
+
+          var sequenceArray = getAncestors(d);
+
+          d3.selectAll(".hour").style("opacity", 0.3); 
+
+          d3.selectAll(".hour")
+              .filter(function(node) {
+                //console.log(sequenceArray.indexOf(node))
+                //console.log(node);
+                return (sequenceArray.indexOf(node) >= 0);
+              })
+              .style("opacity", 1); 
+    }
+
+    function mouseleave(d) {
+          
+          // Deactivate all segments during transition.
+          d3.selectAll(".hour").on("mouseover", null);
+
+          // Transition each segment to full opacity and then reactivate it.
+          d3.selectAll(".hour")
+              .transition()
+              //.duration(1000)
+              .style("opacity", 1)
+              .each("end", function() {
+                      d3.select(this).on("mouseover", mouseover);
+                    });
+
+
+    }
+    
+    function getAncestors(node) {
+          
+          //console.log(node);
+          var path = [];
+          var current = node;
+          while (current) {
+            //console.log("D"+current.day+"H"+current.hour)
+            //console.log(current);
+            //getID("D"+current.day+"H"+current.hour);
+            heatmapId = "D"+current.day+"H"+current.hour;
+            path.unshift(current);
+            current = current.parent;
+            //console.log(current);
+          }
+          //console.log(path);
+          return path;
+    }
+
+
+
+    function dataSelection(selection) {
+
+        var qDay; 
+        var qTime; 
+
+        if(selection == 0) { qDay = "M";  qTime = [730, 830]; }
+        if(selection == 1) { qDay = "M";  qTime = [830, 930]; }
+        if(selection == 2) { qDay = "M";  qTime = [930, 1030]; }
+        if(selection == 3) { qDay = "M";  qTime = [1030, 1130]; }
+        if(selection == 4) { qDay = "M";  qTime = [1130, 1230]; }
+        if(selection == 5) { qDay = "M";  qTime = [1230, 130]; }
+        if(selection == 6) { qDay = "M";  qTime = [130, 230]; }
+        if(selection == 7) { qDay = "M";  qTime = [230, 330]; }
+        if(selection == 8) { qDay = "M";  qTime = [330, 430]; }
+        if(selection == 9) { qDay = "M";  qTime = [430, 530]; }
+        if(selection == 10) { qDay = "M";  qTime = [530, 630]; }
+
+        if(selection == 11) { qDay = "T";  qTime = [730, 830]; }
+        if(selection == 12) { qDay = "T";  qTime = [830, 930]; }
+        if(selection == 13) { qDay = "T";  qTime = [930, 1030]; }
+        if(selection == 14) { qDay = "T";  qTime = [1030, 1130]; }
+        if(selection == 15) { qDay = "T";  qTime = [1130, 1230]; }
+        if(selection == 16) { qDay = "T";  qTime = [1230, 130]; }
+        if(selection == 17) { qDay = "T";  qTime = [130, 230]; }
+        if(selection == 18) { qDay = "T";  qTime = [230, 330]; }
+        if(selection == 19) { qDay = "T";  qTime = [330, 430]; }
+        if(selection == 20) { qDay = "T";  qTime = [430, 530]; }
+        if(selection == 21) { qDay = "T";  qTime = [530, 630]; }
+
+        if(selection == 22) { qDay = "W";  qTime = [730, 830]; }
+        if(selection == 23) { qDay = "W";  qTime = [830, 930]; }
+        if(selection == 24) { qDay = "W";  qTime = [930, 1030]; }
+        if(selection == 25) { qDay = "W";  qTime = [1030, 1130]; }
+        if(selection == 26) { qDay = "W";  qTime = [1130, 1230]; }
+        if(selection == 27) { qDay = "W";  qTime = [1230, 130]; }
+        if(selection == 28) { qDay = "W";  qTime = [130, 230]; }
+        if(selection == 29) { qDay = "W";  qTime = [230, 330]; }
+        if(selection == 30) { qDay = "W";  qTime = [330, 430]; }
+        if(selection == 31) { qDay = "W";  qTime = [430, 530]; }
+        if(selection == 32) { qDay = "W";  qTime = [530, 630]; }
+
+        if(selection == 33) { qDay = "R";  qTime = [730, 830]; }
+        if(selection == 34) { qDay = "R";  qTime = [830, 930]; }
+        if(selection == 35) { qDay = "R";  qTime = [930, 1030]; }
+        if(selection == 36) { qDay = "R";  qTime = [1030, 1130]; }
+        if(selection == 37) { qDay = "R";  qTime = [1130, 1230]; }
+        if(selection == 38) { qDay = "R";  qTime = [1230, 130]; }
+        if(selection == 39) { qDay = "R";  qTime = [130, 230]; }
+        if(selection == 40) { qDay = "R";  qTime = [230, 330]; }
+        if(selection == 41) { qDay = "R";  qTime = [330, 430]; }
+        if(selection == 42) { qDay = "R";  qTime = [430, 530]; }
+        if(selection == 43) { qDay = "R";  qTime = [530, 630]; }
+
+        if(selection == 44) { qDay = "F";  qTime = [730, 830]; }
+        if(selection == 45) { qDay = "F";  qTime = [830, 930]; }
+        if(selection == 46) { qDay = "F";  qTime = [930, 1030]; }
+        if(selection == 47) { qDay = "F";  qTime = [1030, 1130]; }
+        if(selection == 48) { qDay = "F";  qTime = [1130, 1230]; }
+        if(selection == 49) { qDay = "F";  qTime = [1230, 130]; }
+        if(selection == 50) { qDay = "F";  qTime = [130, 230]; }
+        if(selection == 51) { qDay = "F";  qTime = [230, 330]; }
+        if(selection == 52) { qDay = "F";  qTime = [330, 430]; }
+        if(selection == 53) { qDay = "F";  qTime = [430, 530]; }
+        if(selection == 54) { qDay = "F";  qTime = [530, 630]; }
+
+
+        //qDay = "M";  
+        //qTime = [730, 830];
+
+        return {
+            "qDay" : qDay, 
+            "qTime" : qTime
+            }        
+    }
+    
+    function updateData(selection) {
+        
+        var parents = [];
+        var children = [];
+        var courseTree;
+        var newData = [];
+        var root;
+
+        var dayTime = dataSelection(selection);
+
+        //["M", [730, 830]];
+
+        var qDay = dayTime.qDay; 
+        var qTime = dayTime.qTime; 
+
+        //console.log(qDay);
+        //console.log(qTime);
+
+        /*Change Day and Time
+        if(selection == 0) { qDay = "M";  qTime = [730, 830]; }
+        if(selection == 1) { qDay = "M";  qTime = [830, 930]; }
+        if(selection == 2) { qDay = "M";  qTime = [930, 1030]; }
+        if(selection == 3) { qDay = "M";  qTime = [1030, 1130]; }
+        if(selection == 4) { qDay = "M";  qTime = [1130, 1230]; }
+        if(selection == 5) { qDay = "M";  qTime = [1230, 130]; }
+        if(selection == 6) { qDay = "M";  qTime = [130, 230]; }
+        if(selection == 7) { qDay = "M";  qTime = [230, 330]; }
+        if(selection == 8) { qDay = "M";  qTime = [330, 430]; }
+        if(selection == 9) { qDay = "M";  qTime = [430, 530]; }
+        if(selection == 10) { qDay = "M";  qTime = [530, 630]; }
+
+        if(selection == 11) { qDay = "T";  qTime = [730, 830]; }
+        if(selection == 12) { qDay = "T";  qTime = [830, 930]; }
+        if(selection == 13) { qDay = "T";  qTime = [930, 1030]; }
+        if(selection == 14) { qDay = "T";  qTime = [1030, 1130]; }
+        if(selection == 15) { qDay = "T";  qTime = [1130, 1230]; }
+        if(selection == 16) { qDay = "T";  qTime = [1230, 130]; }
+        if(selection == 17) { qDay = "T";  qTime = [130, 230]; }
+        if(selection == 18) { qDay = "T";  qTime = [230, 330]; }
+        if(selection == 19) { qDay = "T";  qTime = [330, 430]; }
+        if(selection == 20) { qDay = "T";  qTime = [430, 530]; }
+        if(selection == 21) { qDay = "T";  qTime = [530, 630]; }
+
+        if(selection == 22) { qDay = "W";  qTime = [730, 830]; }
+        if(selection == 23) { qDay = "W";  qTime = [830, 930]; }
+        if(selection == 24) { qDay = "W";  qTime = [930, 1030]; }
+        if(selection == 25) { qDay = "W";  qTime = [1030, 1130]; }
+        if(selection == 26) { qDay = "W";  qTime = [1130, 1230]; }
+        if(selection == 27) { qDay = "W";  qTime = [1230, 130]; }
+        if(selection == 28) { qDay = "W";  qTime = [130, 230]; }
+        if(selection == 29) { qDay = "W";  qTime = [230, 330]; }
+        if(selection == 30) { qDay = "W";  qTime = [330, 430]; }
+        if(selection == 31) { qDay = "W";  qTime = [430, 530]; }
+        if(selection == 32) { qDay = "W";  qTime = [530, 630]; }
+
+        if(selection == 33) { qDay = "R";  qTime = [730, 830]; }
+        if(selection == 34) { qDay = "R";  qTime = [830, 930]; }
+        if(selection == 35) { qDay = "R";  qTime = [930, 1030]; }
+        if(selection == 36) { qDay = "R";  qTime = [1030, 1130]; }
+        if(selection == 37) { qDay = "R";  qTime = [1130, 1230]; }
+        if(selection == 38) { qDay = "R";  qTime = [1230, 130]; }
+        if(selection == 39) { qDay = "R";  qTime = [130, 230]; }
+        if(selection == 40) { qDay = "R";  qTime = [230, 330]; }
+        if(selection == 41) { qDay = "R";  qTime = [330, 430]; }
+        if(selection == 42) { qDay = "R";  qTime = [430, 530]; }
+        if(selection == 43) { qDay = "R";  qTime = [530, 630]; }
+
+        if(selection == 44) { qDay = "F";  qTime = [730, 830]; }
+        if(selection == 45) { qDay = "F";  qTime = [830, 930]; }
+        if(selection == 46) { qDay = "F";  qTime = [930, 1030]; }
+        if(selection == 47) { qDay = "F";  qTime = [1030, 1130]; }
+        if(selection == 48) { qDay = "F";  qTime = [1130, 1230]; }
+        if(selection == 49) { qDay = "F";  qTime = [1230, 130]; }
+        if(selection == 50) { qDay = "F";  qTime = [130, 230]; }
+        if(selection == 51) { qDay = "F";  qTime = [230, 330]; }
+        if(selection == 52) { qDay = "F";  qTime = [330, 430]; }
+        if(selection == 53) { qDay = "F";  qTime = [430, 530]; }
+        if(selection == 54) { qDay = "F";  qTime = [530, 630]; }*/
+
+        //console.log("C Point")
+        //treemap.sticky(false);
+        //console.log(checkClick)
+        checkClick = 1;
+        treemapZoom.sticky(false);
+        treemapZoom.sticky(true);
+
+        d3.csv(csvLink, function(data) {
+
+           // treemapZoom.sticky(true);
+
+            data.forEach(function(d) {
+                //Get the time into start and end times
+                d.Time = parseTime(d.Time);
+                //Make a properly formatted object
+                for(var i = 0, c=''; c = d.Days.charAt(i); i++){ 
+                    //console.log("Taejin " + d.Act);
+                    if (d.Act != 0) {
+                        //console.log("Taejin " + d.Act);
+                        newData.push(
+                            {"Department": d.Department,
+                             "Course": d.Crse,
+                             "Sec": d.Sec,
+                             "Title": d.Title,
+                             "Day": c,
+                             "Location": "(B) " + d.Location.slice(0,d.Location.indexOf(' ')),
+                             "Time": d.Time,
+                             "Enrollment": d.Act,
+                             "value": d.Act
+                            })
+                    }
+                }
+            });
+
+            courseTree = {"key": "Purdue Courses", "values": d3.nest()
+                .key(function(d) {return d.Day;})
+                .key(function(d) {return d.Location; })
+                .key(function(d) {return d.Department; })
+                .entries(newData)
+                };
+
+
+            courseTree = timeQuery(courseTree, qTime);
+            var root = courseTree; 
+            root = courseTree.values[findIndex(courseTree.values, qDay)];
+            
+            root = dataFilter(root, filterValue);
+            root = reNameTree(root, "value", "Title"); 
+            
+            //console.log(root)
+            //for(var i=0; i < root.length; i++) {console.log(root)};
+                //if(CFilter[i].value !== 0 && CFilter[i].value > 5 ){ children.push(CFilter[i]); } };   
+
+            var nodes = treemap.nodes(root);    
+            node = root;
+
+            //console.log(node.children)
+            var CFilter = nodes.filter(function(d) { return !d.children; });
+            var PFilter = nodes.filter(function(d) { return d.children; });
+
+            for(var i=0; i < CFilter.length; i++) { if(CFilter[i].value !== 0 ){ children.push(CFilter[i]); } };
+            for(var i=0; i < PFilter.length; i++) { if(PFilter[i].value !== 0 ){ parents.push(PFilter[i]); } };     
+
+            // Parent cells
+            var parentCells = chart.selectAll("g.cell.parent")
+                .data(parents, function(d) { return d.children[0].Sec+d.children[0].name+ d.name; }); 
+            
+            var parentEnterTransition = parentCells.enter()
+                .append("g")
+                .attr("class", "cell parent")
+                .on("click", function(d) { 
+                    checkClick = 0; 
+                    zoom(d); 
+                });            
+                parentEnterTransition.append("rect")
+                .attr("width", function(d) { return Math.max(0.01, d.dx); })
+                .attr("height", headerHeight)
+                .style("fill", headerColor);           
+                parentEnterTransition.append("foreignObject").attr("class", "foreignObject")
+                .append("xhtml:treemap").attr("class", "labelbody")
+                .append("div").attr("class", "label");
+
+            //update transition
+            var parentUpdateTransition = parentCells.transition().duration(transitionDuration);
+            parentUpdateTransition.select(".cell")
+                .attr("transform", function(d) { return "translate(" + d.dx + "," + d.y + ")"; });
+            parentUpdateTransition.select("rect")
+                .attr("width", function(d) { return Math.max(0.01, d.dx); })
+                .attr("height", headerHeight)
+                .style("fill", headerColor);
+            parentUpdateTransition.select(".foreignObject")
+                .attr("width", function(d) { return Math.max(0.01, d.dx); })
+                .attr("height", headerHeight)
+                .select(".labelbody .label")
+                .text(function(d) { return d.children[0].name + d.name;;});
+            
+            // remove transition
+            parentCells.exit().remove();
+
+            // Children cells
+            var childrenCells = chart.selectAll("g.cell.child")
+                .data(children, function(d) { 
+                    //console.log(d.Department + d.Sec + d.name)
+                    return d.Department + d.Sec + d.name; }); 
+            
+            // Enter transition
+            var childEnterTransition = childrenCells.enter()
+                .append("g")
+                .attr("class", "cell child")
+                .on("click", function(d) {        
+                    checkClick = 0; 
+                    //console.log("Check 2")
+                    //treemapZoom.sticky(true);
+                    zoom(node === d.parent ? root : d.parent); 
+                });
+            childEnterTransition.append("rect")
+                .classed("background", true)
+                .style("fill", function(d) { return color(d.parent.name); });
+            childEnterTransition.append('foreignObject')
+                .attr("class", "foreignObject")
+                .attr("width", function(d) { return Math.max(0.01, d.dx); })
+                .attr("height", function(d) { return Math.max(0.01, d.dy); })
+                .append("xhtml:treemap")
+                .attr("class", "labelbody")
+                .append("div")
+                .attr("class", "label")   
+                .text(function(d) { return d.Department + d.Sec + d.name; }); 
+
+            //update transition
+            var childUpdateTransition = childrenCells.transition().duration(transitionDuration);
+            childUpdateTransition.select(".cell")
+                .attr("transform", function(d) { return "translate(" + d.x  + "," + d.y + ")"; });
+            childUpdateTransition.select("rect")
+                .attr("width", function(d) { return Math.max(0.01, d.dx); })
+                .attr("height", function(d) { return d.dy; })
+                .style("fill", function(d) { return color(d.parent.name); });
+            childUpdateTransition.select(".foreignObject")
+                .attr("width", function(d) { return Math.max(0.01, d.dx); })
+                .attr("height", function(d) { return Math.max(0.01, d.dy); })
+                .select(".labelbody .label")
+                .text(function(d) { return d.Department + d.Sec + d.name; });
+
+            // exit transition
+            childrenCells.exit().remove();
+
+            if (checkClick) {
+                checkClick = 0;
+                childEnterTransition.selectAll(".foreignObject").style("display", "none");
+            } else {
+                checkClick = 1;
+                childEnterTransition.selectAll(".foreignObject .labelbody .label").style("display", "none");
+            }
+
+            //treemapZoom.sticky(true);
+            zoom(node);
+        });
+    }
+        
+    function parseTime(timeStr) {
+        timeStr.replace(":","");
+        timeStr.replace(" ","");
+        timeStr.split("-");
+        timeStr.forEach(function(d) {
+            var addMe = 0;
+            if(d.charAt[4] == 'p') {
+                addMe = 1200;
+            }
+            d.substr(0,4);
+            d = parseInt(d) + addMe;
+        });
+        return timeStr;
+    }
+
+    function timeQuery(tree, query) { //query is an array of the form [830, 1430]; MUST be in 24-hour time
+
+        //var temp = tree;
+
+        for(var key in tree) {
+
+
+            if(key == "values") {
+                for (item in tree.values) {
+                    timeQuery(tree.values[item], query);
+                }
+            }
+            if(key == "Time") {
+                tree.value = 0;
+                if((tree.Time[1] > query[0]) && (tree.Time[0] < query[1])) {
+                    tree.value = tree.Enrollment;
+                }
+            }
+
+
+
+        }
+        return tree;
+    }
+
+    function dataFilter(tree, query) { 
+
+        //var temp = tree;
+
+        for(var key in tree) {
+            if(key == "values") {
+                for (item in tree.values) {
+                    dataFilter(tree.values[item], query);
+                }
+            }
+            if(key == "Enrollment") {
+                if(tree.value < query) {
+                    tree.value = 0;
+                }
+            }
+        }
+        return tree;
+    }
+
+    function findIndex(myList, myKey) {
+        for(var i = 0, l = myList.length; i < l; i++) {
+            if(myList[i].key == myKey) {
+                //console.log(i);
+                return i;}
+        }
+    }
+
+    function parseTime(timeStr) {
+        var addMe = 0;
+        timeStr = timeStr.replace(":","");
+        timeStr = timeStr.replace(":","");
+        timeStr = timeStr.split("-");
+        if(timeStr[0].charAt[4] == 'p') {addMe = 1200;}
+        timeStr[0] = timeStr[0].substr(0,4);
+        timeStr[0] = parseInt(timeStr[0]) + addMe;
+        if(timeStr[1].charAt[4] == 'p') {addMe = 1200;}
+        timeStr[1] = timeStr[1].substr(0,4);
+        timeStr[1] = parseInt(timeStr[1]) + addMe;
+        return timeStr;
+    }
+
+    function reNameTree(tree, value_key, value_name) {
+        
+        //var value_key = value_key; 
+
+        //console.log("D" + value_key);
+
+        for(var key in tree) {
+            //console.log(key);
+            if(key == "key") {
+                tree.name = tree.key;
+                delete tree.key;
+            }
+            if(key == "values") {
+                tree.children = [];
+                for (item in tree.values) {
+                    tree.children.push(reNameTree(tree.values[item], value_key, value_name));
+                }
+                delete tree.values;
+            }
+            if (key == value_key) {
+
+                //console.log("D  " + tree[value_key].toString());
+                if(tree[value_key] !== 0) {
+                    //console.log("H  " + tree[value_key].toString());
+                    tree.size = parseFloat(tree[value_key]);
+                    //console.log("H  " + tree.value);
+                    tree.name = tree[value_name];
+
+                    delete tree[value_key];
+                    delete tree[value_name];
+                }
+            }
+        }
+        return tree;
+    }
+
+    function zoom(d) {
+ 
+        //console.log("In Zoom Function")
+        //console.log()
+        treemap.sticky(true);
+        //treemapZoom.sticky(false);
+
+        this.treemapZoom
+            //.skicky(true)
+            .padding([headerHeight/(chartHeight/d.dy), 0, 0, 0])
+            .nodes(d);
+
+        var kx = chartWidth  / d.dx;
+        var ky = chartHeight / d.dy;
+        var level = d;
+
+        xscale.domain([d.x, d.x + d.dx]);
+        yscale.domain([d.y, d.y + d.dy]);
+
+        if (node != level) {
+            if (!checkClick) {
+                checkClick = 1;
+                chart.selectAll(".cell.child .foreignObject")
+                    .style("display", "none");
+            } else {
+                checkClick = 0;
+                chart.selectAll(".cell.child .foreignObject .labelbody .label")
+                    .style("display", "none");
+            }
+        }
+
+        var zoomTransition = chart.selectAll("g.cell").transition().duration(transitionDuration)
+            .attr("transform", function(d) { return "translate(" + xscale(d.x) + "," + yscale(d.y) + ")"; })
+            .each("end", function(d, i) {
+                if (!i && (level !== self.root)) {
+                    chart.selectAll(".cell.child")
+                        .filter(function(d) { return d.parent === self.node; }) 
+                        .select(".foreignObject .labelbody .label")
+                        .style("color", "white"); 
+
+                    if (checkClick) {
+                        chart.selectAll(".cell.child")
+                            .filter(function(d) { return d.parent === self.node; })
+                            .select(".foreignObject")
+                            .style("display", "");
+                        checkClick = 0;
+                    } else {
+                        chart.selectAll(".cell.child")
+                            .filter(function(d) { return d.parent === self.node; })
+                            .select(".foreignObject .labelbody .label")
+                            .style("display", "");
+                        checkClick = 1; 
+
+                    }
+                }
+            });
+
+        zoomTransition.select(".foreignObject")
+            .attr("width", function(d) { return Math.max(0.01, kx * d.dx); })
+            .attr("height", function(d) { return d.children ? headerHeight: Math.max(0.01, ky * d.dy); })
+            .select(".labelbody .label")
+            .text(function(d) { return d.name; });
+
+        zoomTransition.select("rect")
+            .attr("width", function(d) { return Math.max(0.01, kx * d.dx); })
+            .attr("height", function(d) { return d.children ? headerHeight : Math.max(0.01, ky * d.dy); })
+            .style("fill", function(d) { return d.children ? headerColor : color(d.parent.name); });
+
+        node = d;
+
+    }
+
+</script>
   
   <noscript> Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript"> comments powered by Disqus.</a> </noscript>
 </html>

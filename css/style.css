@@ -1,17 +1,158 @@
-/*.mainpage {
-	background-color: #512da8;
-/*	text-align: center;
-*/}
-/*body {
-	padding: 0;
-	margin: 0;
-	text-align: center;
+body {
+	padding: 0px;
+	margin: 0px;
 	display: flex;
     min-height: 100vh;
     flex-direction: column;
+    font-size: 12px;
+    overflow: scroll;
+    width:100%;
 }
-.main {
-    flex: 1 0 auto;
+.intro
+{
     text-align: center;
+    padding-top: 13%;
+    padding-bottom: 13%;
+    margin-bottom: 0px;
+}
 
-  }*/
+.intro h1
+{
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.intro h5
+{
+    text-transform: uppercase;
+    background-color: #f5f5f5;
+    padding: 10px;
+    color: #333333;
+    display: inline-block;
+    font-size: 1.2rem;
+}
+.about{
+    width: 100%;
+}
+.about .col
+{
+    margin-bottom: 24px;
+}
+
+.about h5
+{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.about h6
+{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+#treemap {
+    /*overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;*/
+    /*position: relative;*/
+    width: 100%;
+  	height: 100%;  
+	margin: 0px;
+    text-align: center;
+    /*float: left;*/
+}
+
+#heatmap {
+    /*overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;*/
+    /*position: relative;*/
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    /*float: left;*/
+}
+.visualization {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.page-footer {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+/*Treemap Style*/
+svg {
+    overflow: hidden;
+}
+
+rect {
+    overflow: hidden;
+    pointer-events: all;
+    cursor: pointer;
+    stroke: #EEEEEE;
+}
+
+.chart {
+    display: block;
+    margin: auto;
+}
+
+.parent .label {
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    -webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.labelbody {
+    background: transparent;
+}
+
+.label {
+    margin: 2px;
+    white-space: pre;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    text-align: center;    
+    -webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.child .label {
+    white-space: pre-wrap;
+    text-align: center;
+    text-overflow: ellipsis;
+}
+
+.cell {
+    font-size: 11px;
+    cursor: pointer
+}
+/*Heatmap style*/
+rect.bordered {
+    stroke: #E6E6E6;
+    stroke-width:2px;   
+}
+
+text.mono {
+    font-size: 9pt;
+    fill: #000;
+}
+
+text.axis-workweek {
+    fill: #000;
+}
+
+text.axis-worktime {
+    fill: #000;
+}

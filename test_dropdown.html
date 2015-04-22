@@ -5,9 +5,11 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
         <script>
             $(document).ready(function() {
+                var dayval = 0;
                 var day = "";
                 var time = "";
                 $("#dropdown2 li a").click(function() {
+                    dayval = $(this).attr("dayval");
                     day = $(this).html();
                     $("#timeslot_list").fadeIn();
                     $("#dropdownButton").html(day);
@@ -20,46 +22,43 @@
                     }
                 });
 
-                $(".waves-effect waves-light btn").click(function(){
-                    var msg = $("<div>");
-                    time = $(this).html();
-                    msg.html("You've chosen time " + time + " of " + day);
-                    msg.css("display", "none");
-                    $("body").append(msg);
-                    msg.fadeIn();
+                $(".timeslot").click(function(){
+                    var updateVal = +dayval + +($(this).attr("id"));
+                    console.log(updateVal);
+                    updateData(updateVal);
                 });
             });
         </script>
     </head>
     <body>
 	<div class="row">
-		<div class="col s1">
-		    <!-- Dropdown Trigger -->
-		    <a id="dropdownButton" style="width: 150px" class="btn dropdown-button" data-beloworigin="true" data-activates="dropdown2">Weekday</a>
-		    <!-- Dropdown structure -->
-		    <ul id="dropdown2" class="dropdown-content">
-		        <li><a href="#!">Monday</a></li>
-		        <li><a href="#!">Tuesday</a></li>
-		        <li><a href="#!">Wednesday</a></li>
-		        <li><a href="#!">Thursday</a></li>
-		        <li><a href="#!">Friday</a></li>
-		    </ul>
-		</div>
-		<div class="col s11 offset-s1">
-		    <div id="timeslot_list" class="collection" style="display:none;">
-		        <a class="waves-effect waves-light btn" href="#!">07:30</a>  
-		        <a class="waves-effect waves-light btn" href="#!">08:30</a> 
-		        <a class="waves-effect waves-light btn" href="#!">09:30</a> 
-		        <a class="waves-effect waves-light btn" href="#!">10:30</a> 
-		        <a class="waves-effect waves-light btn" href="#!">11:30</a> 
-		        <a class="waves-effect waves-light btn" href="#!">12:30</a>
-		        <a class="waves-effect waves-light btn" href="#!">13:30</a> 
-		        <a class="waves-effect waves-light btn" href="#!">14:30</a> 
-		        <a class="waves-effect waves-light btn" href="#!">15:30</a>
-		        <a class="waves-effect waves-light btn" href="#!">16:30</a>
-		        <a class="waves-effect waves-light btn" href="#!">17:30</a>
-		    </div>
-		</div>
-	</div>
+    <div class="col s1">
+        <!-- Dropdown Trigger -->
+        <a id="dropdownButton" style="width: 100px" class="btn dropdown-button" data-beloworigin="true" data-activates="dropdown2">Day</a>
+        <!-- Dropdown structure -->
+        <ul id="dropdown2" class="dropdown-content">
+          <li><a dayval="0" href="#!">Mon</a></li>
+          <li><a dayval="11" href="#!">Tue</a></li>
+          <li><a dayval="22" href="#!">Wed</a></li>
+          <li><a dayval="33" href="#!">Thu</a></li>
+          <li><a dayval="44" href="#!">Fri</a></li>
+        </ul>
+    </div>
+    <div class="col s11">
+        <div id="timeslot_list" style="display:none;">
+            <a id="0" class="waves-effect waves-light btn timeslot col s1" href="#!">07:30</a>  
+            <a id="1" class="waves-effect waves-light btn timeslot col s1" href="#!">08:30</a> 
+            <a id="2" class="waves-effect waves-light btn timeslot col s1" href="#!">09:30</a> 
+            <a id="3" class="waves-effect waves-light btn timeslot col s1" href="#!">10:30</a> 
+            <a id="4" class="waves-effect waves-light btn timeslot col s1" href="#!">11:30</a> 
+            <a id="5" class="waves-effect waves-light btn timeslot col s1" href="#!">12:30</a>
+            <a id="6" class="waves-effect waves-light btn timeslot col s1" href="#!">13:30</a> 
+            <a id="7" class="waves-effect waves-light btn timeslot col s1" href="#!">14:30</a> 
+            <a id="8" class="waves-effect waves-light btn timeslot col s1" href="#!">15:30</a>
+            <a id="9" class="waves-effect waves-light btn timeslot col s1" href="#!">16:30</a>
+            <a id="10" class="waves-effect waves-light btn timeslot col s1" href="#!">17:30</a>
+        </div>
+    </div>
+  </div>
     </body>
 </html>
