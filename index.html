@@ -150,6 +150,7 @@
     var root;
  
     var csvLink = "cleanCourseData.csv";
+	//var csvLink = "http://KBT-Incorporated.github.io/cleanCourseData.csv";
     var node;
 
      
@@ -925,20 +926,6 @@
         });
     }
         
-    function parseTime(timeStr) {
-        timeStr.replace(":","");
-        timeStr.replace(" ","");
-        timeStr.split("-");
-        timeStr.forEach(function(d) {
-            var addMe = 0;
-            if(d.charAt[4] == 'p') {
-                addMe = 1200;
-            }
-            d.substr(0,4);
-            d = parseInt(d) + addMe;
-        });
-        return timeStr;
-    }
 
     function timeQuery(tree, query) { //query is an array of the form [830, 1430]; MUST be in 24-hour time
 
@@ -997,12 +984,13 @@
         timeStr = timeStr.replace(":","");
         timeStr = timeStr.replace(":","");
         timeStr = timeStr.split("-");
-        if(timeStr[0].charAt[4] == 'p') {addMe = 1200;}
+        if(timeStr[0].charAt(5) == "p") {addMe = 1200;}
         timeStr[0] = timeStr[0].substr(0,4);
         timeStr[0] = parseInt(timeStr[0]) + addMe;
-        if(timeStr[1].charAt[4] == 'p') {addMe = 1200;}
+        if(timeStr[1].charAt(5) == "p") {addMe = 1200;}
         timeStr[1] = timeStr[1].substr(0,4);
         timeStr[1] = parseInt(timeStr[1]) + addMe;
+		console.log(timeStr);
         return timeStr;
     }
 
