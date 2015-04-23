@@ -336,7 +336,7 @@
 
     function heatmap(){
           
-        var hMargin = { top: 100, right: 0, bottom: 0, left: 30 },
+        var hMargin = { top: 100, right: 0, bottom: 30, left: 30 },
         hWidth = 510 - hMargin.left - hMargin.right,
         hHeight = 300 - hMargin.top - hMargin.bottom,
         //Square Size
@@ -476,68 +476,77 @@
 
           heatMap.append("title").text(function(d) { return d.value; });
 
+          svg.append("text")  
+            .attr("class", "when")
+            .text("[Monday, 7:30 am ~ 8:30 am]")
+            .attr("x", 170)
+            .attr("y", 210)
+            .attr("font-family", "sans-serif")
+            .attr("font-weight", "bold")
+            .attr("font-size", "15px"); 
+
           d3.selectAll(".hour")
             .on("click", function(){ 
                 //console.log(heatmapId);
-                if(heatmapId === "D1H7") { updateData(0) }
-                if(heatmapId === "D1H8") { updateData(1) }
-                if(heatmapId === "D1H9") { updateData(2) }
-                if(heatmapId === "D1H10") { updateData(3) }
-                if(heatmapId === "D1H11") { updateData(4) }
-                if(heatmapId === "D1H12") { updateData(5) }
-                if(heatmapId === "D1H13") { updateData(6) }    
-                if(heatmapId === "D1H14") { updateData(7) }
-                if(heatmapId === "D1H15") { updateData(8) } 
-                if(heatmapId === "D1H16") { updateData(9) } 
-                if(heatmapId === "D1H17") { updateData(10) } 
+                if(heatmapId === "D1H7") { svg.selectAll(".when").text("[Monday, 7:30 am ~ 8:30 am]"); updateData(0) }
+                if(heatmapId === "D1H8") { svg.selectAll(".when").text("[Monday, 8:30 am ~ 9:30 am]"); updateData(1); }
+                if(heatmapId === "D1H9") { svg.selectAll(".when").text("[Monday, 9:30 am ~ 10:30 am]"); updateData(2) }
+                if(heatmapId === "D1H10") { svg.selectAll(".when").text("[Monday, 10:30 am ~ 11:30 pm]"); updateData(3) }
+                if(heatmapId === "D1H11") { svg.selectAll(".when").text("[Monday, 11:30 pm ~ 12:30 pm]"); updateData(4) }
+                if(heatmapId === "D1H12") { svg.selectAll(".when").text("[Monday, 12:30 pm ~ 1:30 pm]"); updateData(5) }
+                if(heatmapId === "D1H13") { svg.selectAll(".when").text("[Monday, 1:30 pm ~ 2:30 pm]"); updateData(6) }    
+                if(heatmapId === "D1H14") { svg.selectAll(".when").text("[Monday, 2:30 pm ~ 3:30 pm]"); updateData(7) }
+                if(heatmapId === "D1H15") { svg.selectAll(".when").text("[Monday, 3:30 pm ~ 4:30 pm]"); updateData(8) } 
+                if(heatmapId === "D1H16") { svg.selectAll(".when").text("[Monday, 4:30 pm ~ 5:30 pm]"); updateData(9) } 
+                if(heatmapId === "D1H17") { svg.selectAll(".when").text("[Monday, 5:30 pm ~ 6:30 pm]"); updateData(10) } 
 
-                if(heatmapId === "D2H7") { updateData(11) }
-                if(heatmapId === "D2H8") { updateData(12) }
-                if(heatmapId === "D2H9") { updateData(13) }
-                if(heatmapId === "D2H10") { updateData(14) }
-                if(heatmapId === "D2H11") { updateData(15) }
-                if(heatmapId === "D2H12") { updateData(16) }
-                if(heatmapId === "D2H13") { updateData(17) }    
-                if(heatmapId === "D2H14") { updateData(18) }
-                if(heatmapId === "D2H15") { updateData(19) } 
-                if(heatmapId === "D2H16") { updateData(20) } 
-                if(heatmapId === "D2H17") { updateData(21) } 
+                if(heatmapId === "D2H7") { svg.selectAll(".when").text("[Tuesday, 7:30 am ~ 8:30 am]"); updateData(11) }
+                if(heatmapId === "D2H8") { svg.selectAll(".when").text("[Tuesday, 8:30 am ~ 9:30 am]"); updateData(12) }
+                if(heatmapId === "D2H9") { svg.selectAll(".when").text("[Tuesday, 9:30 am ~ 10:30 am]"); updateData(13) }
+                if(heatmapId === "D2H10") { svg.selectAll(".when").text("[Tuesday, 10:30 am ~ 11:30 pm]"); updateData(14) }
+                if(heatmapId === "D2H11") { svg.selectAll(".when").text("[Tuesday, 11:30 am ~ 12:30 pm]"); updateData(15) }
+                if(heatmapId === "D2H12") { svg.selectAll(".when").text("[Tuesday, 12:30 pm ~ 1:30 pm]"); updateData(16) }
+                if(heatmapId === "D2H13") { svg.selectAll(".when").text("[Tuesday, 1:30 pm ~ 2:30 pm]"); updateData(17) }    
+                if(heatmapId === "D2H14") { svg.selectAll(".when").text("[Tuesday, 2:30 pm ~ 3:30 pm]"); updateData(18) }
+                if(heatmapId === "D2H15") { svg.selectAll(".when").text("[Tuesday, 3:30 pm ~ 4:30 pm]"); updateData(19) } 
+                if(heatmapId === "D2H16") { svg.selectAll(".when").text("[Tuesday, 4:30 pm ~ 5:30 pm]"); updateData(20) } 
+                if(heatmapId === "D2H17") { svg.selectAll(".when").text("[Tuesday, 5:30 pm ~ 6:30 pm]"); updateData(21) } 
                 
-                if(heatmapId === "D3H7") { updateData(22) }
-                if(heatmapId === "D3H8") { updateData(23) }
-                if(heatmapId === "D3H9") { updateData(24) }
-                if(heatmapId === "D3H10") { updateData(25) }
-                if(heatmapId === "D3H11") { updateData(26) }
-                if(heatmapId === "D3H12") { updateData(27) }
-                if(heatmapId === "D3H13") { updateData(28) }    
-                if(heatmapId === "D3H14") { updateData(29) }
-                if(heatmapId === "D3H15") { updateData(30) } 
-                if(heatmapId === "D3H16") { updateData(31) } 
-                if(heatmapId === "D3H17") { updateData(32) } 
+                if(heatmapId === "D3H7") { svg.selectAll(".when").text("[Wednesday, 7:30 am ~ 8:30 am]"); updateData(22) }
+                if(heatmapId === "D3H8") { svg.selectAll(".when").text("[Wednesday, 8:30 am ~ 9:30 am]"); updateData(23) }
+                if(heatmapId === "D3H9") { svg.selectAll(".when").text("[Wednesday, 9:30 am ~ 10:30 am]"); updateData(24) }
+                if(heatmapId === "D3H10") { svg.selectAll(".when").text("[Wednesday, 10:30 am ~ 11:30 am]"); updateData(25) }
+                if(heatmapId === "D3H11") { svg.selectAll(".when").text("[Wednesday, 11:30 am ~ 12:30 pm]"); updateData(26) }
+                if(heatmapId === "D3H12") { svg.selectAll(".when").text("[Wednesday, 12:30 pm ~ 1:30 pm]"); updateData(27) }
+                if(heatmapId === "D3H13") { svg.selectAll(".when").text("[Wednesday, 1:30 pm ~ 2:30 pm]"); updateData(28) }    
+                if(heatmapId === "D3H14") { svg.selectAll(".when").text("[Wednesday, 2:30 pm ~ 3:30 pm]"); updateData(29) }
+                if(heatmapId === "D3H15") { svg.selectAll(".when").text("[Wednesday, 3:30 pm ~ 4:30 pm]"); updateData(30) } 
+                if(heatmapId === "D3H16") { svg.selectAll(".when").text("[Wednesday, 4:30 pm ~ 5:30 pm]"); updateData(31) } 
+                if(heatmapId === "D3H17") { svg.selectAll(".when").text("[Wednesday, 5:30 pm ~ 6:30 pm]"); updateData(32) } 
 
-                if(heatmapId === "D4H7") { updateData(33) }
-                if(heatmapId === "D4H8") { updateData(34) }
-                if(heatmapId === "D4H9") { updateData(35) }
-                if(heatmapId === "D4H10") { updateData(36) }
-                if(heatmapId === "D4H11") { updateData(37) }
-                if(heatmapId === "D4H12") { updateData(38) }
-                if(heatmapId === "D4H13") { updateData(39) }    
-                if(heatmapId === "D4H14") { updateData(40) }
-                if(heatmapId === "D4H15") { updateData(41) } 
-                if(heatmapId === "D4H16") { updateData(42) } 
-                if(heatmapId === "D4H17") { updateData(43) } 
+                if(heatmapId === "D4H7") { svg.selectAll(".when").text("[Thursday, 7:30 am ~ 8:30 am]"); updateData(33) }
+                if(heatmapId === "D4H8") { svg.selectAll(".when").text("[Thursday, 8:30 am ~ 9:30 am]"); updateData(34) }
+                if(heatmapId === "D4H9") { svg.selectAll(".when").text("[Thursday, 9:30 am ~ 10:30 am]"); updateData(35) }
+                if(heatmapId === "D4H10") { svg.selectAll(".when").text("[Thursday, 10:30 am ~ 11:30 am]"); updateData(36) }
+                if(heatmapId === "D4H11") { svg.selectAll(".when").text("[Thursday, 11:30 am ~ 12:30 pm]"); updateData(37) }
+                if(heatmapId === "D4H12") { svg.selectAll(".when").text("[Thursday, 12:30 pm ~ 1:30 pm]"); updateData(38) }
+                if(heatmapId === "D4H13") { svg.selectAll(".when").text("[Thursday, 1:30 pm ~ 2:30 pm]"); updateData(39) }    
+                if(heatmapId === "D4H14") { svg.selectAll(".when").text("[Thursday, 2:30 pm ~ 3:30 pm]"); updateData(40) }
+                if(heatmapId === "D4H15") { svg.selectAll(".when").text("[Thursday, 3:30 pm ~ 4:30 pm]"); updateData(41) } 
+                if(heatmapId === "D4H16") { svg.selectAll(".when").text("[Thursday, 4:30 pm ~ 5:30 pm]"); updateData(42) } 
+                if(heatmapId === "D4H17") { svg.selectAll(".when").text("[Thursday, 5:30 pm ~ 6:30 pm]"); updateData(43) } 
                 
-                if(heatmapId === "D5H7") { updateData(44) }
-                if(heatmapId === "D5H8") { updateData(45) }
-                if(heatmapId === "D5H9") { updateData(46) }
-                if(heatmapId === "D5H10") { updateData(47) }
-                if(heatmapId === "D5H11") { updateData(48) }
-                if(heatmapId === "D5H12") { updateData(49) }
-                if(heatmapId === "D5H13") { updateData(50) }    
-                if(heatmapId === "D5H14") { updateData(51) }
-                if(heatmapId === "D5H15") { updateData(52) } 
-                if(heatmapId === "D5H16") { updateData(53) } 
-                if(heatmapId === "D5H17") { updateData(54) }     
+                if(heatmapId === "D5H7") { svg.selectAll(".when").text("[Friday, 7:30 am ~ 8:30 am]"); updateData(44) }
+                if(heatmapId === "D5H8") { svg.selectAll(".when").text("[Friday, 8:30 am ~ 9:30 am]"); updateData(45) }
+                if(heatmapId === "D5H9") { svg.selectAll(".when").text("[Friday, 9:30 am ~ 10:30 am]"); updateData(46) }
+                if(heatmapId === "D5H10") { svg.selectAll(".when").text("[Friday, 10:30 am ~ 11:30 am]"); updateData(47) }
+                if(heatmapId === "D5H11") { svg.selectAll(".when").text("[Friday, 11:30 am ~ 12:30 pm]"); updateData(48) }
+                if(heatmapId === "D5H12") { svg.selectAll(".when").text("[Friday, 12:30 pm ~ 1:30 pm]"); updateData(49) }
+                if(heatmapId === "D5H13") { svg.selectAll(".when").text("[Friday, 1:30 pm ~ 2:30 pm]"); updateData(50) }    
+                if(heatmapId === "D5H14") { svg.selectAll(".when").text("[Friday, 2:30 pm ~ 3:30 pm]"); updateData(51) }
+                if(heatmapId === "D5H15") { svg.selectAll(".when").text("[Friday, 3:30 pm ~ 4:30 pm]"); updateData(52) } 
+                if(heatmapId === "D5H16") { svg.selectAll(".when").text("[Friday, 4:30 pm ~ 5:30 pm]"); updateData(53) } 
+                if(heatmapId === "D5H17") { svg.selectAll(".when").text("[Friday, 5:30 pm ~ 6:30 pm]"); updateData(54) }       
 
 
             });
@@ -1038,7 +1047,7 @@
                     //console.log("H  " + tree[value_key].toString());
                     tree.size = parseFloat(tree[value_key]);
                     //console.log("H  " + tree.value);
-                    tree.name = tree[value_name];
+                    tree.name = tree[value_name] + "  (Enrollment: " + tree[value_key] + ")";
 
                     delete tree[value_key];
                     delete tree[value_name];
