@@ -1,0 +1,819 @@
+Department,Crse,Title,Days,Time,Act,Instructor,Location,Type
+AAE,20300,Aeromechanics I,TR,03:00 pm-04:15 pm,61,Carolin E Frueh (P),EE 117,Lecture
+AAE,20400,Aeromechanics II,TR,09:00 am-10:15 am,81,Wenbin Yu (P),SC 239,Lecture
+AAE,20400,Aeromechanics II,MWF,08:30 am-09:20 am,80,Sergii Kravchenko (P),PHYS 203,Lecture
+AAE,25100,Introduction To Aerospace Design,TR,12:00 pm-01:15 pm,98,Karen Marais (P),HIKS B848,Lecture
+AAE,20401,Aeromechanics II Laboratory,T,01:30 pm-03:20 pm,15,"Nicolaus S Caniza (P), James Francis Doyle",ARMS 3106,Laboratory
+AAE,20401,Aeromechanics II Laboratory,R,01:30 pm-03:20 pm,18,"Sanel Horozovic (P), James Francis Doyle",ARMS 3106,Laboratory
+AAE,20401,Aeromechanics II Laboratory,W,09:30 am-11:20 am,16,"Theodore W Sieffert (P), James Francis Doyle",ARMS 3106,Laboratory
+AAE,20401,Aeromechanics II Laboratory,F,09:30 am-11:20 am,16,"Theodore W Sieffert (P), James Francis Doyle",ARMS 3106,Laboratory
+AAE,20401,Aeromechanics II Laboratory,R,09:30 am-11:20 am,15,"Sanel Horozovic (P), James Francis Doyle",ARMS 3106,Laboratory
+AAE,20401,Aeromechanics II Laboratory,W,11:30 am-01:20 pm,17,"Georgios Georgalis (P), James Francis Doyle",ARMS 3106,Laboratory
+AAE,20401,Aeromechanics II Laboratory,T,11:30 am-01:20 pm,13,"Abi Chandra Komanduru (P), James Francis Doyle",ARMS 3106,Laboratory
+AAE,20401,Aeromechanics II Laboratory,W,01:30 pm-03:20 pm,16,"Abi Chandra Komanduru (P), James Francis Doyle",ARMS 3106,Laboratory
+AAE,20401,Aeromechanics II Laboratory,F,11:30 am-01:20 pm,17,"Georgios Georgalis (P), James Francis Doyle",ARMS 3106,Laboratory
+AAE,20401,Aeromechanics II Laboratory,R,11:30 am-01:20 pm,14,"Nicolaus S Caniza (P), James Francis Doyle",ARMS 3106,Laboratory
+AAE,30000,Undergraduate Junior Seminar,T,01:30 pm-02:20 pm,50,Taylor M Weast (P),PHYS 203,Lecture
+AAE,30100,Signal Analysis For Aerospace Engineering,TR,10:30 am-11:45 am,62,Dengfeng Sun (P),ME 2061,Lecture
+AAE,33300,Fluid Mechanics,MWF,09:30 am-10:20 am,54,Alina Alexeenko (P),ME 1009,Lecture
+AAE,33301,Fluid Mechanics Laboratory,T,11:30 am-01:20 pm,5,"Saad Tanvir (P), Sally Pm Bane",ARMS 3106,Laboratory
+AAE,33301,Fluid Mechanics Laboratory,T,01:30 pm-03:20 pm,8,"Ethan A Mcmillan (P), Sally Pm Bane",ARMS 3106,Laboratory
+AAE,33301,Fluid Mechanics Laboratory,R,11:30 am-01:20 pm,4,"Saad Tanvir (P), Sally Pm Bane",ARMS 3106,Laboratory
+AAE,33301,Fluid Mechanics Laboratory,T,03:30 pm-05:20 pm,8,"Saverio Joseph Rotella (P), Sally Pm Bane",ARMS 3106,Laboratory
+AAE,33301,Fluid Mechanics Laboratory,T,09:30 am-11:20 am,2,"William John O'Neill (P), Sally Pm Bane",ARMS 3106,Laboratory
+AAE,33301,Fluid Mechanics Laboratory,R,01:30 pm-03:20 pm,9,"Bhavini Singh (P), Sally Pm Bane",ARMS 3106,Laboratory
+AAE,33301,Fluid Mechanics Laboratory,R,03:30 pm-05:20 pm,8,"Prashanth Bangalore venkatesh (P), Sally Pm Bane",ARMS 3106,Laboratory
+AAE,33301,Fluid Mechanics Laboratory,M,11:30 am-12:20 pm,44,Sally Pm Bane (P),RHPH 164,Laboratory Preparation
+AAE,33400,Aerodynamics,MWF,02:30 pm-03:20 pm,106,John P Sullivan (P),ARMS 1010,Lecture
+AAE,33401,Aerodynamics Laboratory,T,11:30 am-01:20 pm,10,"William John O'Neill (P), Sally Pm Bane",ARMS 3098,Laboratory
+AAE,33401,Aerodynamics Laboratory,R,11:30 am-01:20 pm,10,"Saad Tanvir (P), Sally Pm Bane",ARMS 3098,Laboratory
+AAE,33401,Aerodynamics Laboratory,R,03:30 pm-05:20 pm,8,"Prashanth Bangalore venkatesh (P), Sally Pm Bane",ARMS 3098,Laboratory
+AAE,33401,Aerodynamics Laboratory,T,03:30 pm-05:20 pm,8,"Saverio Joseph Rotella (P), Sally Pm Bane",ARMS 3098,Laboratory
+AAE,33401,Aerodynamics Laboratory,R,07:30 am-09:20 am,3,"William John O'Neill (P), Sally Pm Bane",ARMS 3098,Laboratory
+AAE,33401,Aerodynamics Laboratory,T,09:30 am-11:20 am,10,"William John O'Neill (P), Sally Pm Bane",ARMS 3098,Laboratory
+AAE,33401,Aerodynamics Laboratory,R,01:30 pm-03:20 pm,10,"Bhavini Singh (P), Sally Pm Bane",ARMS 3098,Laboratory
+AAE,33401,Aerodynamics Laboratory,R,09:30 am-11:20 am,9,"William John O'Neill (P), Sally Pm Bane",ARMS 3098,Laboratory
+AAE,33401,Aerodynamics Laboratory,M,01:30 pm-02:20 pm,78,Sally Pm Bane (P),FRNY G140,Laboratory Preparation
+AAE,33401,Aerodynamics Laboratory,T,01:30 pm-03:20 pm,10,"Ethan A Mcmillan (P), Sally Pm Bane",ARMS 3098,Laboratory
+AAE,34000,Dynamics And Vibrations,MWF,10:30 am-11:20 am,96,Kathleen Howell (P),ARMS 1010,Lecture
+AAE,35200,Structural Analysis I,MWF,08:30 am-09:20 am,46,Chin-Teh Sun (P),ARMS B071,Lect
+AAE,35201,Structural Analysis I Laboratory,F,01:30 pm-03:20 pm,0,Ning Liu (P),ARMS 3106,Laboratory
+AAE,35201,Structural Analysis I Laboratory,T,09:30 am-11:20 am,16,Ning Liu (P),ARMS 3106,Laboratory
+AAE,35201,Structural Analysis I Laboratory,R,03:30 pm-05:20 pm,4,Ning Liu (P),ARMS 3106,Laboratory
+AAE,36400,Control System Analysis,MWF,09:30 am-10:20 am,105,"Inseok Hwang (P), Abhishek Bhavadip Vaidya",FRNY G140,Lecture
+AAE,36401,Control Systems Laboratory,R,03:30 pm-05:20 pm,13,David William Kun (P),ARMS 3106,Laboratory
+AAE,36401,Control Systems Laboratory,R,01:30 pm-03:20 pm,12,Rochelle Nyonchan Mellish (P),ARMS 3106,Laboratory
+AAE,36401,Control Systems Laboratory,T,01:30 pm-03:20 pm,12,Rochelle Nyonchan Mellish (P),ARMS 3106,Laboratory
+AAE,36401,Control Systems Laboratory,R,11:30 am-01:20 pm,13,Robert E Pritchett (P),ARMS 3106,Laboratory
+AAE,36401,Control Systems Laboratory,T,11:30 am-01:20 pm,13,Robert E Pritchett (P),ARMS 3106,Laboratory
+AAE,36401,Control Systems Laboratory,R,09:30 am-11:20 am,11,Abi Chandra Komanduru (P),ARMS 3106,Laboratory
+AAE,36401,Control Systems Laboratory,T,09:30 am-11:20 am,12,Abi Chandra Komanduru (P),ARMS 3106,Laboratory
+AAE,36401,Control Systems Laboratory,M,12:30 pm-01:20 pm,86,"Arthur E Frazho (P), Abi Chandra Komanduru , David William Kun , Rochelle Nyonchan Mellish , Robert E Pritchett",MSEE B012,Laboratory Preparation
+AAE,37200,Jet Propulsion Power Plants,MWF,04:30 pm-05:20 pm,70,Christopher Allen Fugger (P),PHYS 112,Lecture
+AAE,40000,Undergraduate Senior Seminar,R,01:30 pm-02:20 pm,83,Taylor M Weast (P),ARMS 1010,Lecture
+AAE,41800,Zero-Gravity Flight Experiment,W,01:30 pm-02:20 pm,26,Steven H Collicott (P),ARMS 1021,Lecture
+AAE,41800,Zero-Gravity Flight Experiment,MWF,12:30 pm-01:20 pm,26,Steven H Collicott (P),ARMS 1021,Laboratory
+AAE,42100,Flight Dynamics And Control,MWF,07:30 am-08:20 am,52,Dominick Andrisani (P),ARMS 1109,Lecture
+AAE,45000,Spacecraft Design,TR,11:30 am-12:20 pm,51,James M Longuski (P),ARMS B071,Lecture
+AAE,45000,Spacecraft Design,R,07:30 am-10:20 am,51,James M Longuski (P),ARMS 1109,Laboratory
+AAE,45000,Spacecraft Design,T,03:30 pm-05:20 pm,2,Timothee Louis Pourpoint (P),CHAF 101,Lecture
+AAE,45000,Spacecraft Design,R,03:00 pm-05:50 pm,2,Timothee Louis Pourpoint (P),CHAF 101,Laboratory
+AAE,45100,Aircraft Design,TR,09:30 am-10:20 am,60,William A Crossley (P),FRNY B124,Lecture
+AAE,45100,Aircraft Design,T,01:30 pm-04:20 pm,60,William A Crossley (P),FRNY B124,Laboratory
+AAE,45100,Aircraft Design,F,10:30 am-01:20 pm,1,John P Sullivan (P),ARMS 3118,Laboratory
+AAE,45100,Aircraft Design,MW,11:00 am-11:50 am,1,John P Sullivan (P),ARMS 3118,Lecture
+AAE,45300,Matrix Methods In Aerospace Structures,MWF,04:30 pm-05:20 pm,24,Vikas Tomar (P),ARMS 1021,Lecture
+AAE,45400,Design Of Aerospace Structures,MWF,11:30 am-12:20 pm,39,Alten F Grandt (P),ARMS 1021,Lect
+AAE,49000,Flight Test,MWF,09:30 am-10:20 am,28,Dominick Andrisani (P),ARMS 1021,Lecture
+AAE,51200,Computational Aerodynamics,MWF,01:30 pm-02:20 pm,44,Tom I-P Shih (P),WANG 2579,Lecture
+AAE,51400,Intermediate Aerodynamics,TR,09:00 am-10:15 am,45,Sally Pm Bane (P),WANG 2579,Lecture
+AAE,52000,Experimental Aerodynamics,W,10:30 am-01:20 pm,2,Steven P Schneider (P),AERO 028,Laboratory
+AAE,52000,Experimental Aerodynamics,W,01:30 pm-04:20 pm,2,Steven P Schneider (P),AERO 028,Laboratory
+AAE,52000,Experimental Aerodynamics,M,10:30 am-01:20 pm,1,Steven P Schneider (P),AERO 028,Laboratory
+AAE,52000,Experimental Aerodynamics,R,01:30 pm-04:20 pm,2,Steven P Schneider (P),AERO 028,Laboratory
+AAE,52000,Experimental Aerodynamics,T,01:30 pm-04:20 pm,0,Steven P Schneider (P),AERO 028,Laboratory
+AAE,52000,Experimental Aerodynamics,T,10:30 am-01:20 pm,1,Steven P Schneider (P),AERO 028,Laboratory
+AAE,52000,Experimental Aerodynamics,R,10:30 am-01:20 pm,2,Steven P Schneider (P),AERO 028,Laboratory
+AAE,52000,Experimental Aerodynamics,F,01:30 pm-04:20 pm,1,Steven P Schneider (P),AERO 028,Laboratory
+AAE,52000,Experimental Aerodynamics,M,01:30 pm-04:20 pm,2,Steven P Schneider (P),AERO 028,Laboratory
+AAE,52000,Experimental Aerodynamics,F,10:30 am-01:20 pm,2,Steven P Schneider (P),AERO 028,Laboratory
+AAE,52000,Experimental Aerodynamics,W,04:30 pm-05:20 pm,15,Steven P Schneider (P),NISW 184,Lecture
+AAE,52000,Experimental Aerodynamics,M,04:30 pm-05:20 pm,15,Steven P Schneider (P),NISW 184,Recitation
+AAE,53500,"Propulsion Design, Build, Test",R,03:30 pm-05:20 pm,11,Timothee Louis Pourpoint (P),CHAF 101,Lecture
+AAE,53500,"Propulsion Design, Build, Test",T,03:30 pm-05:20 pm,11,Timothee Louis Pourpoint (P),CHAF 101,Laboratory
+AAE,53900,Advanced Rocket Propulsion,MWF,01:30 pm-02:20 pm,35,Stephen D Heister (P),ARMS 1109,Lecture
+AAE,55200,Nondestructive Evaluation Of Structures And Materials,MWF,09:30 am-10:20 am,22,Alten F Grandt (P),WANG 2599,Lecture
+AAE,55500,Mechanics Of Composite Materials,MWF,11:30 am-12:20 pm,34,Johnathan Eugene Goodsell (P),WANG 2599,Lecture
+AAE,56000,System-Of-Systems Modeling And Analysis,TR,10:30 am-11:45 am,32,Daniel A Delaurentis (P),WANG 2579,Lecture
+AAE,56700,Introduction To Applied Stochastic Processes,MWF,11:30 am-12:20 pm,18,Arthur E Frazho (P),ARMS 3115,Lecture
+AAE,56800,Applied Optimal Control And Estimation,MWF,02:30 pm-03:20 pm,22,Inseok Hwang (P),ARMS 3115,Lecture
+AAE,59000,Design Build Test,MWF,03:30 pm-04:20 pm,8,John P Sullivan (P),ARMS 1021,Lecture
+AAE,59000,Mechanical Behavior Of Matl,TR,10:30 am-11:45 am,17,Michael D Sangid (P),ARMS 1021,Lecture
+AAE,59000,Dynamic Behavior Of Materials,TR,01:30 pm-02:45 pm,5,Weinong W Chen (P),ARMS 3115,Lecture
+AAE,59000,Hypersonic Perf And Design,MWF,01:30 pm-02:20 pm,15,Michael James Grant (P),ARMS 3115,Lecture
+AAE,59000,Plasmas And Elect Discharges,TR,10:30 am-11:45 am,26,Sergey O Macheret (P),ARMS 3115,Lecture
+AAE,59000,Practical Systems Thinking,MWF,09:30 am-10:20 am,30,Daniel Louis Dumbacher (P),EE 234,Lecture
+AAE,59000,Systems Tools & Methodologies,MWF,11:30 am-12:20 pm,14,Charles Robert Kenley (P),MSEE B010,Lecture
+AAE,59500,Aerospace Seminar,TR,03:00 pm-04:15 pm,0,Inseok Hwang (P),ARMS 1109,Lecture
+AAE,60700,Variational Principles Of Mechanics,MWF,09:30 am-10:20 am,9,James M Longuski (P),WANG 2555,Lecture
+AAE,62600,Turbulence And Turbulence Modeling,MWF,12:30 pm-01:20 pm,49,Gregory A Blaisdell (P),WANG 2555,Lecture
+AAE,65400,Fracture Mechanics,TR,12:00 pm-01:15 pm,23,Chin-Teh Sun (P),ARMS 1021,Lecture
+AAE,66600,"Nonlinear Dynamics, Systems, And Control",TR,01:30 pm-02:45 pm,28,Martin Corless (P),ARMS 1021,Lecture
+AAE,69000,Multiscale Structural Mechnics,TR,01:30 pm-02:45 pm,13,Wenbin Yu (P),HAMP 3153,Lecture
+ABE,20200,Thermodynamics In Biological Systems II,TR,09:00 am-10:15 am,51,David M Umulis (P),ABE 204,Lecture
+ABE,21000,Thermodynamics Principles Of Engineering And Biological Systems,TR,10:30 am-11:45 am,31,Sadegh Dabiri Satari (P),ABE 204,Lecture
+ABE,30100,Modeling And Computational Tools In Biological Engineering,TR,09:00 am-10:15 am,10,Bernard Y Tao (P),ABE 118,Lecture
+ABE,30400,Bioprocess Engineering Laboratory,R,02:30 pm-06:20 pm,20,"Abigail S Engelberth (P), Jenna L Rickus",DLR 128,Laboratory
+ABE,30400,Bioprocess Engineering Laboratory,T,01:30 pm-02:20 pm,24,"Abigail S Engelberth (P), Jenna L Rickus",DLR 128,Laboratory Preparation
+ABE,30400,Bioprocess Engineering Laboratory,T,02:30 pm-06:20 pm,24,"Abigail S Engelberth (P), Jenna L Rickus",DLR 128,Laboratory
+ABE,30400,Bioprocess Engineering Laboratory,R,01:30 pm-02:20 pm,20,"Abigail S Engelberth (P), Jenna L Rickus",DLR 128,Laboratory Preparation
+ABE,30800,Heat And Mass Transfer In Food And Biological Systems,TR,10:30 am-11:45 am,42,Osvaldo H Campanella (P),ABE 205,Lecture
+ABE,31400,Design Of Electronic Systems,MW,01:30 pm-02:20 pm,44,John H Lumkes (P),SMTH 118,Lecture
+ABE,31400,Design Of Electronic Systems,W,09:30 am-11:20 am,27,John H Lumkes (P),DLR 131,Laboratory
+ABE,31400,Design Of Electronic Systems,T,11:30 am-01:20 pm,17,John H Lumkes (P),DLR 131,Laboratory
+ABE,32000,"Solid Modeling, Simulation, And Analysis",M,11:30 am-12:20 pm,15,Stanley Dean Harlow (P),ABE 205,Lecture
+ABE,32000,"Solid Modeling, Simulation, And Analysis",W,03:30 pm-05:20 pm,15,Stanley Dean Harlow (P),ABE 118,Laboratory
+ABE,33000,Design Of Machine Components,TR,09:30 am-10:20 am,17,Gary W Krutz (P),ABE 205,Lecture
+ABE,33000,Design Of Machine Components,R,03:30 pm-05:20 pm,17,Gary W Krutz (P),ABE 102,Laboratory
+ABE,37000,Biological/Microbial Kinetics And Reaction Engineering,MWF,12:30 pm-01:20 pm,57,Meng Deng (P),LILY G420,Lecture
+ABE,44000,Cell And Molecular Design Principles,TR,12:00 pm-01:15 pm,7,Jenna L Rickus (P),ABE 301,Lecture
+ABE,45700,Transport Operations In Food And Biological Engineering I,MWF,02:30 pm-03:20 pm,49,Ganesan Narsimhan (P),ABE 204,Lecture
+ABE,48600,Agricultural Engineering Design,MW,03:30 pm-05:20 pm,21,"Bernard Allen Engel (P), Robert Merton Stwalley",ABE 205,Laboratory
+ABE,49500,GIS Techology Tools,TR,12:00 pm-01:15 pm,8,Jane R Frankenberger (P),ABE 204,Lecture
+ABE,49500,Irrigation Technology Tools,TR,12:00 pm-01:15 pm,6,Vincent F Bralts (P),ABE 204,Lecture
+ABE,49500,Storm Water Design,TR,12:00 pm-01:15 pm,6,Sara K Mcmillan (P),ABE 204,Lecture
+ABE,49500,Proc Design Food & Bio Syst II,TR,05:30 pm-06:20 pm,43,Martin R Okos (P),ABE 204,Laboratory
+ABE,49500,Ag Machinery For Engineers,T,05:30 pm-07:20 pm,6,"Gary W Krutz (P), Robert Merton Stwalley",ABE 301,Lecture
+ABE,50100,Welding Engineering,T,11:30 am-12:20 pm,6,Gary W Krutz (P),ABE 102,Lecture
+ABE,55700,Transport Operations In Food And Biological Systems II,MWF,02:30 pm-03:20 pm,1,Martin R Okos (P),ABE 212,Lecture
+ABE,55800,Process Design For Food And Biological Systems,TR,02:30 pm-03:20 pm,43,Martin R Okos (P),ABE 204,Lecture
+ABE,55800,Process Design For Food And Biological Systems,TR,03:30 pm-05:20 pm,43,Martin R Okos (P),ABE 204,Laboratory
+ABE,58000,Process Engineering Of Renewal Resources,MWF,10:30 am-11:20 am,56,Nathan Scott Mosier (P),FORS 216,Lecture
+ABE,62600,"Life Of A Faculty Entrepreneur; Discovery, Delivery, Translation",R,05:30 pm-08:20 pm,22,"Nathalie Agathe- Duval-Couetil (P), Michael Ralph Ladisch",MRGN 121,Lecture
+ABE,62700,Colloidal Phenomena In Bioprocessing,MWF,09:30 am-10:20 am,10,Ganesan Narsimhan (P),ABE 205,Lecture
+ABE,69100,Hydraulic Pwr Trains&Hybrd,T,08:30 am-10:20 am,4,Monika Ivantysynova (P),INOK 200,Lecture
+ABE,69100,Hydraulic Pwr Trains&Hybrd,R,08:30 am-10:20 am,4,Monika Ivantysynova (P),INOK 200,Laboratory
+ABE,69100,Quantitative Systems Biology,TR,12:00 pm-01:15 pm,14,David M Umulis (P),ABE 212,Lecture
+ABE,69100,Water Science Seminar,R,09:30 am-10:20 am,5,Sara K Mcmillan (P),ABE 301,Lecture
+ABE,69600,Graduate Seminar,R,03:30 pm-04:20 pm,24,"Nathan Scott Mosier (P), Abigail S Engelberth",ABE 301,Lecture
+ABE,69700,Doctoral Professional Development,T,09:30 am-11:20 am,16,Abigail S Engelberth (P),ABE 301,Lecture
+BME,20400,Biomechanics Of Hard And Soft Tissues,TR,12:00 pm-01:15 pm,89,Sarah Calve (P),MJIS 1001,Lecture
+BME,20600,Biomechanics And Biomaterials Laboratory,T,09:00 am-11:50 am,21,"Corey P Neu (P), Lester J Smith",MJIS 1053,Laboratory
+BME,20600,Biomechanics And Biomaterials Laboratory,T,01:30 pm-04:20 pm,24,"Corey P Neu (P), Lester J Smith",MJIS 1053,Laboratory
+BME,20600,Biomechanics And Biomaterials Laboratory,R,09:00 am-11:50 am,22,"Corey P Neu (P), Lester J Smith",MJIS 1053,Laboratory
+BME,20600,Biomechanics And Biomaterials Laboratory,R,01:30 pm-04:20 pm,22,"Corey P Neu (P), Lester J Smith",MJIS 1053,Laboratory
+BME,25600,Physiological Modeling In Human Health,MWF,01:30 pm-02:20 pm,84,Charles Frederick Babbs (P),MJIS 1001,Lecture
+BME,30600,Biotransport Laboratory,T,08:30 am-11:20 am,14,"Asem F Aboelzahab (P), Tamara L Kinzer-Ursem",MJIS 1061,Laboratory
+BME,30600,Biotransport Laboratory,R,08:30 am-11:20 am,21,"Asem F Aboelzahab (P), Tamara L Kinzer-Ursem",MJIS 1061,Laboratory
+BME,30600,Biotransport Laboratory,T,01:30 pm-04:20 pm,14,"Asem F Aboelzahab (P), Tamara L Kinzer-Ursem",MJIS 1061,Laboratory
+BME,30600,Biotransport Laboratory,R,01:30 pm-04:20 pm,17,"Asem F Aboelzahab (P), Tamara L Kinzer-Ursem",MJIS 1061,Laboratory
+BME,39500,Prof Development & Design BME,F,09:30 am-11:20 am,67,"Jacqueline Callihan Linnes (P), Asem F Aboelzahab , Andrew Owen Brightman , Ann Elizabeth Rundell , Lester J Smith",HIKS B853,Studio
+BME,49500,Translation Sr Design Projects,W,10:30 am-11:20 am,0,"Pedro Irazoqui (P), Ann Elizabeth Rundell",MJIS 1053,Lecture
+BME,49500,Introduction To Bioimaging,TR,12:00 pm-01:15 pm,33,Young L Kim (P),MJIS 1083,Lecture
+BME,49500,Cell Mechanics,MWF,11:30 am-12:20 pm,9,Tae Yoon Kim (P),MJIS 1083,Lecture
+BME,52800,Measurement And Stimulation Of The Nervous System,TR,01:30 pm-02:45 pm,11,Eugenio Culurciello (P),MJIS 1083,Lecture
+BME,59500,Functional MRI Applications,F,09:30 am-10:20 am,16,"Corey P Neu (P), Gregory George Tamer",MJIS 1083,Laboratory Preparation
+BME,59500,Musculoskeletal Biol & Mechan,TR,09:00 am-10:15 am,8,"Joseph M Wallace (P), Andrew Owen Brightman",MJIS 1083,Lecture
+BME,59500,Engineering Ethics,R,04:30 pm-05:45 pm,7,Andrew Owen Brightman (P),MJIS 1083,Lecture
+BME,59500,Neural Mech Health & Disease,MWF,08:30 am-09:20 am,11,Edward L Bartlett (P),MJIS 1083,Lecture
+BME,59500,Reg Approval Of Biomed Devices,T,03:00 pm-05:50 pm,17,Vickie Joanne Maris (P),MJIS 1083,Lecture
+BME,69000,Seminar In Biomedical Engineering,W,09:30 am-10:20 am,30,Craig J Goergen (P),MJIS 1001,Lecture
+BME,69500,Cardiovascular BME & Imaging,TR,10:30 am-11:45 am,10,Craig J Goergen (P),MJIS 1083,Lecture
+CE,20300,Principles And Practice Of Geomatics,MWF,09:30 am-10:20 am,39,Steven D Johnson (P),HAMP 1252,Lecture
+CE,20300,Principles And Practice Of Geomatics,M,02:30 pm-05:20 pm,13,Felipe Anthony Tolliver (P),HAMP 1113,Laboratory
+CE,20300,Principles And Practice Of Geomatics,T,02:30 pm-05:20 pm,15,Logan Adam Praay (P),HAMP 1113,Laboratory
+CE,20300,Principles And Practice Of Geomatics,R,01:30 pm-04:20 pm,11,Logan Adam Praay (P),HAMP 1113,Laboratory
+CE,22200,Life Cycle Engineering And Mangement Of Constructed Facilities,MWF,10:30 am-11:20 am,85,Dulcy M Abraham (P),HAMP 1144,Lecture
+CE,23100,Engineering Materials I,MW,11:30 am-12:20 pm,105,Pablo Daniel Zavattieri (P),ARMS 1010,Lecture
+CE,23100,Engineering Materials I,M,01:30 pm-03:20 pm,17,Parth Panchmatia (P),HAMP G150C,Laboratory
+CE,23100,Engineering Materials I,M,03:30 pm-05:20 pm,22,Parth Panchmatia (P),HAMP G150C,Laboratory
+CE,23100,Engineering Materials I,T,09:30 am-11:20 am,20,Warda Bint Ashraf (P),HAMP G150C,Laboratory
+CE,23100,Engineering Materials I,T,11:30 am-01:20 pm,24,Kho Pin Verian (P),HAMP G150C,Laboratory
+CE,23100,Engineering Materials I,T,03:30 pm-05:20 pm,22,Belayneh Berhanu Desta (P),HAMP G150C,Laboratory
+CE,23100,Engineering Materials I,F,11:30 am-12:20 pm,105,Pablo Daniel Zavattieri (P),ARMS 1010,Laboratory Preparation
+CE,27000,Introductory Structural Mechanics,T,11:30 am-02:20 pm,18,Quang Dinh Nguyen (P),HAMP 2118,Laboratory
+CE,27000,Introductory Structural Mechanics,T,02:30 pm-05:20 pm,22,Kuo Guo (P),HAMP 2118,Laboratory
+CE,27000,Introductory Structural Mechanics,MWF,08:30 am-09:20 am,110,Amit H Varma (P),ME 1130,Lecture
+CE,27000,Introductory Structural Mechanics,W,02:30 pm-05:20 pm,22,Carissa M Maes (P),HAMP 1113,Laboratory
+CE,27000,Introductory Structural Mechanics,R,11:30 am-02:20 pm,24,Quang Dinh Nguyen (P),HAMP 2118,Laboratory
+CE,27000,Introductory Structural Mechanics,R,02:30 pm-05:20 pm,24,Carissa M Maes (P),HAMP 2118,Laboratory
+CE,29202,Contemporary Issues In Civil Engineering,W,03:30 pm-04:20 pm,43,John C Tompkins (P),HAMP 1252,Lecture
+CE,29202,Contemporary Issues In Civil Engineering,W,01:30 pm-02:20 pm,18,John C Tompkins (P),HAMP 2117,Recitation
+CE,29202,Contemporary Issues In Civil Engineering,W,02:30 pm-03:20 pm,25,John C Tompkins (P),HAMP 2117,Recitation
+CE,29700,Basic Mechanics I (Statics),MWF,12:30 pm-01:20 pm,124,Mohammad Reza Jahanshahi (P),WTHR 104,Lecture
+CE,29800,Basic Mechanics II Dynamics,MWF,07:30 am-08:20 am,97,Dennis A Lyn (P),ARMS 1010,Lecture
+CE,31100,Architectural Engineering,TR,01:30 pm-02:45 pm,15,Panagiota Karava (P),EE 117,Lecture
+CE,33100,Engineering Materials II,F,11:30 am-12:20 pm,54,William Jason Weiss (P),HAMP 1144,Laboratory Preparation
+CE,33100,Engineering Materials II,MW,11:30 am-12:20 pm,54,William Jason Weiss (P),HAMP 1144,Lecture
+CE,33100,Engineering Materials II,R,01:30 pm-03:20 pm,20,Catherine L Lucero (P),HAMP G150C,Laboratory
+CE,33100,Engineering Materials II,R,03:30 pm-05:20 pm,19,Hadi Shagerdi Esmaeeli (P),HAMP G150C,Laboratory
+CE,33100,Engineering Materials II,F,09:30 am-11:20 am,15,Robert Paul Spragg (P),HAMP G150C,Laboratory
+CE,34000,Hydraulics,MW,12:30 pm-01:20 pm,98,Cary D Troy (P),HAMP 1144,Lecture
+CE,34000,Hydraulics,F,01:30 pm-02:20 pm,98,Cary D Troy (P),HIKS B848,Recitation
+CE,34300,Elementary Hydraulics Laboratory,M,08:30 am-11:20 am,6,"Cary D Troy (P), Nikhil Sangwan",HAMP B115F,Laboratory
+CE,34300,Elementary Hydraulics Laboratory,T,11:30 am-02:20 pm,21,"Cary D Troy (P), Nikhil Sangwan",HAMP B115F,Laboratory
+CE,34300,Elementary Hydraulics Laboratory,T,02:30 pm-05:20 pm,20,"Cary D Troy (P), Meenu Ramadas",HAMP B115F,Laboratory
+CE,34300,Elementary Hydraulics Laboratory,R,11:30 am-02:20 pm,21,"Cary D Troy (P), Nikhil Sangwan",HAMP B115F,Laboratory
+CE,34300,Elementary Hydraulics Laboratory,R,02:30 pm-05:20 pm,19,"Cary D Troy (P), Meenu Ramadas",HAMP B115F,Laboratory
+CE,35000,Introduction To Environmental And Ecological Engineering,MF,09:30 am-10:20 am,80,Ernest Rowland Blatchley (P),MATH 175,Lecture
+CE,35000,Introduction To Environmental And Ecological Engineering,W,09:30 am-10:20 am,57,Ernest Rowland Blatchley (P),HIKS G980D,Recitation
+CE,35000,Introduction To Environmental And Ecological Engineering,W,10:30 am-11:20 am,23,Ernest Rowland Blatchley (P),HIKS G980D,Recitation
+CE,35500,Engineering Environmental Sustainability,MWF,11:30 am-12:20 pm,55,Loring F Nies (P),HIKS B848,Lecture
+CE,36100,Transportation Engineering,TR,12:00 pm-01:15 pm,78,Fred Laires Mannering (P),HAMP 1144,Lecture
+CE,37100,Structural Analysis I,MWF,08:30 am-09:20 am,61,Ayhan Irfanoglu (P),HAMP 1144,Lecture
+CE,38300,Geotechnical Engineering I,MW,03:30 pm-04:20 pm,67,Philippe L Bourdeau (P),HAMP 1144,Lecture
+CE,38300,Geotechnical Engineering I,F,03:30 pm-04:20 pm,67,Philippe L Bourdeau (P),HAMP 1144,Laboratory Preparation
+CE,38300,Geotechnical Engineering I,T,09:30 am-11:20 am,16,Anuj Choudhari (P),HAMP G150A,Laboratory
+CE,38300,Geotechnical Engineering I,T,03:30 pm-05:20 pm,18,Yu-chung Lin (P),HAMP G150A,Laboratory
+CE,38300,Geotechnical Engineering I,R,09:30 am-11:20 am,15,Anuj Choudhari (P),HAMP G150A,Laboratory
+CE,38300,Geotechnical Engineering I,R,03:30 pm-05:20 pm,18,Yu-chung Lin (P),HAMP G150A,Laboratory
+CE,39201,Technical Communication In Civil Engineering,F,03:30 pm-04:20 pm,23,John C Tompkins (P),HAMP 1252,Lecture
+CE,39201,Technical Communication In Civil Engineering,F,01:30 pm-02:20 pm,9,John C Tompkins (P),HAMP 2117,Recitation
+CE,39201,Technical Communication In Civil Engineering,F,02:30 pm-03:20 pm,14,John C Tompkins (P),HAMP 2117,Recitation
+CE,39800,Introduction To Civil Engineering Systems Design,TR,09:00 am-10:15 am,72,Satish V Ukkusuri (P),HIKS B853,Lecture
+CE,41400,Building Mechnical And Electrical System Design,MWF,12:30 pm-01:20 pm,13,William Travis Horton (P),HAMP 2118,Lecture
+CE,45700,Air Pollution Control And Design,TR,12:00 pm-01:15 pm,32,Robert Bertram Jacko (P),HAMP 3153,Lecture
+CE,47000,Structural Steel Design,MW,10:30 am-11:20 am,30,Judy Liu (P),HAMP 3153,Lecture
+CE,47000,Structural Steel Design,F,10:30 am-11:20 am,30,Judy Liu (P),HAMP 3153,Laboratory Preparation
+CE,47000,Structural Steel Design,R,03:30 pm-05:20 pm,30,Mohamad-Fikre B Haj-Husein (P),HAMP 3153,Laboratory
+CE,47300,Reinforced Concrete Design,MWF,09:30 am-10:20 am,52,Santiago Pujol (P),HAMP 1144,Lecture
+CE,47300,Reinforced Concrete Design,M,02:30 pm-05:20 pm,23,Andrew S Wiese (P),HAMP 3144,Laboratory
+CE,47300,Reinforced Concrete Design,T,02:30 pm-05:20 pm,29,Andrew S Wiese (P),SC 179,Laboratory
+CE,47400,Structural Analysis II,MWF,01:30 pm-02:20 pm,33,Arun Prakash (P),HAMP 1252,Lecture
+CE,48300,Geotechnical Engineering II,MWF,12:30 pm-01:20 pm,35,Antonio Bobet (P),HAMP 3153,Lecture
+CE,49700,Railroad Engineering,MWF,10:30 am-11:20 am,23,Garrett D Jeong (P),HAMP 1113,Lecture
+CE,49700,Cadastral Surveying,MW,01:30 pm-02:20 pm,13,Steven D Johnson (P),HAMP 3153,Lecture
+CE,49800,Civil Engineering Design Project,TR,09:30 am-11:20 am,30,"Nicholas D Clark (P), Erica C Fischer",HAMP 2118,Laboratory
+CE,49800,Civil Engineering Design Project,TR,08:30 am-09:20 am,83,Robert Bertram Jacko (P),HAMP 1144,Laboratory Preparation
+CE,49800,Civil Engineering Design Project,TR,09:30 am-11:20 am,35,"Nicholas D Clark (P), Erica C Fischer",HAMP 3153,Laboratory
+CE,49800,Civil Engineering Design Project,TR,09:30 am-11:20 am,18,"Nicholas D Clark (P), Erica C Fischer",HAMP 2123,Laboratory
+CE,51300,Lighting In Buildings,T,11:30 am-01:20 pm,11,Athanasios Tzempelikos (P),SC 179,Laboratory
+CE,51300,Lighting In Buildings,MW,04:30 pm-05:20 pm,11,Athanasios Tzempelikos (P),HAMP 3153,Lecture
+CE,51401,Building Controls,TR,01:30 pm-02:45 pm,20,Ming Qu (P),HAMP 2123,Lecture
+CE,52300,Selection And Utilization Of Construction Equipment,MWF,02:30 pm-03:20 pm,52,Phillip S Dunston (P),KNOY B033,Lecture
+CE,53000,Properties And Production Of Concrete,MWF,12:30 pm-01:20 pm,53,William Jason Weiss (P),HAMP 1252,Lecture
+CE,53500,Bituminous Materials And Mixtures,MF,02:30 pm-03:20 pm,21,John Ernest Haddock (P),HAMP 2123,Lecture
+CE,53500,Bituminous Materials And Mixtures,W,02:30 pm-05:20 pm,21,John Ernest Haddock (P),HAMP 2123,Laboratory
+CE,55900,Water Quality Modeling,MWF,09:30 am-10:20 am,18,Chad T Jafvert (P),HAMP 3153,Lecture
+CE,56000,Public Mass Transportation,MWF,08:30 am-09:20 am,18,Jon D Fricker (P),HAMP 2123,Lecture
+CE,56200,Geometric Design Of Highways,MW,09:30 am-10:20 am,9,Andrew P Tarko (P),HAMP 1113,Lecture
+CE,56200,Geometric Design Of Highways,W,10:30 am-01:20 pm,9,Andrew P Tarko (P),HAMP 3144,Laboratory
+CE,56800,Highway Infrastructure Management Systems,MWF,11:30 am-12:20 pm,21,Samuel Labi (P),HAMP 2118,Lectur
+CE,57100,Earthquake Engineering,TR,09:00 am-10:15 am,29,Mete A Sozen (P),FRNY G124,Lecture
+CE,57200,Prestressed Concrete Design,TR,12:00 pm-01:15 pm,28,Julio Alfonso Ramirez (P),ARMS 1109,Lecture
+CE,59400,Transportation Systems Analysis,TR,12:00 pm-01:15 pm,20,Srinivas Peeta (P),HAMP 2123,Lecture
+CE,59500,Finite Elements In Elasticity,MWF,02:30 pm-03:20 pm,32,Ghadir Haikal (P),HAMP 3153,Lecture
+CE,59700,Geographic Information Systems,MWF,01:30 pm-02:20 pm,17,Jie Shan (P),HAMP 2123,Lecture
+CE,59700,Digital Photogrammetric Sys,TR,04:30 pm-05:45 pm,12,Ayman F Habib (P),HAMP 2117,Lecture
+CE,59700,Water Chemistry Env Eco Eng,TR,09:00 am-10:15 am,19,Inez Hua (P),HAMP 1113,Lecture
+CE,59700,Water Supply In Dev Countries,M,03:30 pm-05:20 pm,6,"Bruce M Applegate (P), Ernest Rowland Blatchley , Kenneth Alan Foster , Vicki L Simpson",HAMP 2118,Lecture
+CE,59700,Built Environment Modeling,TR,10:30 am-11:45 am,13,Hubo Cai (P),HAMP 1113,Lecture
+CE,59700,Hyd Sed Trans Asp Steam Rest,MWF,01:30 pm-02:20 pm,21,Dennis A Lyn (P),HAMP 1113,Lecture
+CE,59700,Sustainable Binders,MWF,09:30 am-10:20 am,8,Jan Olek (P),HAMP 2118,Lecture
+CE,59700,Environmental Biotechnology,MWF,08:30 am-09:20 am,19,Zhi Zhou (P),HAMP 2118,Lecture
+CE,59700,Polymers In Infrastr & Environ,MWF,01:30 pm-02:20 pm,8,Andrew J Whelton (P),HAMP 2118,Lecture
+CE,59700,Anlys Plates & Shells,MWF,10:30 am-11:20 am,7,Sukru Guzey (P),HAMP 2118,Lecture
+CE,59700,Intlgnt Mtrl & Struct Civl Eng,MWF,09:30 am-10:20 am,8,Bin Xu (P),HAMP 2123,Lecture
+CE,59700,Brkth Thnkg Complx,W,09:30 am-10:20 am,20,Joseph V Sinfield (P),ME 1006,Lecture
+CE,61500,Statistical And Econometric Methods II,T,05:30 pm-08:20 pm,22,Fred Laires Mannering (P),HAMP 2118,Lecture
+CE,67100,Behavior Of Metal Structures,MWF,11:30 am-12:20 pm,23,Robert J Connor (P),HAMP 3153,Lecture
+CE,67401,Bridge Engineering,MWF,08:30 am-09:20 am,11,Mark Douglas Bowman (P),HAMP 3153,Lecture
+CE,68100,Engineering Properties Of Soils,MW,10:30 am-11:20 am,9,Maria Caterina Santagata (P),HAMP 2123,Lecture
+CE,68100,Engineering Properties Of Soils,F,10:30 am-01:20 pm,9,Maria Caterina Santagata (P),HAMP G150A,Laboratory
+CE,68600,Underground Construction,MW,05:30 pm-06:45 pm,20,Antonio Bobet (P),HAMP 2102,Lecture
+CE,69100,CE Sem-Hydraul & Hyd,W,02:30 pm-03:20 pm,16,Dennis A Lyn (P),HAMP 1252,Lecture
+CE,69100,CE Sem-Geomatics,W,03:30 pm-04:20 pm,4,James Samuel Bethel (P),HAMP 2118,Lecture
+CE,69100,CE Sem-Structural,T,04:30 pm-05:20 pm,27,Sukru Guzey (P),HAMP 1144,Lecture
+CE,69100,CE Sem-Transportation,T,03:30 pm-04:20 pm,31,Kumares C Sinha (P),HAMP 1144,Lecture
+CE,69100,CE-Sem Gr Stdnt Orient,R,09:30 am-10:20 am,16,Dulcy M Abraham (P),HAMP 2101,Lecture
+CE,69700,Satellite Photogrammtry,MWF,08:30 am-09:20 am,11,James Samuel Bethel (P),HAMP 1113,Lecture
+CE,69700,SAR Interferometry,MWF,04:30 pm-05:20 pm,4,Daniele Perissin (P),HAMP 2101,Lecture
+CEM,20100,Life Cycle Engineering And Management Of Constructed Facilities,MWF,10:30 am-11:20 am,13,Dulcy M Abraham (P),HAMP 1144,Lecture
+CEM,28000,Construction Engineering Professional Development I,T,01:30 pm-02:20 pm,25,Brandon Michael Fulk (P),HAMP 1113,Lecture
+CEM,30200,Practical Applications For Construction Engineering,MWF,11:30 am-12:20 pm,15,Victor P Gervais (P),HAMP 1113,Lecture
+CEM,49700,Facilities Engr & Mgmt,M,05:30 pm-08:20 pm,3,Theodore J Weidner (P),HAMP 1113,Lecture
+CEM,49700,Construction Means & Methods,TR,03:00 pm-04:15 pm,17,Brandon Michael Fulk (P),HAMP 2123,Lecture
+CHE,20100,Cooperative Seminar I,T,04:30 pm-05:20 pm,22,Gabriela Nagy (P),FRNY B124,Lecture
+CHE,20500,Chemical Engineering Calculations,MWF,10:30 am-11:20 am,61,Bryan W Boudouris (P),EE 270,Lecture
+CHE,20500,Chemical Engineering Calculations,F,08:30 am-09:20 am,27,Ridade Sayin (P),FRNY 1043,Recitation
+CHE,20500,Chemical Engineering Calculations,F,02:30 pm-03:20 pm,34,Edward Philips Tomlinson (P),FRNY 1043,Recitation
+CHE,21100,Introductory Chemical Engineering Thermodynamics,MWF,08:30 am-09:20 am,139,Elias I Franses (P),FRNY G140,Lecture
+CHE,21100,Introductory Chemical Engineering Thermodynamics,T,03:30 pm-04:20 pm,48,Hee-joon Chun (P),FRNY 1043,Recitation
+CHE,21100,Introductory Chemical Engineering Thermodynamics,R,04:30 pm-05:20 pm,45,Xin Zhao (P),FRNY 1043,Recitation
+CHE,21100,Introductory Chemical Engineering Thermodynamics,R,03:30 pm-04:20 pm,46,Vu Thien Tran (P),FRNY 1043,Recitation
+CHE,30000,Chemical Engineering Seminar,W,03:30 pm-04:20 pm,155,Gabriela Nagy (P),FRNY G140,Lecture
+CHE,30100,Cooperative Seminar II,T,04:30 pm-05:20 pm,27,Gabriela Nagy (P),FRNY B124,Lecture
+CHE,30600,Design Of Staged Separation Processes,MWF,09:30 am-10:20 am,16,Phillip Charles Wankat (P),FRNY B124,Lecture
+CHE,30600,Design Of Staged Separation Processes,W,07:30 am-09:20 am,16,Seung hyun Sung (P),FRNY 1043,Practice Study Observation
+CHE,32000,Statistical Modeling And Quality Enhancement,MWF,11:30 am-12:20 pm,233,Kendall T Thomson (P),FRNY G140,Lecture
+CHE,32000,Statistical Modeling And Quality Enhancement,R,01:30 pm-03:20 pm,30,Pushpak N Bhandari (P),FRNY 1033,Practice Study Observation
+CHE,32000,Statistical Modeling And Quality Enhancement,R,07:30 am-09:20 am,29,Jennifer Lu (P),FRNY 1033,Practice Study Observation
+CHE,32000,Statistical Modeling And Quality Enhancement,T,07:30 am-09:20 am,29,Jennifer Lu (P),FRNY 1033,Practice Study Observation
+CHE,32000,Statistical Modeling And Quality Enhancement,R,11:30 am-01:20 pm,29,Yang Yang (P),FRNY 1033,Practice Study Observation
+CHE,32000,Statistical Modeling And Quality Enhancement,M,03:30 pm-05:20 pm,30,Christopher D Hagmann (P),FRNY 1033,Practice Study Observation
+CHE,32000,Statistical Modeling And Quality Enhancement,R,09:30 am-11:20 am,29,Yang Yang (P),FRNY 1033,Practice Study Observation
+CHE,32000,Statistical Modeling And Quality Enhancement,M,09:30 am-11:20 am,29,Christopher D Hagmann (P),FRNY 1033,Practice Study Observation
+CHE,32000,Statistical Modeling And Quality Enhancement,R,03:30 pm-05:20 pm,28,Pushpak N Bhandari (P),FRNY 1033,Practice Study Observation
+CHE,34800,Chemical Reaction Engineering,MWF,10:30 am-11:20 am,105,Jeffrey P Greeley (P),FRNY G140,Lecture
+CHE,34800,Chemical Reaction Engineering,T,11:30 am-12:45 pm,22,Tej Salil Choksi (P),PHYS 201,Recitation
+CHE,34800,Chemical Reaction Engineering,R,11:30 am-12:45 pm,17,Tej Salil Choksi (P),PHYS 201,Recitation
+CHE,34800,Chemical Reaction Engineering,T,01:30 pm-03:20 pm,20,Christopher Rocky Anthony (P),FRNY G111,Laboratory
+CHE,34800,Chemical Reaction Engineering,T,01:30 pm-02:45 pm,20,Christopher Rocky Anthony (P),ARMS 1103,Recitation
+CHE,34800,Chemical Reaction Engineering,T,11:30 am-01:20 pm,22,Tej Salil Choksi (P),FRNY G111,Laboratory
+CHE,34800,Chemical Reaction Engineering,R,11:30 am-01:20 pm,17,Tej Salil Choksi (P),FRNY G111,Laboratory
+CHE,34800,Chemical Reaction Engineering,R,01:30 pm-03:20 pm,13,Christopher Rocky Anthony (P),FRNY G111,Laboratory
+CHE,34800,Chemical Reaction Engineering,T,09:30 am-11:20 am,22,Oscar C Sanchez-Medina (P),FRNY G111,Laboratory
+CHE,34800,Chemical Reaction Engineering,R,01:30 pm-02:45 pm,13,Christopher Rocky Anthony (P),HAMP 1266,Recitation
+CHE,34800,Chemical Reaction Engineering,T,09:30 am-10:45 am,22,Oscar C Sanchez-Medina (P),HAMP 2101,Recitation
+CHE,34800,Chemical Reaction Engineering,R,09:30 am-10:45 am,11,Oscar C Sanchez-Medina (P),PHYS 201,Recitation
+CHE,34800,Chemical Reaction Engineering,R,09:30 am-11:20 am,11,Oscar C Sanchez-Medina (P),FRNY G111,Laboratory
+CHE,37700,Momentum Transfer,MWF,12:30 pm-01:20 pm,69,Osman A Basaran (P),FRNY G124,Lecture
+CHE,37700,Momentum Transfer,R,11:30 am-12:45 pm,24,"Pritish M Kamat (P), Jialiang Tang",HAMP 2108,Recitation
+CHE,37700,Momentum Transfer,R,11:30 am-01:20 pm,24,"Pritish M Kamat (P), Jialiang Tang",FRNY G111,Laboratory
+CHE,37700,Momentum Transfer,R,01:30 pm-02:45 pm,23,"Pritish M Kamat (P), Jialiang Tang",ARMS 1103,Recitation
+CHE,37700,Momentum Transfer,R,01:30 pm-03:20 pm,23,"Pritish M Kamat (P), Jialiang Tang",FRNY G111,Laboratory
+CHE,37700,Momentum Transfer,R,09:30 am-10:45 am,22,"Pritish M Kamat (P), Jialiang Tang",LAMB 108,Recitation
+CHE,37700,Momentum Transfer,R,09:30 am-11:20 am,22,"Pritish M Kamat (P), Jialiang Tang",FRNY G111,Laboratory
+CHE,37800,Heat And Mass Transfer,MWF,02:30 pm-03:20 pm,84,David S Corti (P),FRNY G140,Lecture
+CHE,37800,Heat And Mass Transfer,T,11:30 am-12:45 pm,21,Rohit Jaini (P),FRNY 1043,Recitation
+CHE,37800,Heat And Mass Transfer,T,09:30 am-10:45 am,15,Oluwamayowa O Adigun (P),FRNY 1043,Recitation
+CHE,37800,Heat And Mass Transfer,R,09:30 am-11:20 am,16,Oluwamayowa O Adigun (P),FRNY G111,Laboratory
+CHE,37800,Heat And Mass Transfer,R,09:30 am-10:45 am,16,Oluwamayowa O Adigun (P),FRNY 1043,Recitation
+CHE,37800,Heat And Mass Transfer,T,11:30 am-01:20 pm,21,Rohit Jaini (P),FRNY G111,Laboratory
+CHE,37800,Heat And Mass Transfer,T,09:30 am-11:20 am,15,Oluwamayowa O Adigun (P),FRNY G111,Laboratory
+CHE,37800,Heat And Mass Transfer,R,11:30 am-12:45 pm,17,Rohit Jaini (P),FRNY 1043,Recitation
+CHE,37800,Heat And Mass Transfer,R,01:30 pm-02:45 pm,15,Agnes J Mendonca (P),FRNY 1043,Recitation
+CHE,37800,Heat And Mass Transfer,R,11:30 am-01:20 pm,17,Rohit Jaini (P),FRNY G111,Laboratory
+CHE,37800,Heat And Mass Transfer,R,01:30 pm-03:20 pm,15,Agnes J Mendonca (P),FRNY G111,Laboratory
+CHE,43500,Chemical Engineering Laboratory,TR,01:30 pm-04:20 pm,30,Nien-Hwa L Wang (P),FRNY G014,Laboratory
+CHE,43500,Chemical Engineering Laboratory,TR,10:30 am-01:20 pm,30,Vilas Ganpat Pol (P),FRNY G014,Laboratory
+CHE,43500,Chemical Engineering Laboratory,MW,08:30 am-11:20 am,29,Enrico Martinez Sainz (P),FRNY G014,Laboratory
+CHE,43500,Chemical Engineering Laboratory,M,03:30 pm-04:20 pm,30,Vilas Ganpat Pol (P),HAMP 1266,Laboratory Preparation
+CHE,43500,Chemical Engineering Laboratory,M,03:30 pm-04:20 pm,30,Nien-Hwa L Wang (P),ARMS 1103,Laboratory Preparation
+CHE,43500,Chemical Engineering Laboratory,M,03:30 pm-04:20 pm,29,Enrico Martinez Sainz (P),FRNY 1043,Laboratory Preparation
+CHE,43500,Chemical Engineering Laboratory,M,04:30 pm-05:20 pm,89,"Enrico Martinez Sainz (P), Vilas Ganpat Pol , Nien-Hwa L Wang",FRNY G140,Lecture
+CHE,44200,Chemistry And Engineering Of High Polymers,MWF,12:30 pm-01:20 pm,25,"James M Caruthers (P), You-Yeon Won",FRNY B124,Lecture
+CHE,45000,Design And Analysis Of Processing Systems,T,03:30 pm-05:20 pm,27,Mark J Koeper (P),FRNY 1033,Laboratory
+CHE,45000,Design And Analysis Of Processing Systems,W,09:30 am-11:20 am,29,Michael L Bynum (P),FRNY 1033,Laboratory
+CHE,45000,Design And Analysis Of Processing Systems,T,11:30 am-01:20 pm,29,Michael L Bynum (P),FRNY 1033,Laboratory
+CHE,45000,Design And Analysis Of Processing Systems,W,01:30 pm-03:20 pm,24,Jianfeng Liu (P),FRNY 1033,Laboratory
+CHE,45000,Design And Analysis Of Processing Systems,T,09:30 am-11:20 am,26,Michael L Bynum (P),FRNY 1033,Laboratory
+CHE,45000,Design And Analysis Of Processing Systems,T,01:30 pm-03:20 pm,22,Conor D Parks (P),FRNY 1033,Laboratory
+CHE,45000,Design And Analysis Of Processing Systems,MWF,11:30 am-12:20 pm,157,"Jeffrey J Siirola (P), Rakesh Agrawal , Carl D Laird , Gintaras V Reklaitis",EE 170,Lecture
+CHE,53600,Particulate Systems,MWF,10:30 am-11:20 am,12,James Donald Litster (P),FRNY G124,Lecture
+CHE,59700,Chm Process Tech & Ind Strctr,TR,01:30 pm-02:45 pm,27,Jeffrey J Siirola (P),FRNY G124,Lecture
+CHE,59700,Engr Appl Biological Molecules,MWF,09:30 am-10:20 am,10,Chongli Yuan (P),FRNY G124,Lecture
+CHE,62100,Advanced Transport Phenomena II,MWF,11:30 am-12:20 pm,10,Sangtae Kim (P),FRNY G124,Lecture
+CHE,63200,Linear Operator Methods In Chemical Engineering,TR,12:00 pm-01:15 pm,5,Doraiswami Ramkrishna (P),FRNY G124,Lecture
+CHE,66000,Chemical Reaction Engineering,TR,10:30 am-11:45 am,26,Rajamani P Gounder (P),FRNY G124,Lecture
+CHE,66200,Catalysis,TR,03:00 pm-04:15 pm,22,Fabio H Ribeiro (P),FRNY G124,Lecture
+CHE,66800,Colloidal And Interfacial Phenomena,MWF,01:30 pm-02:20 pm,14,You-Yeon Won (P),FRNY G124,Lecture
+CHE,68500,Educational Methods In Engineering,T,01:30 pm-04:20 pm,1,Phillip Charles Wankat (P),KNOY B029,Lecture
+CHE,69000,Seminar In Chemical Engineering,TR,09:00 am-10:15 am,114,Arvind Varma (P),FRNY G140,Lecture
+CHE,69700,Chem Engr Teaching Experience,M,05:30 pm-06:20 pm,26,Kendall T Thomson (P),FRNY G124,Lecture
+CHE,69700,Approaches To Chem Eng Res,T,01:30 pm-02:20 pm,12,John A Morgan (P),FRNY B121,Lecture
+CHE,69700,Crystallization Systems In ChE,TR,04:30 pm-05:45 pm,9,Zoltan Nagy (P),FRNY G124,Lecture
+ECE,20000,Electrical And Computer Engineering Seminar,R,10:30 am-11:20 am,93,Angela Sue Jones Rainwater (P),EE 170,Lecture
+ECE,20100,Linear Circuit Analysis I,MWF,01:30 pm-02:20 pm,124,Byunghoo Jung (P),EE 170,Lecture
+ECE,20200,Linear Circuit Analysis II,MWF,07:30 am-08:20 am,125,Raymond A Decarlo (P),EE 170,Lecture
+ECE,20200,Linear Circuit Analysis II,MWF,03:30 pm-04:20 pm,96,Eric Scott Furgason (P),MSEE B012,Lecture
+ECE,20200,Linear Circuit Analysis II,MWF,11:30 am-12:20 pm,86,Raymond A Decarlo (P),HORT 117,Lecture
+ECE,20700,Electronic Measurement Techniques,R,07:30 am-10:20 am,29,"Yukun An (P), Joon Young Kim , Matthew A Swabey",EE 163,Laboratory
+ECE,20700,Electronic Measurement Techniques,R,11:30 am-02:20 pm,30,"Chamika Mihiranga Liyanagedera (P), Joon Young Kim , Matthew A Swabey",EE 161,Laboratory
+ECE,20700,Electronic Measurement Techniques,T,11:30 am-02:20 pm,31,"Chamika Mihiranga Liyanagedera (P), Joon Young Kim , Matthew A Swabey",EE 161,Laboratory
+ECE,20700,Electronic Measurement Techniques,T,07:30 am-10:20 am,26,"Orchi Hassan (P), Joon Young Kim , Matthew A Swabey",EE 161,Laboratory
+ECE,20700,Electronic Measurement Techniques,T,07:30 am-10:20 am,28,"Yukun An (P), Joon Young Kim , Matthew A Swabey",EE 163,Laboratory
+ECE,20700,Electronic Measurement Techniques,W,07:30 am-10:20 am,27,"Maliha Hossain (P), Joon Young Kim , Matthew A Swabey",EE 163,Laboratory
+ECE,20700,Electronic Measurement Techniques,W,11:30 am-02:20 pm,29,"Joon Young Kim (P), Matthew A Swabey",EE 161,Laboratory
+ECE,20700,Electronic Measurement Techniques,T,11:30 am-02:20 pm,30,"Jhalak Patel (P), Joon Young Kim , Matthew A Swabey",EE 163,Laboratory
+ECE,20700,Electronic Measurement Techniques,W,07:30 am-10:20 am,27,"Jianxin Sun (P), Joon Young Kim , Matthew A Swabey",EE 161,Laboratory
+ECE,20700,Electronic Measurement Techniques,F,07:30 am-10:20 am,24,"Jianxin Sun (P), Joon Young Kim , Matthew A Swabey",EE 161,Laboratory
+ECE,20700,Electronic Measurement Techniques,R,11:30 am-02:20 pm,30,"Jhalak Patel (P), Joon Young Kim , Matthew A Swabey",EE 163,Laboratory
+ECE,20700,Electronic Measurement Techniques,W,11:30 am-02:20 pm,30,"Zhulin Peng (P), Joon Young Kim , Matthew A Swabey",EE 163,Laboratory
+ECE,20700,Electronic Measurement Techniques,F,07:30 am-10:20 am,16,"Maliha Hossain (P), Joon Young Kim , Matthew A Swabey",EE 163,Laboratory
+ECE,20700,Electronic Measurement Techniques,R,07:30 am-10:20 am,25,"Orchi Hassan (P), Joon Young Kim , Matthew A Swabey",EE 161,Laboratory
+ECE,20700,Electronic Measurement Techniques,F,11:30 am-02:20 pm,26,"Pavan Koundinya (P), Joon Young Kim , Matthew A Swabey",EE 161,Laboratory
+ECE,20800,Electronic Devices And Design Laboratory,T,11:30 am-02:20 pm,24,"Yubo Sun (P), Andrew David Balmos , Matthew A Swabey",EE 167,Laboratory
+ECE,20800,Electronic Devices And Design Laboratory,R,02:30 pm-05:20 pm,24,"Rishi Naidu (P), Andrew David Balmos , Matthew A Swabey",EE 167,Laboratory
+ECE,20800,Electronic Devices And Design Laboratory,W,07:30 am-10:20 am,8,"Andrew David Balmos (P), Matthew A Swabey",EE 167,Laboratory
+ECE,20800,Electronic Devices And Design Laboratory,F,07:30 am-10:20 am,6,"Yubo Sun (P), Andrew David Balmos , Matthew A Swabey",EE 167,Laboratory
+ECE,20800,Electronic Devices And Design Laboratory,T,02:30 pm-05:20 pm,24,"Soonam Lee (P), Andrew David Balmos , Matthew A Swabey",EE 167,Laboratory
+ECE,20800,Electronic Devices And Design Laboratory,R,07:30 am-10:20 am,19,"Shaobo Fang (P), Andrew David Balmos , Matthew A Swabey",EE 167,Laboratory
+ECE,20800,Electronic Devices And Design Laboratory,T,07:30 am-10:20 am,21,"Dahjung Chung (P), Andrew David Balmos , Matthew A Swabey",EE 167,Laboratory
+ECE,20800,Electronic Devices And Design Laboratory,F,11:30 am-02:20 pm,20,"Shaobo Fang (P), Andrew David Balmos , Matthew A Swabey",EE 167,Laboratory
+ECE,20800,Electronic Devices And Design Laboratory,W,11:30 am-02:20 pm,24,"Soonam Lee (P), Andrew David Balmos , Matthew A Swabey",EE 167,Laboratory
+ECE,20800,Electronic Devices And Design Laboratory,W,02:30 pm-05:20 pm,21,"Dahjung Chung (P), Andrew David Balmos , Matthew A Swabey",EE 167,Laboratory
+ECE,25500,Introduction To Electronic Analysis And Design,MWF,02:30 pm-03:20 pm,115,"Pratik Kashyap (P), Alexander V Kildishev",BRNG 2280,Lecture
+ECE,25500,Introduction To Electronic Analysis And Design,TR,12:00 pm-01:15 pm,116,Babak Ziaie (P),WTHR 104,Lecture
+ECE,26400,Advanced C Programming,MWF,08:30 am-09:20 am,104,Cheng-Kok Koh (P),PHYS 223,Lecture
+ECE,26400,Advanced C Programming,TR,04:30 pm-05:45 pm,17,Robert L Givan (P),EE 115,Lecture
+ECE,27000,Introduction To Digital System Design,F,10:30 am-01:20 pm,30,"Cordelia M Brown (P), David George Meyer",EE 350,Laboratory
+ECE,27000,Introduction To Digital System Design,F,01:30 pm-04:20 pm,27,"Cordelia M Brown (P), David George Meyer",EE 350,Laboratory
+ECE,27000,Introduction To Digital System Design,W,01:30 pm-04:20 pm,29,"Cordelia M Brown (P), David George Meyer",EE 350,Laboratory
+ECE,27000,Introduction To Digital System Design,R,07:30 am-10:20 am,19,"Cordelia M Brown (P), David George Meyer",EE 350,Laboratory
+ECE,27000,Introduction To Digital System Design,T,11:30 am-02:20 pm,30,"Cordelia M Brown (P), David George Meyer",EE 350,Laboratory
+ECE,27000,Introduction To Digital System Design,W,10:30 am-01:20 pm,29,"Cordelia M Brown (P), David George Meyer",EE 350,Laboratory
+ECE,27000,Introduction To Digital System Design,MWF,04:30 pm-05:20 pm,260,"Cordelia M Brown (P), David George Meyer",WTHR 200,Lecture
+ECE,27000,Introduction To Digital System Design,R,02:30 pm-05:20 pm,28,"Cordelia M Brown (P), David George Meyer",EE 350,Laboratory
+ECE,27000,Introduction To Digital System Design,R,11:30 am-02:20 pm,29,"Cordelia M Brown (P), David George Meyer",EE 350,Laboratory
+ECE,27000,Introduction To Digital System Design,T,07:30 am-10:20 am,10,"Cordelia M Brown (P), David George Meyer",EE 350,Laboratory
+ECE,27000,Introduction To Digital System Design,T,02:30 pm-05:20 pm,29,"Cordelia M Brown (P), David George Meyer",EE 350,Laboratory
+ECE,27900,Sophomore Participation In Vertically Integrated Projects In Electrical And Computer Engineering,W,05:30 pm-06:20 pm,8,"Jan P Allebach (P), Alexander William Layton , Chun-Jung Tai , Ni Yan",EE 129,Lecture
+ECE,27900,Sophomore Participation In Vertically Integrated Projects In Electrical And Computer Engineering,W,05:30 pm-06:20 pm,12,"Jan P Allebach (P), Alexander William Layton , Chun-Jung Tai , Ni Yan",EE 129,Lecture
+ECE,30100,Signals And Systems,TR,04:30 pm-05:45 pm,123,Michael D Zoltowski (P),PHYS 114,Lecture
+ECE,30100,Signals And Systems,MWF,04:30 pm-05:20 pm,50,Chih-Chun Wang (P),ME 2061,Lecture
+ECE,30200,Probabilistic Methods In Electrical And Computer Engineering,MWF,12:30 pm-01:20 pm,52,Saul B Gelfand (P),WTHR 172,Lecture
+ECE,30200,Probabilistic Methods In Electrical And Computer Engineering,MWF,03:30 pm-04:20 pm,105,Mary L Comer (P),WTHR 172,Lecture
+ECE,30500,Semiconductor Devices,MWF,08:30 am-09:20 am,46,Mark Steven Lundstrom (P),MSEE B012,Lecture
+ECE,30500,Semiconductor Devices,MWF,02:30 pm-03:20 pm,15,Muhammad Ashraful Alam (P),UNIV 001,Lecture
+ECE,30600,Electronic Circuits And Systems Laboratory,T,02:30 pm-05:20 pm,7,"Rithesh Rajagopalan Iyer (P), George Edward Hadley , Matthew A Swabey",EE 165,Laboratory
+ECE,30600,Electronic Circuits And Systems Laboratory,T,07:30 am-10:20 am,4,"Sayan Roy (P), George Edward Hadley , Matthew A Swabey",EE 165,Laboratory
+ECE,30600,Electronic Circuits And Systems Laboratory,R,02:30 pm-05:20 pm,9,"Rithesh Rajagopalan Iyer (P), George Edward Hadley , Matthew A Swabey",EE 165,Laboratory
+ECE,30600,Electronic Circuits And Systems Laboratory,W,11:30 am-02:20 pm,10,"Sayan Roy (P), George Edward Hadley , Matthew A Swabey",EE 165,Laboratory
+ECE,30700,Electromagnetic Fields And Waves Laboratory,W,02:30 pm-05:20 pm,12,"Matthew A Swabey (P), George Edward Hadley , Jack Douglas Williams",WANG 3014A,Laboratory
+ECE,30800,Systems Simulation And Control Laboratory,W,02:30 pm-05:20 pm,13,"Shalini Khare (P), George Edward Hadley , Matthew A Swabey",EE 165,Laboratory
+ECE,30800,Systems Simulation And Control Laboratory,T,11:30 am-02:20 pm,11,"Shalini Khare (P), George Edward Hadley , Matthew A Swabey",EE 165,Laboratory
+ECE,31100,Electric And Magnetic Fields,TR,03:00 pm-04:15 pm,76,Daniel S Elliott (P),EE 270,Lecture
+ECE,31100,Electric And Magnetic Fields,MWF,09:30 am-10:20 am,52,Michael Raymond Melloch (P),EE 117,Lecture
+ECE,32100,Electromechanical Motion Devices,MWF,01:30 pm-02:20 pm,58,Scott David Sudhoff (P),EE 117,Lecture
+ECE,32300,Electromechanical Motion Devices and Systems Laboratory,T,07:30 am-10:20 am,9,Vineet kumar Pandey (P),EE 057,Laboratory
+ECE,32300,Electromechanical Motion Devices and Systems Laboratory,R,07:30 am-10:20 am,13,Zachariah B Hughes (P),EE 057,Laboratory
+ECE,32300,Electromechanical Motion Devices and Systems Laboratory,R,11:30 am-02:20 pm,13,Zachariah B Hughes (P),EE 057,Laboratory
+ECE,32300,Electromechanical Motion Devices and Systems Laboratory,T,11:30 am-02:20 pm,14,Vineet kumar Pandey (P),EE 057,Laboratory
+ECE,33700,ASIC Design Laboratory,R,11:30 am-02:20 pm,19,Mark Casey Johnson (P),EE 215,Laboratory
+ECE,33700,ASIC Design Laboratory,T,02:30 pm-05:20 pm,19,Mark Casey Johnson (P),EE 215,Laboratory
+ECE,33700,ASIC Design Laboratory,F,11:30 am-02:20 pm,19,Mark Casey Johnson (P),EE 215,Laboratory
+ECE,33700,ASIC Design Laboratory,W,11:30 am-02:20 pm,16,Mark Casey Johnson (P),EE 215,Laboratory
+ECE,33700,ASIC Design Laboratory,TR,09:30 am-10:20 am,90,Mark Casey Johnson (P),HAMP 1144,Lecture
+ECE,33700,ASIC Design Laboratory,T,11:30 am-02:20 pm,17,Mark Casey Johnson (P),EE 215,Laboratory
+ECE,36200,Microprocessor Systems And Interfacing,MWF,10:30 am-11:20 am,101,David George Meyer (P),WTHR 172,Lecture
+ECE,36200,Microprocessor Systems And Interfacing,R,11:30 am-02:20 pm,15,David George Meyer (P),EE 058,Laboratory
+ECE,36200,Microprocessor Systems And Interfacing,W,07:30 am-10:20 am,13,David George Meyer (P),EE 058,Laboratory
+ECE,36200,Microprocessor Systems And Interfacing,T,11:30 am-02:20 pm,15,David George Meyer (P),EE 058,Laboratory
+ECE,36200,Microprocessor Systems And Interfacing,R,07:30 am-10:20 am,14,David George Meyer (P),EE 058,Laboratory
+ECE,36200,Microprocessor Systems And Interfacing,F,07:30 am-10:20 am,15,David George Meyer (P),EE 058,Laboratory
+ECE,36200,Microprocessor Systems And Interfacing,T,07:30 am-10:20 am,14,David George Meyer (P),EE 058,Laboratory
+ECE,36200,Microprocessor Systems And Interfacing,W,11:30 am-02:20 pm,15,David George Meyer (P),EE 058,Laboratory
+ECE,36400,Software Engineering Tools Laboratory,M,11:30 am-12:20 pm,78,"Mark Casey Johnson (P), Ahmad A Gheith",MSEE B012,Laboratory Preparation
+ECE,36400,Software Engineering Tools Laboratory,W,09:30 am-11:20 am,24,"Prashanth Purnananda (P), Ahmad A Gheith , Mark Casey Johnson",EE 206,Laboratory
+ECE,36400,Software Engineering Tools Laboratory,T,01:30 pm-03:20 pm,23,"Mariam Zaim (P), Ahmad A Gheith , Mark Casey Johnson",EE 206,Laboratory
+ECE,36400,Software Engineering Tools Laboratory,R,09:30 am-11:20 am,13,"Venkata Krishna Chaithanya Manam (P), Ahmad A Gheith , Mark Casey Johnson",EE 206,Laboratory
+ECE,36400,Software Engineering Tools Laboratory,T,03:30 pm-05:20 pm,18,"Venkata Krishna Chaithanya Manam (P), Ahmad A Gheith , Mark Casey Johnson",EE 206,Laboratory
+ECE,36800,Data Structures,TR,03:00 pm-04:15 pm,109,Arif Ghafoor (P),ME 1061,Lecture
+ECE,36900,Discrete Mathematics For Computer Engineering,TR,10:30 am-11:45 am,70,Saurabh Bagchi (P),EE 270,Lecture
+ECE,37900,Junior Participation In Vertically Integrated Projects (VIP) In Electrical And Computer Engineering,W,05:30 pm-06:20 pm,5,"Jan P Allebach (P), Alexander William Layton , Chun-Jung Tai , Ni Yan",EE 129,Lecture
+ECE,37900,Junior Participation In Vertically Integrated Projects (VIP) In Electrical And Computer Engineering,W,05:30 pm-06:20 pm,26,"Jan P Allebach (P), Alexander William Layton , Chun-Jung Tai , Ni Yan",EE 129,Lecture
+ECE,38200,Feedback System Analysis And Design,MWF,09:30 am-10:20 am,83,Chun-Sing George Lee (P),MSEE B012,Lecture
+ECE,40000,Professional Development And Career Guidance,R,12:30 pm-01:20 pm,137,David J Love (P),EE 170,Lecture
+ECE,40020,Sound Reinforcement System Design,TR,09:00 am-10:15 am,20,David George Meyer (P),MSEE 184,Lecture
+ECE,40200,Electrical Engineering Design Projects,M,04:30 pm-05:20 pm,71,"Matthew A Swabey (P), Barrett Frank Robinson",EE 270,Lecture
+ECE,40200,Electrical Engineering Design Projects,TR,07:30 am-10:20 am,15,"John Anthony Nyenhuis (P), Jungu Choi , Barrett Frank Robinson , Matthew A Swabey",EE 159,Laboratory
+ECE,40200,Electrical Engineering Design Projects,WF,11:30 am-02:20 pm,13,"Edward John Delp (P), Jose D Esquitin Hinzpeter , Barrett Frank Robinson , Matthew A Swabey",EE 159,Laboratory
+ECE,40200,Electrical Engineering Design Projects,TR,02:30 pm-05:20 pm,19,"Jianghai Hu (P), Alice Jou , Barrett Frank Robinson , Matthew A Swabey",EE 159,Laboratory
+ECE,40200,Electrical Engineering Design Projects,TR,11:30 am-02:20 pm,14,"John Anthony Nyenhuis (P), Barrett Frank Robinson , Hengying Shan , Matthew A Swabey",EE 159,Laboratory
+ECE,40200,Electrical Engineering Design Projects,WF,12:30 pm-03:20 pm,4,"Matthew A Swabey (P), Barrett Frank Robinson",EE 159,Laboratory
+ECE,40200,Electrical Engineering Design Projects,TR,01:30 pm-04:20 pm,3,"Matthew A Swabey (P), Barrett Frank Robinson",EE 159,Laboratory
+ECE,40200,Electrical Engineering Design Projects,M,04:30 pm-05:20 pm,3,"Matthew A Swabey (P), Barrett Frank Robinson",EE 270,Lecture
+ECE,40200,Electrical Engineering Design Projects,T,10:30 am-01:20 pm,3,"Matthew A Swabey (P), Barrett Frank Robinson",EE 159,Laboratory
+ECE,40400,Introduction To Computer Security,TR,04:30 pm-05:45 pm,49,"Avinash C Kak (P), Bharathkumar Comandurjagannathanraghunathan , Tanmay K Prakash",KNOY B033,Lecture
+ECE,41400,Elements Of Electro And Fiber Optics,TR,09:00 am-10:15 am,14,Alexandra Boltasseva (P),EE 226,Lecture
+ECE,41500,Electro- And Fiber Optics Laboratory,R,02:30 pm-05:20 pm,1,Abdullah Al Noman (P),MSEE S016,Laboratory
+ECE,42300,Electromechanical Motion Control,MWF,11:30 am-12:20 pm,57,Oleg Wasynczuk (P),EE 270,Lecture
+ECE,43300,Power Electronics,MWF,08:30 am-09:20 am,37,Steven Dean Pekarek (P),EE 117,Lecture
+ECE,43700,Computer Design And Prototyping,MWF,03:30 pm-04:20 pm,60,T N Vijaykumar (P),ME 1052,Lecture
+ECE,43700,Computer Design And Prototyping,F,07:30 am-10:20 am,15,T N Vijaykumar (P),POTR 360,Laboratory
+ECE,43700,Computer Design And Prototyping,W,07:30 am-10:20 am,16,T N Vijaykumar (P),POTR 360,Laboratory
+ECE,43700,Computer Design And Prototyping,T,02:30 pm-05:20 pm,13,T N Vijaykumar (P),POTR 360,Laboratory
+ECE,43700,Computer Design And Prototyping,R,02:30 pm-05:20 pm,16,T N Vijaykumar (P),POTR 360,Laboratory
+ECE,43800,Digital Signal Processing With Applications,MWF,03:30 pm-04:20 pm,45,Okan K Ersoy (P),EE 117,Lecture
+ECE,43800,Digital Signal Processing With Applications,T,08:30 am-11:20 am,8,Okan K Ersoy (P),MSEE 190,Laboratory
+ECE,43800,Digital Signal Processing With Applications,F,11:30 am-02:20 pm,15,Okan K Ersoy (P),MSEE 190,Laboratory
+ECE,43800,Digital Signal Processing With Applications,R,11:30 am-02:20 pm,8,Okan K Ersoy (P),MSEE 190,Laboratory
+ECE,43800,Digital Signal Processing With Applications,T,11:30 am-02:20 pm,14,Okan K Ersoy (P),MSEE 190,Laboratory
+ECE,44000,Transmission Of Information,MWF,12:30 pm-01:20 pm,28,James S Lehnert (P),EE 005,Lecture
+ECE,44000,Transmission Of Information,W,07:30 am-10:20 am,14,"Muhammad Salman Bashir (P), James S Lehnert",EE 165,Laboratory
+ECE,44000,Transmission Of Information,R,11:30 am-02:20 pm,14,"Muhammad Salman Bashir (P), James S Lehnert",EE 165,Laboratory
+ECE,45600,Digital Integrated Circuit Analysis And Design,TR,12:00 pm-01:15 pm,5,Saeed Mohammadi (P),EE 226,Lecture
+ECE,46900,Operating Systems Engineering,TR,09:00 am-10:15 am,51,Y Charlie Hu (P),SMTH 118,Lecture
+ECE,46900,Operating Systems Engineering,W,02:30 pm-05:20 pm,22,Y Charlie Hu (P),EE 206,Laboratory
+ECE,46900,Operating Systems Engineering,F,11:30 am-02:20 pm,22,Y Charlie Hu (P),EE 206,Laboratory
+ECE,46900,Operating Systems Engineering,F,02:30 pm-05:20 pm,7,Y Charlie Hu (P),EE 206,Laboratory
+ECE,47300,Introduction To Artificial Intelligence,TR,10:30 am-11:45 am,16,Jeffrey M Siskind (P),EE 005,Lecture
+ECE,47700,Digital Systems Senior Project,TR,01:30 pm-02:20 pm,71,David George Meyer (P),MSEE B012,Lecture
+ECE,47700,Digital Systems Senior Project,W,07:30 am-09:20 am,27,David George Meyer (P),MSEE 184,Laboratory
+ECE,47700,Digital Systems Senior Project,W,11:30 am-01:20 pm,44,David George Meyer (P),MSEE 184,Laboratory
+ECE,48300,Digital Control Systems Analysis And Design,TR,03:00 pm-04:15 pm,21,Shreyas Sundaram (P),EE 226,Lecture
+ECE,49595,Senior Design Special Projects,M,04:30 pm-05:20 pm,3,Matthew A Swabey (P),EE 270,Lecture
+ECE,52800,Measurement And Stimulation Of The Nervous System,TR,01:30 pm-02:45 pm,9,Eugenio Culurciello (P),MJIS 1083,Lecture
+ECE,55200,Introduction To Lasers,TR,03:00 pm-04:15 pm,28,Vladimir M Shalaev (P),WANG 2579,Lecture
+ECE,55700,Integrated Circuit Fabrication Laboratory,M,02:30 pm-03:20 pm,11,David B Janes (P),EE 226,Lecture
+ECE,56300,Programming Parallel Machines,MWF,02:30 pm-03:20 pm,59,Samuel P Midkiff (P),FRNY B124,Lecture
+ECE,56800,Embedded Systems,TR,04:30 pm-05:45 pm,64,Vijay Raghunathan (P),EE 117,Lecture
+ECE,58000,Optimization Methods For Systems And Control,MWF,12:30 pm-01:20 pm,81,Stanislaw H Zak (P),MJIS 1001,Lecture
+ECE,59500,Digital Sys Design Automation,TR,01:30 pm-02:45 pm,28,Anand Raghunathan (P),ME 1009,Lecture
+ECE,59500,RF & Micro Wireless Components,TR,09:00 am-10:15 am,28,Dimitrios Peroulis (P),BRNG 1222,Lecture
+ECE,60000,Random Variables And Signals,TR,10:30 am-11:45 am,64,Mark R Bell (P),FRNY B124,Lecture
+ECE,60200,Lumped System Theory,TR,10:30 am-11:45 am,31,Jianghai Hu (P),ME 1009,Lecture
+ECE,60400,Electromagnetic Field Theory,MWF,10:30 am-11:20 am,19,Andrew M Weiner (P),EE 117,Lecture
+ECE,60600,Solid State Devices,TR,12:00 pm-01:15 pm,15,Evgeniy E Narimanov (P),EE 117,Lecture
+ECE,60800,Computational Models And Methods,TR,07:30 am-08:45 am,53,Irith Pomeranz (P),EE 270,Lecture
+ECE,61700,Antennas: Design And Applications,TR,12:00 pm-01:15 pm,7,Kevin J Webb (P),FRNY B124,Lecture
+ECE,63400,Digital Video Systems,TR,01:30 pm-02:45 pm,25,Amy R Reibman (P),EE 005,Lecture
+ECE,63700,Digital Image Processing I,MWF,03:30 pm-04:20 pm,60,Charles A Bouman (P),WANG 2599,Lecture
+ECE,64500,Estimation Theory,MWF,04:30 pm-05:20 pm,7,Ho Chan (P),EE 226,Lecture
+ECE,64700,Performance Modeling Of Computer Communication Networks,MWF,12:30 pm-01:20 pm,13,Xiaojun Lin (P),EE 226,Lecture
+ECE,65900,Quantum Phenomena In Semiconductors,MWF,02:30 pm-03:20 pm,25,Supriyo Datta (P),EE 117,Lecture
+ECE,66600,Advanced Computer Systems,TR,09:00 am-10:15 am,8,Mithuna S Thottethodi (P),EE 115,Lecture
+ECE,69400,Electrical And Computer Engineering Seminar,R,03:00 pm-04:15 pm,60,Gerhard Klimeck (P),EE 170,Lecture
+IE,23000,Probability And Statistics In Engineering I,MWF,11:30 am-12:20 pm,173,Lu Liu (P),ME 1061,Lecture
+IE,33000,Probability And Statistics In Engineering II,MWF,03:30 pm-04:20 pm,159,Steven J Landry (P),EE 170,Lecture
+IE,33200,Computing In Industrial Engineering,MW,10:30 am-11:20 am,91,Mario Ventresca (P),ME 1130,Lecture
+IE,33500,Operations Research - Optimization,MWF,12:30 pm-01:20 pm,149,Christopher J Quinn (P),MATH 175,Lecture
+IE,33600,Operations Research - Stochastic Models,MW,04:30 pm-05:45 pm,142,Mihailo Stojnic (P),EE 170,Lecture
+IE,34300,Engineering Economics,MWF,02:30 pm-03:20 pm,170,Thomas L Morin (P),EE 170,Lecture
+IE,34300,Engineering Economics,MWF,04:30 pm-05:20 pm,162,Harshwardhan Aggarwal (P),MATH 175,Lecture
+IE,37000,Manufacturing Processes I,MWF,08:30 am-09:20 am,118,Ramses Martinez (P),EE 170,Lecture
+IE,47000,Manufacturing Processes II,MW,02:30 pm-03:20 pm,27,Chunghorng Richard Liu (P),MSEE B010,Lecture
+IE,48400,Integrated Production Systems II,MW,11:30 am-12:20 pm,97,Seokcheon Lee (P),PHYS 203,Lecture
+IE,48600,Work Analysis And Design II,MW,03:30 pm-04:20 pm,94,Ji Soo Yi (P),WTHR 104,Lecture
+IE,53300,Industrial Applications Of Statistics,MWF,01:30 pm-02:20 pm,50,Seokcheon Lee (P),ARMS B071,Lecture
+IE,55800,Safety Engineering,MWF,03:30 pm-04:20 pm,41,Vincent George Duffy (P),WANG 2555,Lecture
+IE,57700,Human Factors In Engineering,MWF,02:30 pm-03:20 pm,61,Robert W Proctor (P),SMTH 118,Lecture
+IE,59000,Collaborative Decision Support,MWF,09:30 am-10:20 am,20,Shimon Y Nof (P),MSEE B010,Lecture
+IE,59000,Systems Tools & Methodologies,MWF,11:30 am-12:20 pm,6,Charles Robert Kenley (P),MSEE B010,Lecture
+IE,59000,Practical Systems Thinking,MWF,09:30 am-10:20 am,1,Daniel Louis Dumbacher (P),EE 234,Lecture
+IE,59000,Structured Engr Innovation,MWF,10:30 am-11:20 am,16,Chunghorng Richard Liu (P),WANG 2579,Lecture
+IE,59000,Data Visualization Theory&Prac,MWF,10:30 am-11:20 am,16,Ji Soo Yi (P),WANG 2555,Lecture
+IE,63000,Multiple Objective Optimization,MWF,10:30 am-11:20 am,23,Thomas L Morin (P),MSEE B010,Lecture
+IE,67400,Computer And Communication Methods For Production Control,MWF,03:30 pm-04:20 pm,6,Shimon Y Nof (P),MSEE B010,Lecture
+IE,69000,Quant Apprches To Human Assess,M,04:30 pm-07:20 pm,6,Sara Ann McComb (P),MSEE B010,Lecture
+IE,69000,Gesture & Bodial Sys,MWF,12:30 pm-01:20 pm,7,Juan P Wachs (P),MSEE B010,Lecture
+ME,20000,Thermodynamics I,MWF,07:30 am-08:20 am,70,Girish S Joglekar (P),ME 1130,Lecture
+ME,20000,Thermodynamics I,MWF,10:30 am-11:20 am,119,Qingyan Chen (P),ME 1061,Lecture
+ME,20000,Thermodynamics I,MWF,12:30 pm-01:20 pm,120,Qingyan Chen (P),ME 1130,Lecture
+ME,20000,Thermodynamics I,MWF,02:30 pm-03:20 pm,120,David Erik Kittell (P),ME 1061,Lecture
+ME,20000,Thermodynamics I,MWF,04:30 pm-05:20 pm,119,Sameer Vijaykumar Naik (P),ME 1130,Lecture
+ME,26300,"Introduction To Mechanical Engineering Design, Innovation And Entrepreneurship",TR,08:30 am-09:20 am,128,"Morgan Daniel Murphy (P), Tahira N Reid",ME 1061,Lecture
+ME,26300,"Introduction To Mechanical Engineering Design, Innovation And Entrepreneurship",TR,10:30 am-11:20 am,171,Tahira N Reid (P),FRNY G140,Lecture
+ME,26300,"Introduction To Mechanical Engineering Design, Innovation And Entrepreneurship",F,08:30 am-09:20 am,11,Yiran Li (P),ME 2053,Practice Study Observation
+ME,26300,"Introduction To Mechanical Engineering Design, Innovation And Entrepreneurship",W,04:30 pm-05:20 pm,24,"Klod Kokini (P), Shenli Yuan",ME 2028,Practice Study Observation
+ME,26300,"Introduction To Mechanical Engineering Design, Innovation And Entrepreneurship",R,02:30 pm-03:20 pm,21,"Tamzidul Mina (P), Bin Yao",ME 2063,Practice Study Observation
+ME,26300,"Introduction To Mechanical Engineering Design, Innovation And Entrepreneurship",F,04:30 pm-05:20 pm,24,"Benjamin Varughese Johnson (P), Tamzidul Mina",ME 2063,Practice Study Observation
+ME,26300,"Introduction To Mechanical Engineering Design, Innovation And Entrepreneurship",F,12:30 pm-01:20 pm,24,"Shirley J Dyke (P), Benjamin Varughese Johnson",ME 2063,Practice Study Observation
+ME,26300,"Introduction To Mechanical Engineering Design, Innovation And Entrepreneurship",F,10:30 am-11:20 am,24,"Shirley J Dyke (P), Christian Eduardo Silva",ME 2063,Practice Study Observation
+ME,26300,"Introduction To Mechanical Engineering Design, Innovation And Entrepreneurship",R,08:30 am-09:20 am,19,"Chun-Pei Chen (P), Jyotish C Mishra",ME 2063,Practice Study Observation
+ME,26300,"Introduction To Mechanical Engineering Design, Innovation And Entrepreneurship",W,01:30 pm-03:20 pm,17,Jaeyoung Kim (P),ME 2063,Laboratory
+ME,26300,"Introduction To Mechanical Engineering Design, Innovation And Entrepreneurship",T,03:30 pm-05:20 pm,22,"Ayan Tuhinendu Sinha (P), Jianran Wang , Bin Yao",ME 2063,Laboratory
+ME,26300,"Introduction To Mechanical Engineering Design, Innovation And Entrepreneurship",M,11:30 am-01:20 pm,24,"Joran Wyatt Booth (P), Ross W Carnahan , Hukam C Mongia",ME 2063,Laboratory
+ME,26300,"Introduction To Mechanical Engineering Design, Innovation And Entrepreneurship",M,01:30 pm-03:20 pm,18,"Ross W Carnahan (P), Jaesik Hahn , Hukam C Mongia",ME 2063,Laboratory
+ME,26300,"Introduction To Mechanical Engineering Design, Innovation And Entrepreneurship",T,11:30 am-01:20 pm,23,"Liang Yuchi (P), Christian Eduardo Silva",ME 2063,Laboratory
+ME,26300,"Introduction To Mechanical Engineering Design, Innovation And Entrepreneurship",T,09:30 am-11:20 am,24,"Morgan Daniel Murphy (P), Udit Vyas",ME 2063,Laboratory
+ME,26300,"Introduction To Mechanical Engineering Design, Innovation And Entrepreneurship",F,02:30 pm-03:20 pm,17,Jaeyoung Kim (P),ME 2063,Practice Study Observation
+ME,26300,"Introduction To Mechanical Engineering Design, Innovation And Entrepreneurship",R,04:30 pm-05:20 pm,22,"Ayan Tuhinendu Sinha (P), Jianran Wang , Bin Yao",ME 2063,Practice Study Observation
+ME,26300,"Introduction To Mechanical Engineering Design, Innovation And Entrepreneurship",F,12:30 pm-01:20 pm,24,"Joran Wyatt Booth (P), Ross W Carnahan , Hukam C Mongia",ME 2004,Practice Study Observation
+ME,26300,"Introduction To Mechanical Engineering Design, Innovation And Entrepreneurship",F,02:30 pm-03:20 pm,18,"Ross W Carnahan (P), Jaesik Hahn , Hukam C Mongia",ME 2004,Practice Study Observation
+ME,26300,"Introduction To Mechanical Engineering Design, Innovation And Entrepreneurship",R,12:30 pm-01:20 pm,23,"Liang Yuchi (P), Christian Eduardo Silva",ME 2063,Practice Study Observation
+ME,26300,"Introduction To Mechanical Engineering Design, Innovation And Entrepreneurship",R,10:30 am-11:20 am,24,"Morgan Daniel Murphy (P), Udit Vyas",ME 2063,Practice Study Observation
+ME,26300,"Introduction To Mechanical Engineering Design, Innovation And Entrepreneurship",W,03:30 pm-05:20 pm,24,"Benjamin Varughese Johnson (P), Tamzidul Mina",ME 2063,Laboratory
+ME,26300,"Introduction To Mechanical Engineering Design, Innovation And Entrepreneurship",W,11:30 am-01:20 pm,24,"Shirley J Dyke (P), Benjamin Varughese Johnson",ME 2063,Laboratory
+ME,26300,"Introduction To Mechanical Engineering Design, Innovation And Entrepreneurship",W,09:30 am-11:20 am,24,"Shirley J Dyke (P), Christian Eduardo Silva",ME 2063,Laboratory
+ME,26300,"Introduction To Mechanical Engineering Design, Innovation And Entrepreneurship",M,07:30 am-09:20 am,11,"Yiran Li (P), Hukam C Mongia",ME 2063,Laboratory
+ME,26300,"Introduction To Mechanical Engineering Design, Innovation And Entrepreneurship",T,07:30 am-09:20 am,19,"Chun-Pei Chen (P), Jyotish C Mishra",ME 2063,Laboratory
+ME,26300,"Introduction To Mechanical Engineering Design, Innovation And Entrepreneurship",T,01:30 pm-03:20 pm,21,"Tamzidul Mina (P), Bin Yao",ME 2063,Laboratory
+ME,26300,"Introduction To Mechanical Engineering Design, Innovation And Entrepreneurship",M,03:30 pm-05:20 pm,24,"Klod Kokini (P), Shenli Yuan",ME 2063,Laboratory
+ME,26300,"Introduction To Mechanical Engineering Design, Innovation And Entrepreneurship",M,01:30 pm-03:20 pm,24,"Jieyu Lu (P), Jyotish C Mishra , Hukam C Mongia",ME 1006,Laboratory
+ME,26300,"Introduction To Mechanical Engineering Design, Innovation And Entrepreneurship",W,02:30 pm-03:20 pm,24,"Jieyu Lu (P), Jyotish C Mishra , Hukam C Mongia",ME 1006,Practice Study Observation
+ME,27000,Basic Mechanics I,MWF,09:30 am-10:20 am,95,James D Jones (P),ME 1130,Lecture
+ME,27000,Basic Mechanics I,MWF,01:30 pm-02:20 pm,89,Ilias Bilionis (P),ME 1130,Lecture
+ME,27000,Basic Mechanics I,MWF,03:30 pm-04:20 pm,80,Jeffrey K Ackerman (P),ME 1130,Lecture
+ME,27400,Basic Mechanics II,MWF,08:30 am-09:20 am,167,Jeffrey Frederick Rhoads (P),ME 1061,Lecture
+ME,27400,Basic Mechanics II,MWF,02:30 pm-03:20 pm,118,Justin E Seipel (P),ME 1130,Lecture
+ME,27400,Basic Mechanics II,MWF,11:30 am-12:20 pm,116,David J Cappelleri (P),ME 1130,Lecture
+ME,29000,Global Engineering Professional Seminar,R,02:30 pm-03:20 pm,145,Dianne L Atkinson (P),PHYS 112,Lecture
+ME,29700,MEA Leadership Prgm,M,04:30 pm-05:20 pm,26,"James D Jones (P), Tarri Ann Brickler",ME 2004,Lecture
+ME,29700,How Stuff Works Ldrshp,R,11:30 am-01:20 pm,3,"Kelly A Bondi (P), Tarri Ann Brickler , James D Jones , Trevor Ryan Lear , Alex J Wallace",ME 3006,Laboratory
+ME,29700,How Stuff Works,R,11:30 am-01:20 pm,21,Tarri Ann Brickler (P),ME 3006,Laboratory
+ME,29700,How Stuff Works,R,01:30 pm-03:20 pm,24,Tarri Ann Brickler (P),ME 3006,Laboratory
+ME,29700,How Stuff Works,R,09:30 am-11:20 am,18,Tarri Ann Brickler (P),ME 3006,Laboratory
+ME,29700,How Stuff Works Ldrshp,R,09:30 am-11:20 am,2,"James D Jones (P), Tarri Ann Brickler , Rebecca Elizabeth Schumm , Christopher Robert Spiers",ME 3006,Laboratory
+ME,29700,How Stuff Works Ldrshp,R,01:30 pm-03:20 pm,1,"James D Jones (P), Tarri Ann Brickler , Austin James McDonald",ME 3006,Laboratory
+ME,29700,First Leadership Class,T,06:00 pm-07:50 pm,53,George T Chiu (P),ME 1130,Lecture
+ME,29700,Human Power Vehicle Design,R,03:30 pm-05:20 pm,12,John Gerald Nolfi (P),ME 2028,Lecture
+ME,30000,Thermodynamics II,MWF,11:30 am-12:20 pm,73,Neera J Sundaram (P),ME 2061,Lecture
+ME,30000,Thermodynamics II,MWF,02:30 pm-03:20 pm,73,Robert Paul Lucht (P),ME 2061,Lecture
+ME,30000,Thermodynamics II,MWF,08:30 am-09:20 am,48,Steven F Son (P),ME 2061,Lecture
+ME,30900,Fluid Mechanics,MWF,03:30 pm-04:20 pm,59,Reid Adam Berdanier (P),ME 2061,Lecture
+ME,30900,Fluid Mechanics,MWF,01:30 pm-02:20 pm,55,Arezoo Motavalizadeh Ardekani (P),ME 2061,Lecture
+ME,30900,Fluid Mechanics,T,02:30 pm-03:20 pm,21,Yujun Leng (P),ME 3006,Laboratory Preparation
+ME,30900,Fluid Mechanics,T,09:30 am-10:20 am,22,Brett A Meyers (P),ME 3006,Laboratory Preparation
+ME,30900,Fluid Mechanics,T,12:30 pm-01:20 pm,23,Brian H Jun (P),ME 3006,Laboratory Preparation
+ME,30900,Fluid Mechanics,T,01:30 pm-02:20 pm,23,Yun Liu (P),ME 3006,Laboratory Preparation
+ME,30900,Fluid Mechanics,T,08:30 am-09:20 am,20,Alan Lo (P),ME 3006,Laboratory Preparation
+ME,30900,Fluid Mechanics,T,11:30 am-12:20 pm,21,Raviraj Vijay Thakur (P),ME 3006,Laboratory Preparation
+ME,30900,Fluid Mechanics,MWF,10:30 am-11:20 am,57,Pavlos P Vlachos (P),ME 2061,Lecture
+ME,30900,Fluid Mechanics,T,10:30 am-11:20 am,23,Melissa C Brindise (P),ME 3006,Laboratory Preparation
+ME,30900,Fluid Mechanics,T,07:30 am-08:20 am,18,Weichao Wang (P),ME 3006,Laboratory Preparation
+ME,31500,Heat And Mass Transfer,MWF,12:30 pm-01:20 pm,45,Liang Pan (P),ME 2061,Lecture
+ME,31500,Heat And Mass Transfer,MWF,09:30 am-10:20 am,53,Jong Hyun Choi (P),ME 2061,Lecture
+ME,31500,Heat And Mass Transfer,R,09:30 am-11:20 am,12,Vikrant Goyal (P),ME 1030B,Laboratory
+ME,31500,Heat And Mass Transfer,R,03:30 pm-05:20 pm,12,Hanyu Zhang (P),ME 1030B,Laboratory
+ME,31500,Heat And Mass Transfer,R,01:30 pm-03:20 pm,12,Zexi Lu (P),ME 1030B,Laboratory
+ME,31500,Heat And Mass Transfer,T,07:30 am-09:20 am,6,Zuyuan Wang (P),ME 1030B,Laboratory
+ME,31500,Heat And Mass Transfer,T,02:30 pm-03:20 pm,98,Issam Mudawar (P),PHYS 112,Practice Study Observation
+ME,31500,Heat And Mass Transfer,R,11:30 am-01:20 pm,10,Xiangyu Gao (P),ME 1030B,Laboratory
+ME,31500,Heat And Mass Transfer,R,07:30 am-09:20 am,4,Supriya P Dharkar (P),ME 1030B,Laboratory
+ME,31500,Heat And Mass Transfer,T,09:30 am-11:20 am,7,Haorong Chen (P),ME 1030B,Laboratory
+ME,31500,Heat And Mass Transfer,T,03:30 pm-05:20 pm,12,Xiangyu Li (P),ME 1030B,Laboratory
+ME,31500,Heat And Mass Transfer,W,11:30 am-01:20 pm,12,Kunal Bansal (P),ME 1030B,Laboratory
+ME,31500,Heat And Mass Transfer,W,01:30 pm-03:20 pm,11,Jingjing Shi (P),ME 1030B,Laboratory
+ME,32300,Mechanics Of Materials,MWF,01:30 pm-02:20 pm,53,Kejie Zhao (P),ME 1052,Lecture
+ME,32300,Mechanics Of Materials,MWF,08:30 am-09:20 am,42,Marisol Koslowski (P),ME 1052,Lecture
+ME,32300,Mechanics Of Materials,MWF,11:30 am-12:20 pm,53,Nasir Bilal (P),ME 1052,Lecture
+ME,35200,Machine Design I,MWF,07:30 am-08:20 am,69,Raymond J Cipra (P),ME 1061,Lecture
+ME,35200,Machine Design I,MWF,12:30 pm-01:20 pm,125,Jitesh H Panchal (P),ME 1061,Lecture
+ME,35200,Machine Design I,T,11:30 am-01:20 pm,14,Pramod Kumar Pramod Kumar (P),ME 2004,Laboratory
+ME,35200,Machine Design I,W,07:30 am-09:20 am,14,Aditya A Walvekar (P),ME 3006,Laboratory
+ME,35200,Machine Design I,T,01:30 pm-03:20 pm,14,Aditya A Walvekar (P),ME 2004,Laboratory
+ME,35200,Machine Design I,M,03:30 pm-05:20 pm,14,Yousof Azizi (P),ME 1006,Laboratory
+ME,35200,Machine Design I,M,03:30 pm-05:20 pm,14,Jyoti Mahadeo Jadhav (P),ME 3006,Laboratory
+ME,35200,Machine Design I,M,01:30 pm-03:20 pm,14,Yousof Azizi (P),ME 3006,Laboratory
+ME,35200,Machine Design I,W,09:30 am-11:20 am,14,Ninad T Trifale (P),ME 3006,Laboratory
+ME,35200,Machine Design I,R,12:30 pm-01:20 pm,14,Pramod Kumar Pramod Kumar (P),ME 2004,Practice Study Observation
+ME,35200,Machine Design I,F,08:30 am-09:20 am,14,Aditya A Walvekar (P),ME 3006,Practice Study Observation
+ME,35200,Machine Design I,R,02:30 pm-03:20 pm,14,Aditya A Walvekar (P),ME 2004,Practice Study Observation
+ME,35200,Machine Design I,W,04:30 pm-05:20 pm,14,Yousof Azizi (P),ME 1006,Practice Study Observation
+ME,35200,Machine Design I,W,04:30 pm-05:20 pm,14,Jyoti Mahadeo Jadhav (P),ME 3006,Practice Study Observation
+ME,35200,Machine Design I,W,02:30 pm-03:20 pm,14,Yousof Azizi (P),ME 3006,Practice Study Observation
+ME,35200,Machine Design I,F,10:30 am-11:20 am,14,Ninad T Trifale (P),ME 3006,Practice Study Observation
+ME,35200,Machine Design I,W,07:30 am-09:20 am,13,Pramod Kumar Pramod Kumar (P),ME 2004,Laboratory
+ME,35200,Machine Design I,F,08:30 am-09:20 am,13,Pramod Kumar Pramod Kumar (P),ME 2004,Practice Study Observation
+ME,35200,Machine Design I,T,07:30 am-09:20 am,14,Ninad T Trifale (P),ME 2004,Laboratory
+ME,35200,Machine Design I,R,08:30 am-09:20 am,14,Ninad T Trifale (P),ME 2004,Practice Study Observation
+ME,35200,Machine Design I,W,11:30 am-01:20 pm,12,Peter Andrew Kolis (P),ME 3006,Laboratory
+ME,35200,Machine Design I,T,03:30 pm-05:20 pm,10,Hao Zhang (P),ME 2004,Laboratory
+ME,35200,Machine Design I,T,03:30 pm-05:20 pm,5,Matthew Donavan Brouwer (P),ME 1006,Laboratory
+ME,35200,Machine Design I,M,11:30 am-01:20 pm,13,Matthew Donavan Brouwer (P),ME 2004,Laboratory
+ME,35200,Machine Design I,T,09:30 am-11:20 am,13,Peter Andrew Kolis (P),ME 2004,Laboratory
+ME,35200,Machine Design I,M,09:30 am-11:20 am,12,Udbhau I. Bhattiprolu (P),ME 2004,Laboratory
+ME,35200,Machine Design I,F,12:30 pm-01:20 pm,12,Peter Andrew Kolis (P),ME 3006,Practice Study Observation
+ME,35200,Machine Design I,R,04:30 pm-05:20 pm,10,Hao Zhang (P),ME 2004,Practice Study Observation
+ME,35200,Machine Design I,R,04:30 pm-05:20 pm,5,Matthew Donavan Brouwer (P),ME 1006,Practice Study Observation
+ME,35200,Machine Design I,W,12:30 pm-01:20 pm,13,Matthew Donavan Brouwer (P),ME 2004,Practice Study Observation
+ME,35200,Machine Design I,R,10:30 am-11:20 am,13,Peter Andrew Kolis (P),ME 2004,Practice Study Observation
+ME,35200,Machine Design I,W,10:30 am-11:20 am,12,Udbhau I. Bhattiprolu (P),ME 2004,Practice Study Observation
+ME,35200,Machine Design I,W,04:30 pm-05:20 pm,4,Hao Zhang (P),ME 2004,Practice Study Observation
+ME,35200,Machine Design I,M,03:30 pm-05:20 pm,4,Hao Zhang (P),ME 2053,Laboratory
+ME,36300,Principles And Practices Of Manufacturing Processes,T,08:30 am-11:20 am,4,Kyung-min Hong (P),ME G028,Laboratory
+ME,36300,Principles And Practices Of Manufacturing Processes,W,08:30 am-11:20 am,3,Kyung-min Hong (P),ME G028,Laboratory
+ME,36300,Principles And Practices Of Manufacturing Processes,W,02:30 pm-05:20 pm,6,Shashank Sarbada (P),ME G028,Laboratory
+ME,36300,Principles And Practices Of Manufacturing Processes,TR,01:30 pm-02:20 pm,13,Benxin Wu (P),ME 1006,Lecture
+ME,37500,System Modeling And Analysis,MWF,04:30 pm-05:20 pm,96,Song Zhang (P),MSEE B012,Lecture
+ME,37500,System Modeling And Analysis,MWF,10:30 am-11:20 am,96,Gregory Matthew Shaver (P),MSEE B012,Lecture
+ME,41300,Noise Control,MWF,09:30 am-10:20 am,41,Kai Ming Li (P),ME 2053,Lecture
+ME,43000,Power Engineering,TR,03:00 pm-04:15 pm,20,Satish C Boregowda (P),ME 1009,Lecture
+ME,43800,Gas Turbine Engines,MWF,02:30 pm-03:20 pm,10,Guillermo Paniagua (P),ME 1052,Lecture
+ME,44000,Automotive Prime Movers: Green Engines And Clean Fuel,T,11:30 am-12:20 pm,17,John Abraham (P),ME 2053,Laboratory Preparation
+ME,44000,Automotive Prime Movers: Green Engines And Clean Fuel,TR,10:30 am-11:20 am,17,John Abraham (P),ME 2053,Lecture
+ME,44000,Automotive Prime Movers: Green Engines And Clean Fuel,W,01:30 pm-03:20 pm,4,May Yen (P),ME G053,Laboratory
+ME,44000,Automotive Prime Movers: Green Engines And Clean Fuel,R,11:30 am-01:20 pm,7,Zhiyan Wang (P),ME G053,Laboratory
+ME,44000,Automotive Prime Movers: Green Engines And Clean Fuel,W,03:30 pm-05:20 pm,6,Zhiyan Wang (P),ME G053,Laboratory
+ME,44400,Computer-Aided Design And Prototyping,T,12:30 pm-01:20 pm,54,Min Liu (P),ME 1130,Lecture
+ME,44400,Computer-Aided Design And Prototyping,TR,10:30 am-12:20 pm,32,Sujin Jang (P),ME 3021,Laboratory
+ME,44400,Computer-Aided Design And Prototyping,TR,08:30 am-10:20 am,22,Chiho Choi (P),ME 3021,Laboratory
+ME,45200,Machine Design II,MWF,09:30 am-10:20 am,57,"Gordon R Pennock (P), Abhishek Barat",ME 1061,Lecture
+ME,45200,Machine Design II,MWF,01:30 pm-02:20 pm,73,"Gordon R Pennock (P), Abhishek Barat",ME 1061,Lecture
+ME,46300,Engineering Design,MWF,10:30 am-11:20 am,30,Xiulin Ruan (P),ME 1185,Lecture
+ME,46300,Engineering Design,MWF,08:30 am-09:20 am,29,John Gerald Nolfi (P),ME 1185,Lecture
+ME,46300,Engineering Design,MWF,11:30 am-12:20 pm,30,Euiwon Bae (P),ME 1185,Lecture
+ME,46300,Engineering Design,TR,11:30 am-12:20 pm,30,Euiwon Bae (P),ME 1185,Practice Study Observation
+ME,46300,Engineering Design,TR,10:30 am-11:20 am,30,Xiulin Ruan (P),ME 1185,Practice Study Observation
+ME,46300,Engineering Design,TR,09:30 am-10:20 am,30,John M Starkey (P),ME 1185,Practice Study Observation
+ME,46300,Engineering Design,TR,12:30 pm-01:20 pm,30,Rebecca K Kramer (P),ME 1185,Practice Study Observation
+ME,46300,Engineering Design,MWF,02:30 pm-03:20 pm,30,Hukam C Mongia (P),ME 1185,Lecture
+ME,46300,Engineering Design,MWF,03:30 pm-04:20 pm,30,Nasir Bilal (P),ME 1185,Lecture
+ME,46300,Engineering Design,MWF,01:30 pm-02:20 pm,30,John Gerald Nolfi (P),ME 1185,Lecture
+ME,46300,Engineering Design,TR,01:30 pm-02:20 pm,30,John Gerald Nolfi (P),ME 1185,Practice Study Observation
+ME,46300,Engineering Design,TR,02:30 pm-03:20 pm,30,Hukam C Mongia (P),ME 1185,Practice Study Observation
+ME,46300,Engineering Design,MWF,09:30 am-10:20 am,30,John M Starkey (P),ME 1185,Lecture
+ME,46300,Engineering Design,MWF,07:30 am-08:20 am,8,John Gerald Nolfi (P),ME 1185,Lecture
+ME,46300,Engineering Design,TR,03:30 pm-04:20 pm,30,Nasir Bilal (P),ME 1185,Practice Study Observation
+ME,46300,Engineering Design,TR,08:30 am-09:20 am,29,John Gerald Nolfi (P),ME 1185,Practice Study Observation
+ME,46300,Engineering Design,MWF,12:30 pm-01:20 pm,30,Rebecca K Kramer (P),ME 1185,Lecture
+ME,46300,Engineering Design,TR,07:30 am-08:20 am,8,John Gerald Nolfi (P),ME 1185,Practice Study Observation
+ME,46300,Engineering Design,TR,04:30 pm-05:20 pm,26,Xianfan Xu (P),ME 1185,Practice Study Observation
+ME,46300,Engineering Design,MWF,04:30 pm-05:20 pm,26,Xianfan Xu (P),ME 1185,Lecture
+ME,46300,Engineering Design,MWF,05:30 pm-06:20 pm,10,Eckhard A Groll (P),HERL 061,Lecture
+ME,46300,Engineering Design,TR,05:30 pm-06:20 pm,10,Eckhard A Groll (P),HERL 061,Practice Study Observation
+ME,46300,Engineering Design,MWF,08:30 am-09:20 am,11,Satish C Boregowda (P),ME 1006,Lecture
+ME,46300,Engineering Design,TR,08:30 am-09:20 am,11,Satish C Boregowda (P),ME 1006,Practice Study Observation
+ME,47500,Automatic Control Systems,TR,01:30 pm-02:20 pm,105,Xinyan Deng (P),ME 1061,Lecture
+ME,47500,Automatic Control Systems,W,02:30 pm-05:20 pm,12,Fan Fei (P),ME 1030E,Laboratory
+ME,47500,Automatic Control Systems,F,10:30 am-01:20 pm,14,Josiah Robert Thomas (P),ME 1030E,Laboratory
+ME,47500,Automatic Control Systems,W,07:30 am-10:20 am,11,Zhan Tu (P),ME 1030E,Laboratory
+ME,47500,Automatic Control Systems,W,10:30 am-01:20 pm,13,Josiah Robert Thomas (P),ME 1030E,Laboratory
+ME,47500,Automatic Control Systems,R,10:30 am-01:20 pm,15,Yan Gu (P),ME 1030E,Laboratory
+ME,47500,Automatic Control Systems,T,10:30 am-01:20 pm,12,Yan Gu (P),ME 1030E,Laboratory
+ME,47500,Automatic Control Systems,T,02:30 pm-05:20 pm,14,Zhan Tu (P),ME 1030E,Laboratory
+ME,47500,Automatic Control Systems,R,02:30 pm-05:20 pm,14,Yan Cui (P),ME 1030E,Laboratory
+ME,49700,Sys & Measuremnts Experimental,TR,08:30 am-09:20 am,66,Peter Heinrich Meckl (P),ME 1130,Lecture
+ME,49700,Sys & Measuremnts Experimental,T,09:30 am-10:20 am,66,Peter Heinrich Meckl (P),ME 1061,Recitation
+ME,49700,Sys & Measuremnts Experimental,W,02:30 pm-05:20 pm,12,Fei Yang (P),ME 1030A,Laboratory
+ME,49700,Sys & Measuremnts Experimental,T,11:30 am-02:20 pm,14,Raymond Martin Bond (P),ME 1030A,Laboratory
+ME,49700,Sys & Measuremnts Experimental,W,07:30 am-10:20 am,8,Ameya P Deshpande (P),ME 1030A,Laboratory
+ME,49700,Sys & Measuremnts Experimental,T,02:30 pm-05:20 pm,16,Wanfeng Huang (P),ME 1030A,Laboratory
+ME,49700,Sys & Measuremnts Experimental,R,11:30 am-02:20 pm,16,Alok Agrawal (P),ME 1030A,Laboratory
+ME,49700,Sys & Measuremnts Experimental,TR,11:30 am-12:20 pm,58,George T Chiu (P),ME 1130,Lecture
+ME,49700,Sys & Measuremnts Experimental,F,08:30 am-09:20 am,58,George T Chiu (P),WTHR 172,Recitation
+ME,49700,Sys & Measuremnts Experimental,W,11:30 am-02:20 pm,9,Rohil Jain (P),ME 1030A,Laboratory
+ME,49700,Sys & Measuremnts Experimental,F,11:30 am-02:20 pm,11,Yuntian Wang (P),ME 1030A,Laboratory
+ME,49700,Sys & Measuremnts Experimental,R,02:30 pm-05:20 pm,16,Wanfeng Huang (P),ME 1030A,Laboratory
+ME,49700,Sys & Measuremnts Experimental,R,07:30 am-10:20 am,11,Soumya Nayyar (P),ME 1030A,Laboratory
+ME,49700,Sys & Measuremnts Experimental,F,02:30 pm-05:20 pm,11,Fan Fei (P),ME 1030A,Laboratory
+ME,49700,Eco-Car - Senior Level,MWF,11:30 am-12:20 pm,0,"Peter Heinrich Meckl (P), Gregory Matthew Shaver",GRS 004,Lecture
+ME,49700,Eco-Car - Senior Level,WF,08:30 am-09:20 am,0,"Peter Heinrich Meckl (P), Gregory Matthew Shaver",GRS 004,Practice Study Observation
+ME,49700,Syst Mdlng&Anlys Experimental,T,11:30 am-02:20 pm,7,Nathan L Toner (P),ME 1030A,Laboratory
+ME,49700,Syst Mdlng&Anlys Experimental,R,11:30 am-02:20 pm,6,Fei Yang (P),ME 1030A,Laboratory
+ME,49700,Syst Mdlng&Anlys Experimental,T,02:30 pm-05:20 pm,4,Jiajun Cao (P),ME 1030A,Laboratory
+ME,49700,Syst Mdlng&Anlys Experimental,R,02:30 pm-05:20 pm,3,Fei Yang (P),ME 1030A,Laboratory
+ME,49700,Syst Mdlng&Anlys Experimental,F,02:30 pm-03:20 pm,20,Galen B King (P),MSEE B012,Recitation
+ME,49700,Syst Mdlng&Anlys Experimental,MW,02:30 pm-03:20 pm,20,Galen B King (P),MSEE B012,Lecture
+ME,50500,Intermediate Heat Transfer,TR,12:00 pm-01:15 pm,35,Amy M Marconnet (P),WANG 2599,Lecture
+ME,51000,Gas Dynamics,MWF,01:30 pm-02:20 pm,30,Nicole Leanne Key (P),WANG 2555,Lecture
+ME,52500,Combustion,TR,10:30 am-11:45 am,32,Jay P Gore (P),WANG 2599,Lecture
+ME,55300,Product And Process Design,TR,09:00 am-10:15 am,45,Karthik Ramani (P),WANG 2555,Lecture
+ME,55600,"Lubrication, Friction & Wear",MWF,10:30 am-11:20 am,16,Farshid Sadeghi (P),ME 2053,Lecture
+ME,56200,Advanced Dynamics,TR,09:00 am-10:15 am,32,Charles Morton Krousgrill (P),ME 2053,Lecture
+ME,56500,Vehicle Dynamics,MW,11:30 am-12:45 pm,15,"Daniel Eugene Williams (P), John M Starkey",EE 234,Lecture
+ME,57200,Analysis And Design Of Robotic Manipulators,MWF,02:30 pm-03:20 pm,15,Raymond J Cipra (P),ME 2053,Lecture
+ME,57600,Computer Control Of Manufacturing Processes,TR,12:30 pm-01:20 pm,16,Yung C Shin (P),ME 2054,Lecture
+ME,57600,Computer Control Of Manufacturing Processes,R,02:30 pm-05:20 pm,7,Phuong Dinh Ngo (P),ME G028,Laboratory
+ME,57600,Computer Control Of Manufacturing Processes,T,02:30 pm-05:20 pm,6,Phuong Dinh Ngo (P),ME G028,Laboratory
+ME,57600,Computer Control Of Manufacturing Processes,R,08:30 am-11:20 am,3,Phuong Dinh Ngo (P),ME G028,Laboratory
+ME,57800,Digital Control,MWF,03:30 pm-04:20 pm,17,Kartik B Ariyur (P),WANG 2579,Lecture
+ME,57900,Fourier Methods In Digital Signal Processing,MWF,11:30 am-12:20 pm,29,Patricia Davies (P),ME 1009,Lecture
+ME,58800,Mechatronics - Integrated Design Of Electro-Mechanical Systems,TR,12:30 pm-01:20 pm,40,Jeffrey Neal Shelton (P),ME 2053,Lecture
+ME,58800,Mechatronics - Integrated Design Of Electro-Mechanical Systems,W,02:30 pm-05:20 pm,20,Manish Anand (P),ME 1030D,Laboratory
+ME,58800,Mechatronics - Integrated Design Of Electro-Mechanical Systems,T,02:30 pm-05:20 pm,20,Manish Anand (P),ME 1030D,Laboratory
+ME,60500,Convection Of Heat And Mass,MWF,08:30 am-09:20 am,12,Bumsoo Han (P),ME 2054,Lecture
+ME,60800,"Numerical Methods In Heat, Mass, And Momentum Transfer",MWF,11:30 am-12:20 pm,33,Timothy Fisher (P),ME 2053,Lecture
+ME,61000,Boundary Layer Theory,TR,09:00 am-10:15 am,4,Jun Chen (P),ME 2054,Lecture
+ME,61200,Continuum Mechanics,TR,12:00 pm-01:15 pm,13,Marcial Gonzalez (P),ME 1009,Lecture
+ME,61300,Advanced Engineering Acoustics,MWF,09:30 am-10:20 am,4,J Stuart Bolton (P),ME 2054,Lecture
+ME,61400,Computational Fluid Dynamics,M,01:30 pm-02:20 pm,30,Carlo Scalo (P),ME 2054,Lecture
+ME,68100,Finite And Boundary Element Methods,TR,01:30 pm-02:45 pm,29,Ganesh Subbarayan-Shastri (P),ME 2054,Lecture
+ME,68900,Adaptive Control,TR,10:30 am-11:45 am,13,Bin Yao (P),ME 2054,Lecture
+MSE,23000,Structure And Properties Of Materials,MW,12:30 pm-01:20 pm,147,Aisling Coughlan (P),ARMS 1010,Lecture
+MSE,23000,Structure And Properties Of Materials,MW,09:30 am-10:20 am,147,Aisling Coughlan (P),ARMS 1010,Lecture
+MSE,23000,Structure And Properties Of Materials,F,12:30 pm-01:20 pm,32,Shikha Shrestha (P),ARMS 1103,Recitation
+MSE,23000,Structure And Properties Of Materials,R,08:30 am-09:20 am,30,Thomas R Kanaby (P),ARMS 3115,Recitation
+MSE,23000,Structure And Properties Of Materials,R,04:30 pm-05:20 pm,28,Anna V Walter (P),ARMS 3115,Recitation
+MSE,23000,Structure And Properties Of Materials,F,12:30 pm-01:20 pm,31,Eduard Andres Caicedo - casso (P),ARMS 3115,Recitation
+MSE,23000,Structure And Properties Of Materials,F,10:30 am-11:20 am,27,Marianne Catherine Valone (P),ARMS 3115,Recitation
+MSE,23000,Structure And Properties Of Materials,R,03:30 pm-04:20 pm,31,Anna V Walter (P),ARMS 3115,Recitation
+MSE,23000,Structure And Properties Of Materials,R,09:30 am-10:20 am,32,Thomas R Kanaby (P),ARMS 3115,Recitation
+MSE,23000,Structure And Properties Of Materials,R,09:30 am-10:20 am,40,Kyle Steven Fezi (P),ARMS 1021,Recitation
+MSE,23000,Structure And Properties Of Materials,F,02:30 pm-03:20 pm,40,Eduard Andres Caicedo - casso (P),ARMS 1021,Recitation
+MSE,23000,Structure And Properties Of Materials,F,09:30 am-10:20 am,30,Kyle Steven Fezi (P),ARMS 3115,Recitation
+MSE,23000,Structure And Properties Of Materials,F,10:30 am-11:20 am,38,Shikha Shrestha (P),ARMS 1021,Recitation
+MSE,23000,Structure And Properties Of Materials,F,08:30 am-09:20 am,32,Marianne Catherine Valone (P),ARMS 3115,Recitation
+MSE,25000,Physical Properties In Engineering Systems,TR,01:30 pm-02:45 pm,58,Rodney W Trice (P),ME 2061,Lecture
+MSE,26000,Thermodynamics Of Materials,MWF,10:30 am-11:20 am,63,"R Edwin Garcia (P), Aniruddha Jana",ME 1052,Lecture
+MSE,27000,Atomistic Materials Science,MWF,01:30 pm-02:20 pm,64,Alejandro H Strachan (P),FRNY B124,Lecture
+MSE,33000,Processing And Properties Of Materials,MWF,08:30 am-09:20 am,56,Elliott B Slamovich (P),FRNY B124,Lecture
+MSE,34000,Transport Phenomena,MWF,02:30 pm-03:20 pm,3,Sebastian Osswald (P),ARMS 1103,Lecture
+MSE,36700,Materials Processing Laboratory,MW,12:30 pm-01:20 pm,48,"Jeffrey P Youngblood (P), David Frederick Bahr , Carlos J Martinez",EE 117,Lecture
+MSE,36700,Materials Processing Laboratory,R,01:30 pm-04:20 pm,13,"Alexander Joseph Plotkowski (P), David Frederick Bahr , Carlos J Martinez , Pikee Priya , Travis L Thornell , Youngman Yoo , Jeffrey P Youngblood",ARMS 2130,Laboratory
+MSE,36700,Materials Processing Laboratory,T,08:30 am-11:20 am,15,"Alexander Joseph Plotkowski (P), David Frederick Bahr , Carlos J Martinez , Pikee Priya , Travis L Thornell , Youngman Yoo , Jeffrey P Youngblood",ARMS 2130,Laboratory
+MSE,36700,Materials Processing Laboratory,T,08:30 am-11:20 am,12,"Alexander Joseph Plotkowski (P), David Frederick Bahr , Carlos J Martinez , Pikee Priya , Travis L Thornell , Youngman Yoo , Jeffrey P Youngblood",ARMS 2130,Laboratory
+MSE,36700,Materials Processing Laboratory,R,01:30 pm-04:20 pm,8,"Alexander Joseph Plotkowski (P), David Frederick Bahr , Carlos J Martinez , Pikee Priya , Travis L Thornell , Youngman Yoo , Jeffrey P Youngblood",ARMS 2130,Laboratory
+MSE,38200,Mechanical Response Of Materials,MWF,09:30 am-10:20 am,53,David R Johnson (P),ARMS 1109,Lecture
+MSE,39000,Materials Engineering Seminar,W,03:30 pm-04:20 pm,145,"Vicki L Forston Cline (P), Christopher R Owen",ARMS 1010,Lecture
+MSE,44000,Materials Processing And Design II,T,09:30 am-10:20 am,31,"Carol A Handwerker (P), Christopher R Owen",ARMS 1103,Lecture
+MSE,44000,Materials Processing And Design II,R,03:30 pm-04:20 pm,27,"Carol A Handwerker (P), Christopher R Owen",ARMS 1103,Lecture
+MSE,49700,Ethics In Engr Practice,MWF,10:30 am-11:20 am,18,Matthew J M Krane (P),ARMS 1103,Lecture
+MSE,50200,Defects In Solids,MWF,09:30 am-10:20 am,10,Eric P Kvam (P),ARMS 1103,Lecture
+MSE,51000,Microstructural Characterization Techniques,TR,10:30 am-11:45 am,38,Eric P Kvam (P),ARMS 1103,Lecture
+MSE,53600,Solidification Of Castings,MWF,01:30 pm-02:20 pm,11,Matthew J M Krane (P),ARMS 1103,Lecture
+MSE,57500,Transport Phenomena In Solids,MWF,08:30 am-09:20 am,3,Mysore A Dayananda (P),ARMS 1021,Lecture
+MSE,57600,Corrosion,TR,12:00 pm-01:15 pm,15,Robert H Spitzer (P),ARMS 1103,Lecture
+MSE,58200,Transmission Electron Microscopy Skills,TR,07:30 am-08:45 am,15,Volkan Ortalan (P),ARMS 1103,Lecture
+MSE,59700,Chemical Admixturs In Concrete,T,03:00 pm-04:15 pm,20,Kendra Ann Erk (P),ARMS 1103,Lecture
+MSE,59700,Polymer Physics,R,09:00 am-10:15 am,26,Kendra Ann Erk (P),ARMS 1103,Lecture
+MSE,59700,Design Of Global Sustain II,TR,12:00 pm-01:15 pm,12,Carol A Handwerker (P),ARMS 3115,Lecture
+MSE,59700,Dynamic Behavior Of Materials,TR,01:30 pm-02:45 pm,5,Weinong W Chen (P),ARMS 3115,Lecture
+MSE,59700,Metal Deformation Processing,MWF,11:30 am-12:20 pm,24,Kevin P Trumble (P),ARMS 1103,Lecture
+MSE,59700,Lean Manufacturing,MWF,09:30 am-10:20 am,30,"Christopher R Owen (P), Logan P Kroneman",WANG 2579,Lecture
+MSE,59700,Introductory Biomaterials,MWF,02:30 pm-03:20 pm,66,"Lia A Stanciu (P), Mahdi Dehestani",WANG 2555,Lecture
+MSE,69000,Seminar In Materials Engineering,MF,03:30 pm-05:20 pm,82,David Frederick Bahr (P),ARMS 1010,Lecture
+MSE,69700,Materls Engr Teach Experience,W,04:30 pm-05:20 pm,17,David Frederick Bahr (P),ARMS 1103,Lecture
+MSE,69700,Surf & Interf Crystal Matls,MWF,08:30 am-09:20 am,10,John E Blendell (P),ARMS 1103,Lecture
+NUCL,20000,Introduction to Nuclear Engineering,MWF,08:30 am-09:20 am,44,Robert Speer Bean (P),ARMS 1109,Lecture
+NUCL,20500,Nuclear Engineering Undergraduate Laboratory I,R,01:30 pm-03:20 pm,7,"Allen L Garner (P), Ram anand Vadlamani",EE B076,Laboratory
+NUCL,20500,Nuclear Engineering Undergraduate Laboratory I,W,01:30 pm-03:20 pm,9,"Allen L Garner (P), Ram anand Vadlamani",EE B076,Laboratory
+NUCL,20500,Nuclear Engineering Undergraduate Laboratory I,T,09:30 am-10:20 am,27,Allen L Garner (P),ARMS 1109,Lecture
+NUCL,20500,Nuclear Engineering Undergraduate Laboratory I,T,01:30 pm-03:20 pm,11,"Allen L Garner (P), Ram anand Vadlamani",EE B076,Laboratory
+NUCL,27300,Mechanics Of Materials,MWF,07:30 am-08:20 am,165,Martin A Lopez-De-Bertodano (P),MATH 175,Lecture
+NUCL,29800,Sophomore Seminar,W,03:30 pm-04:20 pm,22,"Allen L Garner (P), Kellie A Reece",ME 1061,Lecture
+NUCL,31000,Introduction To Neutron Physics,MWF,10:30 am-11:20 am,18,Hany S Abdel-Khalik (P),EE 234,Lecture
+NUCL,35100,Nuclear Thermal-Hydraulics II,MWF,02:30 pm-03:20 pm,22,Takashi Hibiki (P),WTHR 160,Lecture
+NUCL,35500,Nuclear Thermohydraulics Laboratory,TR,09:30 am-10:20 am,18,Shripad T Revankar (P),ME 1006,Lecture
+NUCL,35500,Nuclear Thermohydraulics Laboratory,R,01:30 pm-03:20 pm,8,Shripad T Revankar (P),EE B086,Laboratory
+NUCL,35500,Nuclear Thermohydraulics Laboratory,T,01:30 pm-03:20 pm,5,Shripad T Revankar (P),EE B086,Laboratory
+NUCL,35500,Nuclear Thermohydraulics Laboratory,F,03:30 pm-05:20 pm,5,Shripad T Revankar (P),EE B086,Laboratory
+NUCL,39800,Junior Seminar,W,03:30 pm-04:20 pm,20,"Allen L Garner (P), Kellie A Reece",ME 1061,Lecture
+NUCL,45000,Design In Nuclear Engineering,MWF,09:30 am-10:20 am,19,Chan K Choi (P),POTR 141,Lecture
+NUCL,46000,Introduction To Controlled Thermonuclear Fusion,MWF,01:30 pm-02:20 pm,6,Chan K Choi (P),EE 234,Lecture
+NUCL,49700,Intro To Computational Physics,T,10:30 am-11:45 am,1,Tatyana S Sizyuk (P),ME 1051,Lecture
+NUCL,49800,Senior Seminar,W,03:30 pm-04:20 pm,19,"Allen L Garner (P), Kellie A Reece",ME 1061,Lecture
+NUCL,50400,Nuclear Engineering Experiments,T,09:30 am-11:20 am,4,Robert Speer Bean (P),PHYS 201,Lecture
+NUCL,50400,Nuclear Engineering Experiments,R,08:30 am-11:20 am,4,Robert Speer Bean (P),EE B076,Laboratory
+NUCL,52000,Radiation Effects And Reactor Materials,TR,03:00 pm-04:15 pm,16,Anter A El-Azab (P),EE 234,Lecture
+NUCL,55200,Thermal-Hydraulics And Reactor Safety,TR,10:30 am-11:45 am,9,Mamoru Ishii (P),EE 234,Lecture
+NUCL,55300,Nano-Macro Scale Applications Of Nuclear Technology,TR,04:30 pm-05:45 pm,3,Rusi P Taleyarkhan (P),EE 234,Lecture
+NUCL,57000,Fuzzy Approaches In Engineering,TR,12:00 pm-01:15 pm,27,Lefteri Tsoukalas (P),EE 234,Lecture
+NUCL,59700,Introduction To Bioelectrics,TR,04:30 pm-05:45 pm,11,Allen L Garner (P),EE 226,Lecture
+NUCL,59700,Detect Nuclear Nonproliferatn,MWF,02:30 pm-03:20 pm,0,Chan K Choi (P),EE 234,Lecture
+NUCL,64000,Fast Reactor Theory,TR,01:30 pm-02:45 pm,7,Won Sik Yang (P),EE 234,Lecture
+NUCL,69600,Nuclear Engineering Seminar,W,03:30 pm-04:20 pm,44,"Allen L Garner (P), Kellie A Reece",ME 1061,Lecture
+NUCL,69700,Adv Tpc Reac Therm-Hyd,M,04:30 pm-07:20 pm,9,"Takashi Hibiki (P), Mamoru Ishii",NISW 157,Lecture
+NUCL,69700,Mult-Phs&Fuel Cell Res,M,01:30 pm-03:20 pm,1,Shripad T Revankar (P),NUCL 126,Lecture
