@@ -1,0 +1,9 @@
+.BOX {
+	border-radius: 50%;
+    border:5px solid #fff;
+	position:absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -220px;
+	margin-left: -150px;
+}
