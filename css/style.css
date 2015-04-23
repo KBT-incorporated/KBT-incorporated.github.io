@@ -13,7 +13,7 @@ body {
     text-align: center;
     padding-top: 13%;
     padding-bottom: 13%;
-    margin-bottom: 0px;
+    margin-bottom: auto;
 }
 
 .intro h1
@@ -60,7 +60,7 @@ body {
     /*position: relative;*/
     width: 100%;
   	height: 100%;  
-	margin: 0px;
+	margin: auto;
     text-align: center;
     /*float: left;*/
 }
@@ -70,17 +70,18 @@ body {
     overflow-y: hidden;
     overflow-x: hidden;*/
     /*position: relative;*/
-    height: 100%;
-    width: 100%;
-    margin: 0px;
+    height:100%;
+    width: 55%;
+    margin: auto;
     padding: 0px;
-    text-align: left;
+    text-align: center;
+    max-width: 100%;
     /*float: left;*/
 }
 .visualization {
     height: 100%;
     width: 100%;
-    margin: 0px;
+    margin: auto;
     padding: 0px;
 }
 .page-footer {

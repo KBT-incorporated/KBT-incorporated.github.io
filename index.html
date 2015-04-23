@@ -11,6 +11,8 @@
     <link type="text/css" rel="stylesheet" href="css/style.css"/>
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <!-- Responsive Web Design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Import D3 -->
     <script type="text/javascript" src="d3.v3.js"></script>
     <script>
@@ -37,7 +39,7 @@
         </ul>
       </div>
     </nav>
-    <div class="intro deep-orange lighten-2 z-depth-1">
+    <div class="intro deep-orange lighten-2 z-depth-1 col s12 m4 l4">
         <h1 class="grey-text text-lighten-5">Interactive Visualization</h1>
         <h5 class="grey lighten-4 grey-text text-darken-1">Purdue Engineering Courses in the Buildings</h5>
     </div>
@@ -123,8 +125,8 @@
 <script type="text/javascript">
 
     var checkClick = 1;
-    var chartWidth = 1260;
-    var chartHeight = 600;
+    var chartWidth = 550;
+    var chartHeight = 550;
     var xscale = d3.scale.linear().range([0, chartWidth]);
     var yscale = d3.scale.linear().range([0, chartHeight]);
     var color = d3.scale.category20();
