@@ -416,7 +416,7 @@
                     //console.log(dayTimeSum);
                 }
 
-        var colorScale = d3.scale.quantile()
+        var colorScale = d3.scale.quantize()
                 .domain([0, buckets - 1, d3.max(dayTimeSum, function (d) { return d.value; })])
                 .range(colors);
 
@@ -552,7 +552,7 @@
             });
 
           var legend = svg.selectAll(".legend")
-              .data([0].concat(colorScale.quantiles()), function(d) { return d; })
+              .data(colorScale.range(), function(d) { return d; })
               .enter().append("g")
               .attr("class", "legend");
 
@@ -563,11 +563,22 @@
             .attr("height", gridSize / 2)
             .style("fill", function(d, i) { return colors[i]; });
 
+          var textScale = ["0", "224", "447", "671", "894", "1118", "1341", "1565", "1788"];
+
           legend.append("text")
             .attr("class", "mono")
-            .text(function(d) { return "≥ " + Math.round(d); })
+            .text(function(d, i) { return "≥" + textScale[i]; })
+            //.text(function(d) { return "≥ " + Math.round(d); })
             .attr("x", function(d, i) { return legendElementWidth * (i+3); })
             .attr("y", -20 - gridSize);
+
+            svg.append("text")  
+            .attr("class", "legendName")
+            .text("(Total Number of Students)")
+            .attr("x", 300)
+            .attr("y", -65)
+            .attr("font-family", "sans-serif")
+            .attr("font-size", "12px");    
 
         });   
         
